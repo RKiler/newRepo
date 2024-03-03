@@ -1,0 +1,7 @@
+400 Bad Request
+X-Epic-Error-Name: errors.com.epicgames.common.rejection.ExpectedWebSocketRequestRejection$
+Date: Sun, 03 Mar 2024 01:05:42 GMT
+Content-Type: application/json
+Content-Length: 106
+Retry-Count: 0
+X-Epic-Correlation-Id: 146c289b-8c5b-4257-87cd-3546f52e0e4d

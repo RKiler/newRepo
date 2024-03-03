@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>UEFN - Content Service</title>
+
+    <!-- BOOTSTRAP BASE CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+
+    <!-- CUSTOM FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code|Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" href="/css/spinner.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <style>
+        a.new-tag:hover::after {
+            color: red;
+            content: "❌";
+        }
+    </style>
+</head>
+<body class="not-ready" data-bind="template: { afterRender: () => $('body').removeClass('not-ready') }">
+    <!-- SPINNER OVERLAY (BUSY) -->
+    <div class="spinner" style="position:fixed" data-bind="visible: busy$() || !user.ready$()">
+        <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+
+    <!-- NEW PROJECT MODAL-->
+    <new-project-modal params="context: newProjectModal"></new-project-modal>
+
+    <!-- PAGE HEADER -->
+    <page-header params="context: pageHeader"></page-header>
+
+    <div class="container-fluid">
+        <div class="row"><div class="col">&nbsp;</div></div>
+
+        <!--(ALERT) ERROR -->
+        <div class="row alert alert-danger" role="alert" data-bind="visible: error$()">
+            <div class="col" data-bind="text: error$()"></div>
+        </div>
+        <div class="row alert alert-info" role="alert" data-bind="visible: feedback$()">
+            <div class="col" data-bind="text: feedback$()"></div>
+        </div>
+
+        <!-- (ALERT) LOGIN -->
+        <div class="row alert alert-secondary" role="alert" data-bind="hidden: user.loggedIn$() || !user.ready$()">
+            <div class="col text-center p-3">
+                You must <a href="javascript:" data-bind="click: user.login" class="alert-link"><u>log in</u></a> to use this application.
+            </div>
+        </div>
+
+        <div class="row alert alert-secondary" data-bind="visible: user.loggedIn$">
+            <div class="col-6 pb-1 pl-0 mb-2" style="border-bottom: 1px solid #c8c9cb;">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:" data-bind="click: () => $root.setFormTab('myProjects'), css: { 'active': $root.form.tab$() === 'myProjects' }">
+                            ⭐ Starred Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:" data-bind="click: () => $root.setFormTab('allProjects'), css: { 'active': $root.form.tab$() === 'allProjects' }">
+                            All Projects
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 pb-1 pl-0 mb-2 text-right" data-bind="visible: $root.user.loggedIn$" style="border-bottom: 1px solid #c8c9cb; width: 1000px;">
+                <!-- ko with: $root.newProjectModal -->
+                <button class="btn btn-info" data-bind="click: () => show()"><span class="fa fa-plus"></span> New</button>
+                <!-- /ko -->
+            </div>
+            <!-- ko if: $root.form.tab$() === 'allProjects' -->
+            <div class="col-3 p-2" style="border: 1px solid #fff; background-color: #f0f0f0">
+                <div class="row">
+                    <div class="col">
+                        ‣ <a href="javascript:" data-bind="click: () => $root.setFocusTeam('@personal'), css: { 'team-active': $root.form.focusTeam$() === '@personal' }">
+                            No Team (Just Me)
+                        </a>
+                    </div>
+                </div>
+                <!-- ko foreach: teamsForm.searchResults$ -->
+                <div class="row">
+                    <div class="col">
+                        ‣ <span class="small text-monospace">TEAM:</span>
+                        <a href="javascript:" data-bind="click: () => $root.setFocusTeam(teamId), css: { 'team-active': $root.form.focusTeam$() === teamId }">
+                            <span data-bind="text: teamName"></span>
+                        </a>
+                    </div>
+                </div>
+                <!-- /ko -->
+                <div class="row" data-bind="visible: teamsForm.hasMore$">
+                    <div class="col">
+                        <a href="javascript:" data-bind="click: () => $root.loadMoreTeams()">
+                            more...
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" style="padding-top: 100px;">
+                        <button type="button" class="btn btn-info btn-sm" data-bind="hidden: $root.form.showArchived$, click: () => $root.toggleArchived()">Show Archived</button>
+                        <button type="button" class="btn btn-info btn-sm" data-bind="visible: $root.form.showArchived$, click: () => $root.toggleArchived()">Show Unarchived</button>
+                    </div>
+                </div>
+            </div>
+            <!--/ko-->
+            <div data-bind="css: { 'col-12': $root.form.tab$() === 'myProjects', 'col-9': $root.form.tab$() === 'allProjects'}">
+                <!-- ko with: projectsForm -->
+                <table class="table table-light table-striped">
+                    <thead data-bind="visible: $root.form.showArchived$">
+                        <tr>
+                            <td>
+                                <h4 style="color: red">Showing Archived Projects</h4>
+                            </td>
+                            <td style="text-align: right">
+                                <button type="button" class="btn btn-info btn-sm" data-bind="visible: $root.form.showArchived$, click: () => $root.toggleArchived()">Show Unarchived</button>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- ko foreach: searchResults$ -->
+                        <tr>
+                            <td class="small align-middle text-monospace text-left">
+                                <h5 class="mb-0">
+                                    <a href="javascript:" data-bind="click: () => $root.setStar(projectId$(), !is_starred$())"><i class="fa" data-bind="css: { 'fa-star': is_starred$(), 'fa-star-o': !is_starred$() }"></i></a>
+                                    <a data-bind="text: info$().title || projectId$(), attr: { href: `/project/#/${projectId$()}` }"></a>
+                                    <a href="javascript:" class="new-tag" style="color: green; font-size: 0.7em; position: relative; top: -.5em;" data-bind="visible: is_new$(), click: () => $root.setStar(projectId$(), false)">(NEW)</a>
+                                    <span style="color: grey" data-bind="visible: info$().sysMeta['archived_by']">(ARCHIVED)</span>
+                                </h5>
+                                <span class="" data-bind="visible: info$().description, text: info$().description"></span>
+                                <div class="small text-muted pt-3" data-bind="text: projectId$()"></div>
+                            </td>
+                            <td class="align-top text-monospace text-right">
+                                <div>
+                                <!-- ko if: info$().owner.type === "account" -->
+                                    <span data-bind="text: info$().owner.name, attr: { 'title': info$().owner.id }"></span>
+                                    <span class="fa fa-clipboard" title="Copy Account ID" data-bind="attr: { 'data-clipboard-text': info$().owner.id }"></span>
+                                <!-- /ko -->
+                                <!-- ko if: info$().owner.type === "team" -->
+                                    <a data-bind="attr: { 'href': `/team/#/${encodeURIComponent(info$().owner.id)}` }, text: info$().owner.name"></a>
+                                    <span class="fa fa-clipboard" title="Copy Team ID" data-bind="attr: { 'data-clipboard-text': info$().owner.id }"></span>
+                                <!-- /ko -->
+                                </div>
+                                <div data-bind="visible: info$().linkCode">
+                                    <a href="javascript:" data-bind="text: info$().linkCode, click: () => $root.launchLink(info$().linkCode)"></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- /ko -->
+                        <tr data-bind="visible: hasMore$() && !$root.busy$()" class="text-center">
+                            <td colspan="2">
+                                <button type="button" class="btn btn-info btn-sm" data-bind="click: () => $root.loadMoreProjects()">Load More</button>
+                            </td>
+                        </tr>
+                        <tr data-bind="visible: !$root.busy$() && $root.form.tab$() === 'allProjects' && searchResults$().length <= 0 && $root.form.focusTeam$() !== '@personal'" class="text-center">
+                            <td colspan="2">
+                                No projects found for the selected team.
+                            </td>
+                        </tr>
+                        <tr data-bind="visible: !$root.busy$() && $root.form.tab$() === 'allProjects' && searchResults$().length <= 0 && $root.form.focusTeam$() === '@personal'"class="text-center">
+                            <td colspan="2">
+                                You do not have any personal projects.
+                            </td>
+                        </tr>
+                        <tr data-bind="visible: !$root.busy$() && $root.form.tab$() === 'myProjects' && searchResults$().length <= 0" class="text-center">
+                            <td colspan="2">
+                                You have not starred any projects<br><a href="javascript:" class="mt-2 font-weight-bold" data-bind="click: () => $root.setFormTab('allProjects')">Browse All Projects</a>.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- /ko -->
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/jquery.min.js"></script>
+
+    <!-- popper (required by Bootstrap's dropdowns) -->
+    <script src="/js/popper.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/knockout.min.js"></script>
+    <script src="/js/moment.js"></script>
+    <script src="/js/clipboard.js"></script>
+    <script>
+        var clipboard = new ClipboardJS("[data-clipboard-text]");
+    </script>
+
+    <!-- shim for in browser es6 import mapping -->
+    <!-- https://github.com/guybedford/es-module-shims -->
+    <script defer src="/js/es-module-shims.min.js"></script>
+    <script type="importmap-shim" src="/import-map.json"></script>
+
+    <!-- application entry point (es6) -->
+    <!-- remove "-shim" whenever native import maps specification is finalized and implemented in chrome. -->
+    <script type="module-shim" src="/src/index_main.js"></script>
+    <script type="application/javascript">
+        // make sure old bookmarks keep working
+        if (window.location.hash === "#/my-teams")
+            window.location.href = "/teams";
+    </script>
+</body>
+</html>
