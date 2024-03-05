@@ -1,0 +1,17 @@
+200 OK
+Cache-Control: no-store, no-cache
+X-Frame-Options: SAMEORIGIN
+Date: Tue, 05 Mar 2024 11:41:36 GMT
+Content-Length: 33
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Set-Cookie: GCLB=COeXl7yM84qdogE; path=/; HttpOnly; expires=Tue, 05-Mar-2024 12:41:36 GMT
+Retry-Count: 0
+Server: nginx
+X-Content-Type-Options: nosniff
+Via: 1.1 google
+Content-Security-Policy: default-src 'self';
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: application/json
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: origin
+Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()

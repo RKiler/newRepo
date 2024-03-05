@@ -1,0 +1,16 @@
+200 OK
+Date: Tue, 05 Mar 2024 11:42:28 GMT
+X-Frame-Options: SAMEORIGIN
+Etag: W/"35ac5a408dfd48c41909526c8980d4b7"
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: same-origin
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Server: nginx
+Vary: Accept-Encoding Cookie, Origin, Accept-Language
+X-Content-Type-Options: nosniff
+Set-Cookie: csrftoken=VbHHshJMUsISpXzHzjjTkLVgzZozMuFVto8NmpV2HSrIbfA8fCpr41nTTV4SPUp4; expires=Tue, 04 Mar 2025 11:42:28 GMT; Max-Age=31449600; Path=/; SameSite=Lax; Secure
+Retry-Count: 0
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-Type: text/html; charset=utf-8
+Content-Language: en

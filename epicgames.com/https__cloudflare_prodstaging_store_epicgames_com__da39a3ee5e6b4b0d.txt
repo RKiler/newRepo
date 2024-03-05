@@ -1,0 +1,12 @@
+403 Forbidden
+Date: Tue, 05 Mar 2024 11:35:03 GMT
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: same-origin
+Expires: Tue, 05 Mar 2024 11:35:18 GMT
+Vary: Accept-Encoding
+Retry-Count: 0
+Cf-Ray: 85f9cce78d7d1726-SJC
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=15
+Set-Cookie: __cf_bm=nTI.YxGh_6q6SrhJ456SuJ5CsiYlfMMoxxHcgNZR4kQ-1709638503-1.0.1.1-n923dmMZE3YYdegDpOEslq8a3sJRBcuGbaCiEp_fhumKdfKyX75OfW7N5cPUgK0NhtosKkUdX8AlLSQX817L6Q; path=/; expires=Tue, 05-Mar-24 12:05:03 GMT; domain=.prodstaging.store.epicgames.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare

@@ -1,0 +1,21 @@
+403 Forbidden
+Cross-Origin-Resource-Policy: same-origin
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=P8R0TfBz9uP3rAlCpW8Kr7lVMVBFJVuSawHkItjZazA9IqqS7x%2B4tLRnZ4FGpiQT9N58q6Ij3CH1BQ3RoPFFwOVkVqzA%2FFevC6mG%2BYAqJNZirh%2FzCbA5O69Vzaupv%2FcDq71FdYc%3D"}],"group":"cf-nel","max_age":604800}
+Cf-Ray: 85f9d3c718d5679c-SJC
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Opener-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Referrer-Policy: same-origin
+Cf-Chl-Out: wRmkpRxXsvZVo22A5qGAGPmu9bMU5TdIBqAb8vgRr73RWWMp5P6VxJC8f4JfZDVpul+qaZKr9nYnFGfA/66UzHBhmkLj7ZE++hnrh3wU+fcd5htMN4Lb4umV97fhdwlK4OPYrE2o+Ed4WbuPHM0s9w==$w+1H6zzO4UrEQK1WwHxUcw==
+Date: Tue, 05 Mar 2024 11:39:45 GMT
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+X-Frame-Options: SAMEORIGIN
+Cf-Mitigated: challenge
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cross-Origin-Embedder-Policy: require-corp
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Vary: Accept-Encoding
+Server: cloudflare

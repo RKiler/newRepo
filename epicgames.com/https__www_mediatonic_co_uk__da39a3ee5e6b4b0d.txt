@@ -1,0 +1,10 @@
+200 OK
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Mar 2024 11:39:49 GMT
+Server: Apache 2.x
+Expires: Tue, 05 Mar 2024 11:44:49 GMT
+Pragma: cache
+Cache-Control: max-age=300
+Link: <https://www.mediatonicgames.com/>; rel="canonical"
+Retry-Count: 0

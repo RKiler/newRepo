@@ -1,0 +1,8 @@
+200 OK
+X-Amzn-Trace-Id: Root=1-65e70431-6a4052514767626a36876c3b;Parent=1f9e67f3a8f1ea0c;Sampled=0;lineage=2e45ca3e:0
+Date: Tue, 05 Mar 2024 11:38:25 GMT
+Content-Type: application/json
+Content-Length: 3615
+Retry-Count: 0
+X-Amzn-Requestid: 3abbcad4-b12b-48fc-a86e-47b4597216b8
+X-Amz-Apigw-Id: UJ2XzGOuIAMEHnQ=

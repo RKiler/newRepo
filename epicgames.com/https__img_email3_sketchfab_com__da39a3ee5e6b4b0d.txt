@@ -1,0 +1,15 @@
+200 OK
+Content-Type: text/html; charset=utf-8
+Cache-Control: public, max-age=0, must-revalidate
+X-Matched-Path: /en
+X-Vercel-Cache: HIT
+Retry-Count: 0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 85f9ce9b6874cfc8-SJC
+Set-Cookie: pricing_version=v4; Max-Age=2592000; Domain=.brevo.com; Path=/ __cf_bm=LixVLEh7lOj_1ObLchh.hhw8LmufaNbF_iBwHqb3mms-1709638573-1.0.1.1-ISHiBSygn8wDKPY5Sx7ZdkyB1BNOLURuNm9_xZoEhSzmo9lzqNA10EhzHiLzZn6oRhOTtDDuYC36VaF_EfkvUw; path=/; expires=Tue, 05-Mar-24 12:06:13 GMT; domain=.brevo.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=63072000
+X-Powered-By: Next.js
+X-Vercel-Id: sfo1::iad1::669f9-1709638573356-4c27c704cc57
+Date: Tue, 05 Mar 2024 11:36:13 GMT
+Age: 205
+Server: cloudflare

@@ -1,0 +1,22 @@
+403 Forbidden
+Pragma: no-cache
+Set-Cookie: datadome=88ZOWhA1yJRkOG5uIjSNwCyP0y7LuCU2yQI8Ym4WfSfjOsYEaMGeEbuWRW_Es9OfaFWhj0jc0YNqB1fY7Ej6gQUKomeyFaSz1~Ae9zq2CvS6fwrz87_DWuZVPvPRtySC; Max-Age=31536000; Domain=.epicgames.com; Path=/; Secure; SameSite=Lax
+Date: Tue, 05 Mar 2024 11:33:57 GMT
+Server: DataDome
+Charset: utf-8
+Strict-Transport-Security: max-age=31557600
+X-Served-By: cache-sjc1000138-SJC, cache-sjc1000138-SJC
+X-Cache: MISS, MISS
+X-Timer: S1709638438.982350,VS0,VE9
+Retry-Count: 0
+X-Datadome: protected
+Accept-Ch: Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory
+Cache-Control: max-age=0, private, no-cache, no-store, must-revalidate
+Accept-Ranges: bytes
+X-Datadome-Devicecheckpassed: NA
+Via: 1.1 varnish, 1.1 varnish
+Origin-Agent-Cluster: ?0
+X-Cache-Hits: 0, 0
+Content-Length: 584
+Content-Type: text/html;charset=utf-8
+X-Datadome-Cid: AHrlqAAAAAMA2xsxRW0sslMAQBfa0w==

@@ -1,0 +1,15 @@
+200 OK
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Pragma: no-cache
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+Content-Security-Policy: upgrade-insecure-requests
+Content-Type: text/html; charset=UTF-8
+Cache-Control: max-age=0, no-cache, no-store
+X-Origin-Cache-Control: must-revalidate,no-cache,no-store
+Vary: Accept-Encoding
+Expires: Tue, 05 Mar 2024 11:37:46 GMT
+Date: Tue, 05 Mar 2024 11:37:46 GMT
+Akamai-Grn: 0.53a7cb17.1709638666.294e1d36
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: origin-when-cross-origin

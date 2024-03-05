@@ -1,0 +1,15 @@
+403 Forbidden
+Content-Type: text/html
+X-Amz-Cf-Id: EBB3wpLRqTlDmo389iGJqcTHIkWKgQkGOX08AqIf8P8PO4CSe08cLw==
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY
+Server: CloudFront
+Content-Length: 919
+Via: 1.1 100e7eca600d702a8613a94cb0899fe8.cloudfront.net (CloudFront)
+Content-Security-Policy: default-src 'self'; report-uri https://o10593.ingest.sentry.io/api/6208484/security/?sentry_key=05c22a83514043d5a1160269146b54db; style-src 'self' 'report-sample' 'unsafe-inline' fonts.googleapis.com translate.googleapis.com; img-src 'self' data: fonts.gstatic.com www.gstatic.com translate.google.com translate.googleapis.com *.kidswebservices.com *.superawesome.com; font-src 'self' fonts.gstatic.com fonts.googleapis.com; script-src 'self' 'report-sample' 'unsafe-inline' browser.sentry-cdn.com js.sentry-cdn.com *.sentry.io cdn.amplitude.com *.fontawesome.com translate.googleapis.com translate.google.com; connect-src 'self' api.kws.superawesome.com api.kidswebservices.com consent.kws.superawesome.com consent.kidswebservices.com sentry.io *.sentry.io api.amplitude.com api2.amplitude.com fonts.googleapis.com fonts.gstatic.com *.fontawesome.com translate.googleapis.com translate.google.com www.gstatic.com; frame-src 'none'; child-src 'none'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'none'; manifest-src 'none'; media-src 'none'; prefetch-src 'none'; worker-src 'none'; upgrade-insecure-requests;
+X-Content-Type-Options: nosniff
+Date: Tue, 05 Mar 2024 11:37:14 GMT
+X-Cache: Error from cloudfront
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Amz-Cf-Pop: SFO5-C3
+Retry-Count: 0

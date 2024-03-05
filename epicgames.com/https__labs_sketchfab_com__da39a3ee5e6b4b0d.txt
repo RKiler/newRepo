@@ -1,0 +1,17 @@
+200 OK
+Cross-Origin-Resources-Policy: same-site
+Vary: Accept-Encoding
+X-Amz-Cf-Id: AuATN894rwe3q0Hma_E_dKAh_e_h4SIB1Y_cRT6ZUJU48GVCiPj-oQ==
+Access-Control-Allow-Origin: *
+Etag: W/"642bb0b1-18b2"
+X-Cache: Miss from cloudfront
+Content-Type: text/html
+Server: nginx/1.15.2
+Last-Modified: Tue, 04 Apr 2023 05:08:01 GMT
+Access-Control-Allow-Credentials: true
+Via: 1.1 6db0e3fcf85d00de1ac587c2611daca6.cloudfront.net (CloudFront)
+Retry-Count: 0
+Date: Tue, 05 Mar 2024 11:30:13 GMT
+Cache-Control: max-age=31536000 public
+X-Amz-Cf-Pop: SFO53-P1
+Expires: Wed, 05 Mar 2025 11:30:13 GMT

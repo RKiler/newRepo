@@ -1,0 +1,21 @@
+403 Forbidden
+Referrer-Policy: same-origin
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Vary: Accept-Encoding
+Cf-Ray: 85f9ca2509cbfad2-SJC
+Date: Tue, 05 Mar 2024 11:33:10 GMT
+Cross-Origin-Embedder-Policy: require-corp
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Alt-Svc: h3=":443"; ma=86400
+Retry-Count: 0
+Cross-Origin-Resource-Policy: same-origin
+Cf-Chl-Out: 9xBCHcAMvb1nrIs/hzdtRzHRXoR2jxSGPTtn6i4/XkChk0NVPdHJH1e+PGr6dUE7M2ArikHbFA+M7lZHCMD8q9gK/lAvLX8KgNRxMB3fCcwnEpIYKV0FMWtPLMIYmmYHVad/diGOoEu0rgwcXaZUvQ==$WRZWLuQT0BErU6xVX+LQug==
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Set-Cookie: __cf_bm=5X_3VqD2_ctOQ05luUXFHgbpOHy5iPVPw65NFqbX0G0-1709638390-1.0.1.1-lKtVYRr1le1GrmU71UUV8khHYibzCqso.VgoehOp5vAHsh0M3dtcjTk9HX1ExrDxYAhXSrJOwDgrJdEjmtXmpQ; path=/; expires=Tue, 05-Mar-24 12:03:10 GMT; domain=.www.epicgames.com; HttpOnly; Secure; SameSite=None
+X-Frame-Options: SAMEORIGIN
+Cf-Mitigated: challenge
+Server: cloudflare
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Opener-Policy: same-origin
+Origin-Agent-Cluster: ?1

@@ -1,0 +1,14 @@
+200 OK
+Content-Type: text/html; charset=utf-8
+Server: nginx
+Vary: Accept-Encoding
+Etag: W/"2072c-ywRIlAZRWJiqyCFN+DHZKezf9j4"
+Strict-Transport-Security: max-age=15552000
+X-Content-Type-Options: nosniff
+Date: Tue, 05 Mar 2024 11:34:51 GMT
+X-Dns-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Retry-Count: 0
+X-Download-Options: noopen
+X-Xss-Protection: 1; mode=block
+X-Epic-Correlation-Id: 61693eb0-dae4-11ee-a150-95e0a105d273

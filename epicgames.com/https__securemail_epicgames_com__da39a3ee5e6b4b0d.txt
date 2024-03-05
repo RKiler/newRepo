@@ -1,0 +1,15 @@
+403 Forbidden
+Expect-Ct: max-age=86400, enforce
+Content-Type: text/html; charset=UTF-8
+Etag: "898-60921c3559300"
+X-Xss-Protection: 1; mode=block
+Content-Length: 2200
+X-Frame-Options: SAMEORIGIN
+Retry-Count: 0
+Last-Modified: Thu, 02 Nov 2023 02:01:16 GMT
+Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval'; object-src 'self'
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-Ranges: bytes
+X-Content-Type-Options: nosniff
+Date: Tue, 05 Mar 2024 11:41:28 GMT
+Server: 

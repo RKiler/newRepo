@@ -1,0 +1,12 @@
+407 Proxy Authentication Required
+Content-Length: 0
+Date: Tue, 05 Mar 2024 11:37:52 GMT
+X-Amzn-Requestid: d28d83f2-0895-4e45-9484-a4708c6cfcce
+X-Amz-Apigw-Id: UJ2SrGIOIAMEutA=
+X-Amz-Cf-Pop: SFO53-P6
+X-Amz-Cf-Id: KKxupZZBtCiowUjBSQ6HMeW4F9_RqO8chtngOq_VEDlZk36JpiYIxw==
+Retry-Count: 0
+Content-Type: application/json
+X-Amzn-Errortype: ForbiddenException
+X-Cache: Error from cloudfront
+Via: 1.1 8737c23b0b0fc96ccfb222abb7ac4aa6.cloudfront.net (CloudFront)

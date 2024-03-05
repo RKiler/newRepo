@@ -1,0 +1,20 @@
+200 OK
+X-Discourse-Cached: true
+Date: Tue, 05 Mar 2024 11:35:37 GMT
+Server: nginx
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding Accept
+X-Content-Type-Options: nosniff
+X-Discourse-Trackview: 1
+X-Discourse-Route: topics/show
+Cache-Control: no-cache, no-store
+Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 'none'; script-src 'nonce-NKtk8XtB0jVzdjluDZUgpBP1t' https://forums.unrealengine.com/logs/ https://forums.unrealengine.com/sidekiq/ https://forums.unrealengine.com/mini-profiler-resources/ https://d3kjluh73b9h9o.cloudfront.net/assets/ https://forums.unrealengine.com/extra-locales/ https://d1ap1mz92jnks1.cloudfront.net/highlight-js/ https://d1ap1mz92jnks1.cloudfront.net/javascripts/ https://d1ap1mz92jnks1.cloudfront.net/plugins/ https://d1ap1mz92jnks1.cloudfront.net/theme-javascripts/ https://d1ap1mz92jnks1.cloudfront.net/svg-sprite/ components.unrealengine.com components-dev.edc-cdn.net components-stage.edc-cdn.net components.edc-cdn.net https://tracking.unrealengine.com/tracking.js https://components.unrealengine.com/navigation/edc-navigation.mjs https://d33uhxxce777wi.cloudfront.net/original/1X/96bd870eb5e1e2803ae20135f56db90756b10d94.js; worker-src 'self' https://d3kjluh73b9h9o.cloudfront.net/assets/ https://d1ap1mz92jnks1.cloudfront.net/javascripts/ https://d1ap1mz92jnks1.cloudfront.net/plugins/; frame-ancestors 'self'; manifest-src 'self'
+X-Request-Id: 28a405d8-fc92-4416-b3c0-e4a1d967ada0
+Strict-Transport-Security: max-age=31536000
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Retry-Count: 0

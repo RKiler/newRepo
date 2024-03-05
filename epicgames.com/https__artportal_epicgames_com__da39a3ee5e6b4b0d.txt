@@ -1,0 +1,16 @@
+200 OK
+Referrer-Policy: no-referrer-when-downgrade
+X-Ua-Compatible: IE=edge
+Content-Length: 57595
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: -1
+Retry-Count: 0
+Content-Type: text/html; charset=utf-8
+Set-Cookie: AWSALB=z1svQPwUt/QxKVNORjn5AWo4tWnQi7KWbHBcyOvPk9vMb0wKRUUULWRrVOqnwOOVG7OLKkDxbhCyFYPblLoxP3N5Q4wWcNplP7YScDfimdKsVvuwJRO58bYIpaKJ; Expires=Tue, 12 Mar 2024 11:35:31 GMT; Path=/ AWSALBCORS=z1svQPwUt/QxKVNORjn5AWo4tWnQi7KWbHBcyOvPk9vMb0wKRUUULWRrVOqnwOOVG7OLKkDxbhCyFYPblLoxP3N5Q4wWcNplP7YScDfimdKsVvuwJRO58bYIpaKJ; Expires=Tue, 12 Mar 2024 11:35:31 GMT; Path=/; SameSite=None; Secure ASP.NET_SessionId=bjplxdjhgaqfxvmvpju4vbdv; path=/; SameSite=None; secure; HttpOnly uStoreCustomerApp_SameSite=None; path=/; SameSite=None; secure; HttpOnly sID=sID=50; path=/; SameSite=None; secure; HttpOnly LogoutUrl=LogoutUrl=; path=/; SameSite=None; secure; HttpOnly __AntiXsrfToken=06016e35e4734c16b165cb493380d9e6; path=/; SameSite=None; secure; HttpOnly
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Powered-By: ASP.NET
+Date: Tue, 05 Mar 2024 11:35:31 GMT
+Server: Microsoft-IIS/10.0
+Content-Security-Policy: frame-ancestors 'self' http://localhost:5000/ http:

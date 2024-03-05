@@ -1,0 +1,10 @@
+404 Not Found
+X-Xss-Protection: 1; mode=block
+Date: Tue, 05 Mar 2024 11:37:16 GMT
+Content-Length: 152
+Retry-Count: 0
+X-Frame-Options: DENY
+Content-Type: text/html
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; img-src * data:; style-src 'self' 'unsafe-inline';
+Strict-Transport-Security: max-age=31536000;

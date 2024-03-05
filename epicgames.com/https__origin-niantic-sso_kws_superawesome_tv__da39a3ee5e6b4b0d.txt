@@ -1,0 +1,14 @@
+200 OK
+Server: nginx
+Content-Security-Policy: allow 'self'; frame-ancestors 'self'
+Cache-Control: max-age=60
+Date: Tue, 05 Mar 2024 11:40:24 GMT
+Content-Type: text/html
+Content-Length: 661
+Referrer-Policy: origin
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Accept-Ranges: bytes
+Retry-Count: 0
+Last-Modified: Wed, 17 Jan 2024 22:20:06 GMT
+Etag: "65a85296-295"

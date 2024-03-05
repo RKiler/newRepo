@@ -1,0 +1,69 @@
+<!doctype html><html lang="en" class="no-js"><head><meta charset="UTF-8"><link rel="icon" type="image/png" href="./images/favicon.png?v=3"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AwesomeAds</title><base href="/"><script src="https://www.datadoghq-browser-agent.com/datadog-rum-us.js" type="text/javascript"></script><script>if (window.location.hostname === 'dashboard.staging.superawesome.tv') {
+      window.DD_RUM && window.DD_RUM.init({
+        clientToken: 'pub4e18c1e6f45072a5320ddb9aa5c89f3c',
+        applicationId: 'b9b7dde2-c303-4e5a-858e-674d6413891e',
+      });
+    }
+    if (window.location.hostname === 'dashboard.superawesome.tv') {
+      window.DD_RUM && window.DD_RUM.init({
+        clientToken: 'pube8c0e18ce14eb7b39ca38c110a0a21b3',
+        applicationId: 'cad275e8-fcaf-44b3-bc19-ae4e6c4a0f59',
+      });
+    };</script><script src="https://www.datadoghq-browser-agent.com/datadog-logs-us.js" type="text/javascript"></script><script>if (window.location.hostname === 'dashboard.staging.superawesome.tv') {
+      window.DD_LOGS.init({
+        clientToken: 'pub4e18c1e6f45072a5320ddb9aa5c89f3c',
+        datacenter: 'us',
+        forwardErrorsToLogs: true,
+        sampleRate: 100
+      });
+    };
+    if (window.location.hostname === 'dashboard.superawesome.tv') {
+      window.DD_LOGS.init({
+        clientToken: 'pube8c0e18ce14eb7b39ca38c110a0a21b3',
+        datacenter: 'us',
+        forwardErrorsToLogs: true,
+        sampleRate: 100
+      });
+    };</script><script src="config.js" type="text/javascript"><!-- --></script><link href="style.30c6e2a6acb018a2444e.css" rel="stylesheet"></head><body class="anonymous-body"><div class="splash" ng-show="!loaded"><div class="inner"><h1><img height="44" ng-src="./images/awesome-ads-logo.png"> <span class="sr-only" translate translate-comment="screen reader only">AwesomeAds</span></h1><p class="intro-text" translate>...</p><div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div></div></div><div growl></div><app-component></app-component><style>.development .navbar-inverse {
+    background-color: #888888 !important;
+    background: -webkit-linear-gradient(red, yellow) !important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow) !important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow) !important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow) !important; /* Standard syntax */
+  }
+
+  .staging .navbar-inverse {
+    background-color: #256EFF !important
+  }</style><script type="text/ng-template" id="templates/growl/growl.html"><div class="growl-container" ng-class="wrapperClasses()">
+    <div class="growl-item alert"
+         ng-repeat="message in growlMessages.directives[referenceId].messages"
+         ng-class="alertClasses(message)"
+         ng-click="stopTimeoutClose(message)">
+
+
+      <div class="growl-content">
+        <div class="growl-close">
+          <button type="button"
+                  class="close"
+                  data-dismiss="alert"
+                  aria-hidden="true"
+                  ng-click="growlMessages.deleteMessage(message)"
+                  ng-show="!message.disableCloseButton">&times;</button>
+          <button type="button" class="close" aria-hidden="true" ng-show="showCountDown(message)">
+            {{message.countdown}}
+          </button>
+        </div>
+
+        <div class="growl-icon-background">
+          <i ng-class="{ 'sa-aa-icon-check-icon': message.severity == 'success',
+                                 'sa-aa-icon-warning-icon': message.severity == 'warning' }">
+          </i>
+        </div>
+        <div class="growl-message-container">
+          <div class="growl-title" ng-show="message.title" ng-bind="message.title"></div>
+          <div class="growl-message" ng-bind-html="message.text"></div>
+        </div>
+      </div>
+
+    </div>
+  </div></script><script type="text/javascript" src="vendor.30c6e2a6acb018a2444e.js"></script><script type="text/javascript" src="app.30c6e2a6acb018a2444e.js"></script></body></html>

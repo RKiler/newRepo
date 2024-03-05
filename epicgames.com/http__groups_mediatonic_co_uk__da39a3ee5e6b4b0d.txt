@@ -1,0 +1,21 @@
+200 OK
+Accept-Ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Content-Security-Policy: script-src 'nonce-jKWiP6oh8oWIfEw6ccnSJA' 'unsafe-inline';object-src 'self';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self' require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
+Server: ESF
+X-Xss-Protection: 0
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+X-Auto-Login: realm=com.google&args=continue%3Dhttps://groups.google.com/my-groups
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Tue, 05 Mar 2024 11:37:37 GMT
+Retry-Count: 0
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Reporting-Endpoints: default="/v3/signin/_/AccountsSignInUi/web-reports?context=eJzjWsGoxSXFEKwhxbBXaReTY-wTJlcgntv9lGkhEC9__5RpNRDHrHrGlADEB-OeMx0F4rcJL5g-AnFX6wumPiDe3POCaTsQT-N5yTQLiI9sf8l0Aog_33vJ9B2I3315ycTx9SWTBBCrAfF2Hw8WvnXTWVWAWHP9dNZAIJ50cjrrNCCW_zWdVRmIndJnsAYAsU_9DNYoIBbi4WjsmLOeTaBhcutURgCzNFLo"
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cross-Origin-Resource-Policy: same-site
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+X-Ua-Compatible: IE=edge
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*

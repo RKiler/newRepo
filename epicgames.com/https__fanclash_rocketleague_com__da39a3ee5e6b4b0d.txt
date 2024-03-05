@@ -1,0 +1,7 @@
+200 OK
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url, Accept-Encoding
+X-Powered-By: Next.js
+Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate
+Date: Tue, 05 Mar 2024 11:40:13 GMT
+Content-Type: text/html; charset=utf-8
+Retry-Count: 0

@@ -1,0 +1,11 @@
+200 OK
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-Ranges: bytes
+Retry-Count: 0
+Date: Tue, 05 Mar 2024 11:33:27 GMT
+Content-Type: text/html
+Server: nginx/1.13.12
+Etag: "65c39d14-6abb"
+Cache-Control: max-age=60
+Content-Length: 27323
+Last-Modified: Wed, 07 Feb 2024 15:09:08 GMT

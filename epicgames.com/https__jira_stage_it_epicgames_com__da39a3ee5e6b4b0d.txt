@@ -1,0 +1,24 @@
+200 OK
+Set-Cookie: sid="";Version=1;Path=/;Max-Age=0 autolaunch_triggered=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ JSESSIONID=6A2C8CF9614FCA4812BADC86BD4B3435; Path=/; Secure; HttpOnly t=slate; Path=/ DT=DI1sjkbCKmQRfOn8K-6gQV6tw;Version=1;Path=/;Max-Age=63072000;Secure;Expires=Thu, 05 Mar 2026 11:43:00 GMT;HttpOnly
+X-Ua-Compatible: IE=edge
+X-Okta-Request-Id: dfa962b94ee3b8e82c71ef3ffe979506
+X-Rate-Limit-Reset: 1709639040
+X-Content-Type-Options: nosniff
+X-Rate-Limit-Limit: 60
+X-Robots-Tag: noindex,nofollow
+Vary: Accept-Encoding
+P3p: CP="HONK"
+Referrer-Policy: no-referrer
+Expires: 0
+Content-Type: text/html;charset=utf-8
+Accept-Ch: Sec-CH-UA-Platform-Version
+Pragma: no-cache
+Retry-Count: 0
+Cache-Control: no-cache, no-store
+Content-Language: en
+Strict-Transport-Security: max-age=315360000; includeSubDomains
+X-Xss-Protection: 0
+Content-Security-Policy: default-src 'self' epicgames.okta.com *.oktacdn.com; connect-src 'self' epicgames.okta.com epicgames-admin.okta.com *.oktacdn.com *.mixpanel.com *.mapbox.com *.mtls.okta.com epicgames.kerberos.okta.com *.authenticatorlocalprod.com:8769 http://localhost:8769 http://127.0.0.1:8769 *.authenticatorlocalprod.com:65111 http://localhost:65111 http://127.0.0.1:65111 *.authenticatorlocalprod.com:65121 http://localhost:65121 http://127.0.0.1:65121 *.authenticatorlocalprod.com:65131 http://localhost:65131 http://127.0.0.1:65131 *.authenticatorlocalprod.com:65141 http://localhost:65141 http://127.0.0.1:65141 *.authenticatorlocalprod.com:65151 http://localhost:65151 http://127.0.0.1:65151 https://oinmanager.okta.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' epicgames.okta.com *.oktacdn.com; style-src 'unsafe-inline' 'self' epicgames.okta.com *.oktacdn.com; frame-src 'self' epicgames.okta.com epicgames-admin.okta.com login.okta.com com-okta-authenticator:; img-src 'self' epicgames.okta.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com blob:; font-src 'self' epicgames.okta.com data: *.oktacdn.com fonts.gstatic.com
+X-Rate-Limit-Remaining: 59
+Date: Tue, 05 Mar 2024 11:43:00 GMT
+Server: nginx

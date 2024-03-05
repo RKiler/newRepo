@@ -1,0 +1,21 @@
+403 Forbidden
+Date: Tue, 05 Mar 2024 11:41:18 GMT
+Referrer-Policy: same-origin
+Cf-Mitigated: challenge
+Strict-Transport-Security: max-age=0
+Cf-Ray: 85f9d60c3c571692-SJC
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Origin-Agent-Cluster: ?1
+X-Frame-Options: SAMEORIGIN
+Cf-Chl-Out: Ir8poB587yvkQIohjkBAHTcipqepJgncbm9f0G9vEQNnJAZa6csJvmNy8fN+GkF7TL754I3S2ybzGNWTl4WsDEi2hjxtp/GSsclIOOlsUnBYjNW0Xv/t1nPVyrEVJFqAoaFtVpsu8bLO4FX89h5aYA==$xJxra+QmFy3ujOwwbgbaEA==
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Opener-Policy: same-origin
+Vary: Accept-Encoding
+Server: cloudflare
+Retry-Count: 0
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Resource-Policy: same-origin
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0

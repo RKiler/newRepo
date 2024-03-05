@@ -1,0 +1,20 @@
+200 OK
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Cf-Pop: SFO5-C1
+Content-Security-Policy: default-src 'self'; style-src 'self' 'report-sample' 'unsafe-inline' fonts.googleapis.com translate.googleapis.com; img-src 'self' data: fonts.gstatic.com *.kidswebservices.com *.superawesome.com translate.google.com translate.googleapis.com www.gstatic.com; font-src 'self' fonts.gstatic.com fonts.googleapis.com; script-src 'self' 'unsafe-eval' 'report-sample' 'unsafe-inline' 'unsafe-hashes' code.jquery.com *.fontawesome.com translate.googleapis.com translate.google.com; connect-src 'self' fonts.googleapis.com fonts.gstatic.com *.fontawesome.com translate.googleapis.com translate.google.com www.gstatic.com; frame-src 'self'; child-src 'none'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'none'; manifest-src 'none'; media-src 'none'; prefetch-src 'none'; worker-src 'none'; upgrade-insecure-requests;
+Content-Type: text/html
+Retry-Count: 0
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Date: Sat, 02 Mar 2024 09:00:28 GMT
+Last-Modified: Wed, 21 Feb 2024 12:44:55 GMT
+Cache-Control: max-age=5, s-maxage=31536000, must-revalidate
+Server: AmazonS3
+Vary: Accept-Encoding
+Via: 1.1 be84d08eeed51234cd122d3c30e6f7c0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: CWRTPB0UMIupZh2tZrmlY7TXsD2JuagfZ9crg3xO6k7kgHI1wq5PXw==
+Age: 268620
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY
+Etag: W/"83704dd4090f6f16df209c2650210f9e"
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff

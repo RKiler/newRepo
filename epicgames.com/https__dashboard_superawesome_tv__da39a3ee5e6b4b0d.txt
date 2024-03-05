@@ -1,0 +1,15 @@
+200 OK
+Date: Tue, 05 Mar 2024 11:37:27 GMT
+Content-Type: text/html
+Last-Modified: Thu, 18 Jan 2024 11:47:04 GMT
+X-Frame-Options: DENY
+Etag: "65a90fb8-1023"
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=86400; includeSubDomains
+Retry-Count: 0
+Referrer-Policy: no-referrer
+Accept-Ranges: bytes
+Content-Length: 4131
+Server: nginx
+Cache-Control: no-cache
+X-Xss-Protection: 1; mode=block

@@ -1,0 +1,24 @@
+200 OK
+Date: Tue, 05 Mar 2024 11:35:52 GMT
+X-Okta-Request-Id: 9047ab0b3bd74d2a3ca84e9879a805b3
+Content-Security-Policy: default-src 'self' epicgames.okta.com *.oktacdn.com; connect-src 'self' epicgames.okta.com epicgames-admin.okta.com *.oktacdn.com *.mixpanel.com *.mapbox.com *.mtls.okta.com epicgames.kerberos.okta.com *.authenticatorlocalprod.com:8769 http://localhost:8769 http://127.0.0.1:8769 *.authenticatorlocalprod.com:65111 http://localhost:65111 http://127.0.0.1:65111 *.authenticatorlocalprod.com:65121 http://localhost:65121 http://127.0.0.1:65121 *.authenticatorlocalprod.com:65131 http://localhost:65131 http://127.0.0.1:65131 *.authenticatorlocalprod.com:65141 http://localhost:65141 http://127.0.0.1:65141 *.authenticatorlocalprod.com:65151 http://localhost:65151 http://127.0.0.1:65151 https://oinmanager.okta.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' epicgames.okta.com *.oktacdn.com; style-src 'unsafe-inline' 'self' epicgames.okta.com *.oktacdn.com; frame-src 'self' epicgames.okta.com epicgames-admin.okta.com login.okta.com com-okta-authenticator:; img-src 'self' epicgames.okta.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com blob:; font-src 'self' epicgames.okta.com data: *.oktacdn.com fonts.gstatic.com
+X-Ua-Compatible: IE=edge
+Accept-Ch: Sec-CH-UA-Platform-Version
+Referrer-Policy: no-referrer
+Expires: 0
+X-Robots-Tag: noindex,nofollow
+Content-Type: text/html;charset=utf-8
+Server: nginx
+Set-Cookie: sid="";Version=1;Path=/;Max-Age=0 autolaunch_triggered=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ JSESSIONID=7894F096BCF68CBBD9B736185EDEBCB7; Path=/; Secure; HttpOnly t=slate; Path=/ DT=DI1HNVLchZAQi2a0rIZyvTlmQ;Version=1;Path=/;Max-Age=63072000;Secure;Expires=Thu, 05 Mar 2026 11:35:52 GMT;HttpOnly
+X-Rate-Limit-Reset: 1709638612
+Content-Language: en
+X-Xss-Protection: 0
+X-Rate-Limit-Remaining: 59
+Vary: Accept-Encoding
+Cache-Control: no-cache, no-store
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Strict-Transport-Security: max-age=315360000; includeSubDomains
+X-Rate-Limit-Limit: 60
+Pragma: no-cache
+P3p: CP="HONK"

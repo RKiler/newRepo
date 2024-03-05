@@ -1,0 +1,21 @@
+403 Forbidden
+X-Frame-Options: SAMEORIGIN
+Origin-Agent-Cluster: ?1
+Cf-Chl-Out: T+cPGV0puKqY5GwaUUhrt0cH7ESKecOipNGXoaBw0fEbaO2roEmovXeBFJoVuxHj4eIKI6RB9fE765O+NKEQl6Xi9cFLWk+RiEEGnxnc+8Qfd2IyaInhSAndTP0lWquAG5CpXkcvY3eL84uM35OjRg==$mBUg4ttIP/xDGyxBavmzyQ==
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RULG9HJ7eMRg%2BVhPdetYyiU94SupS0PPPivLJHPRiip194pe8d4MoRFga21fYnz%2BIz%2BC6f769KWaDT3omvkn%2FFqo7jcljMIUKtVxGR3Vq63WTZ1Z9oFXmhdzZiOHUN3K%2F82h4A%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Cf-Ray: 85f9cca41aad984e-SJC
+Cross-Origin-Resource-Policy: same-origin
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Content-Type: text/html; charset=UTF-8
+Retry-Count: 0
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Referrer-Policy: same-origin
+Cf-Mitigated: challenge
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Vary: Accept-Encoding
+Date: Tue, 05 Mar 2024 11:34:52 GMT

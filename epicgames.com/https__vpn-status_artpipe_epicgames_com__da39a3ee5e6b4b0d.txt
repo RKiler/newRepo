@@ -1,0 +1,8 @@
+407 Proxy Authentication Required
+X-Amzn-Requestid: dacd2e46-1c3d-487f-a4eb-138f38eefd76
+X-Amzn-Errortype: ForbiddenException
+X-Amz-Apigw-Id: UJ22FFcwoAMECQA=
+Date: Tue, 05 Mar 2024 11:41:39 GMT
+Content-Type: application/json
+Content-Length: 0
+Retry-Count: 0

@@ -1,0 +1,11 @@
+400 Bad Request
+X-Envoy-Upstream-Service-Time: 0
+Retry-Count: 0
+Content-Type: text/plain; charset=utf-8
+Content-Length: 12
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+Server: istio-envoy
+Date: Tue, 05 Mar 2024 11:37:00 GMT
+Access-Control-Allow-Headers: Accept, Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, X-Epic-Correlation-ID, Authorization
+Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE

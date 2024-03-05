@@ -1,0 +1,21 @@
+403 Forbidden
+Referrer-Policy: same-origin
+Vary: Accept-Encoding
+Server: cloudflare
+Date: Tue, 05 Mar 2024 11:33:37 GMT
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Origin-Agent-Cluster: ?1
+X-Frame-Options: SAMEORIGIN
+Cf-Mitigated: challenge
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/html; charset=UTF-8
+Alt-Svc: h3=":443"; ma=86400
+Cf-Chl-Out: fDynL8wNaUeZKcJVB8x9ZsBm99kkw3vl2+RGE3elfv2u+70HMQ0xSV0PYadxob3FdH729quq2LCmMRtyFuMUfTNYqybt5ufY0KVbOiULEya+Faw/DcpLZjzXAm+LoW06HOmeMl3jpvBXNtmzcGLBLA==$PvxIhE6Je8oB6PfTe4SdWA==
+Set-Cookie: __cf_bm=r7RRlXMogje6hUDVZgmgqA2kNLIiAMjWq2EOdwotj9c-1709638417-1.0.1.1-6MCrQFJcUVBtTyaAmcbFUL3ghc9CZN74BJXY1_1wPhsBpbSmXYjoi4oRReh1O7crqYKU1h7u4ywYqqiv0DbcRg; path=/; expires=Tue, 05-Mar-24 12:03:37 GMT; domain=.fortnite.com; HttpOnly; Secure; SameSite=None
+Cf-Ray: 85f9cad01d9c1696-SJC
+Retry-Count: 0
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Cross-Origin-Resource-Policy: same-origin
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA

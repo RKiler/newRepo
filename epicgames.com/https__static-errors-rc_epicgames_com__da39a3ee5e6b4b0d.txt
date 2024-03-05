@@ -1,0 +1,12 @@
+200 OK
+Server: AmazonS3
+Date: Tue, 05 Mar 2024 11:41:57 GMT
+Etag: "6c6faee5e5a32b080fccf44df14b1857"
+X-Cache: RefreshHit from cloudfront
+Content-Type: text/html
+Content-Length: 2699
+Retry-Count: 0
+Last-Modified: Tue, 17 May 2022 16:25:26 GMT
+Via: 1.1 d6cbeccd9a6d25b691d204399bf8b728.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Vs77c6kX8rxpn6j8zp4LT-0rN1N9E6kXGIGn8AApOkBtNR9tzCX8wg==
+X-Amz-Cf-Pop: SFO5-P2

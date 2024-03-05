@@ -1,0 +1,14 @@
+200 OK
+Content-Type: text/html
+X-Amz-Id-2: en60dqDIbpQxqIhO8FTPL8nczBTQ2zYgaTQquq0xkFcrn9MUx2sY62Yjo07IXtVQxxJNXPXYLfg=
+Last-Modified: Wed, 14 Feb 2024 17:02:47 GMT
+Access-Control-Allow-Credentials: false
+Access-Control-Allow-Headers: *
+Etag: W/"2d0d02c29a85031e9697ebd9f3ecce85"
+Access-Control-Max-Age: 86400
+X-Amz-Request-Id: T2ZMQZP0Z7P6XR5P
+Vary: Accept-Encoding Access-Control-Request-Headers,Access-Control-Request-Method,Origin
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Date: Tue, 05 Mar 2024 11:37:02 GMT
+Retry-Count: 0
+Access-Control-Allow-Origin: *

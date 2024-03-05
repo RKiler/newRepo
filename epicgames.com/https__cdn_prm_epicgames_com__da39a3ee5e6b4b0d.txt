@@ -1,0 +1,9 @@
+403 Forbidden
+X-Amz-Id-2: 7oMMT4SE1oH0VxwVKUQQHoe353Zf7uH2ZQ6seYzfkaqQwes685PltupBlGlmUT7MGmQwxj/gYrVKGs9E108o5731K3HSYpBv
+Content-Type: application/xml
+Server: AmazonS3
+Content-Length: 263
+Date: Tue, 05 Mar 2024 11:40:56 GMT
+Retry-Count: 0
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Request-Id: XGDT8DBT17VPP3Y1

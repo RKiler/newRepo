@@ -1,0 +1,21 @@
+200 OK
+X-Amz-Cf-Id: WGsq19H59My41Hirxbu2ovmKKH_rnEuqJMS2se9Lfwbrz04IWX2UMA==
+Vary: Origin
+Date: Mon, 04 Mar 2024 13:22:00 GMT
+Content-Length: 663
+X-Amz-Cf-Pop: SFO53-P2
+Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=' 'sha256-x3YZWtRjM8bJqf48dFAv/qmgL68SI4jqNWeSLMZaMGA=' 'sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=' 'sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg=' 'sha256-1hjUhpc44NwiNg8OwMu2QzJXhD8kcj+sJA3aCQZoUjg=' 'sha256-mFeNnkKbr+LtvZ0AJx6IqF+kV+rUwQZIXRV/2VW18t4=' 'sha256-mFeNnkKbr+LtvZ0AJx6IqF+kV+rUwQZIXRV/2VW18t4=' https://www.google-analytics.com/analytics.js 'unsafe-inline'; style-src * https: 'unsafe-inline'; img-src * data: ; font-src * data: ; object-src 'none'; frame-src 'none'; worker-src 'self'; base-uri 'self'; connect-src 'self' https://whauq4bfc0.execute-api.ap-south-1.amazonaws.com/ https://ma20srrip5.execute-api.ap-south-1.amazonaws.com/ https://y3zvz24fjf.execute-api.ap-south-1.amazonaws.com/ https://4rrpzjwehk.execute-api.ap-south-1.amazonaws.com/ https://4zgvlwchqg.execute-api.ap-south-1.amazonaws.com/ https://m64ovruyhd.execute-api.ap-south-1.amazonaws.com/ https://ure-ami-project-prod.s3.ap-south-1.amazonaws.com/ https://livetraining.unrealengine.com.s3.ap-south-1.amazonaws.com/ https://1p1gz2b79e.execute-api.ap-south-1.amazonaws.com/ https://otj3vbncnj.execute-api.ap-south-1.amazonaws.com/ https://dev.epicgames.com/ https://www.epicgames.com/ https://api.epicgames.dev/;
+Content-Type: text/html
+Last-Modified: Sat, 14 Oct 2023 19:08:07 GMT
+Server: AmazonS3
+Etag: "49ac3f1972b402c29e16aa3c0708d585"
+X-Cache: Hit from cloudfront
+Age: 80387
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Accept-Ranges: bytes
+Via: 1.1 700aa70ccd1c08dc97b84e1db700ae96.cloudfront.net (CloudFront)
+Alt-Svc: h3=":443"; ma=86400
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Amz-Server-Side-Encryption: AES256

@@ -1,0 +1,14 @@
+403 Forbidden
+Cf-Cache-Status: MISS
+Content-Disposition: attachment
+Retry-Count: 0
+X-Amz-Request-Id: S428CRY89ANQ68VB
+Cf-Ray: 85f9c8ae59f967eb-SJC
+Alt-Svc: h3=":443"; ma=86400
+Server: cloudflare
+Content-Type: application/xml
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Id-2: 7dFiXINqFHH3wszZEuuSA8a46TqQ4k0nNZ86C3Xs40zayjFJtUq+WY7+1lLNB2AkLf6kWrZyNbc=
+Set-Cookie: __cf_bm=Yti.3644R6EaMEAAT9TmHeCHnd8kQyLiCpxlbBGQylE-1709638330-1.0.1.1-oyosyqDWOC5fioKrJBRmrv1mk2QRfiS07ZuUUKFfXK2Zl0Vku2rT_zikZGXgv0Bg9y7jV5dd3zxqeCFtwxOZKQ; path=/; expires=Tue, 05-Mar-24 12:02:10 GMT; domain=.cloudflare-download-test.epicgames.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Date: Tue, 05 Mar 2024 11:32:10 GMT

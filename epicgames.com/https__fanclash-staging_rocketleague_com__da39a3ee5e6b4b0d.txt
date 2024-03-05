@@ -1,0 +1,15 @@
+401 Unauthorized
+Age: 0
+Www-Authenticate: Basic realm="Secure Area"
+X-Vercel-Cache: MISS
+Content-Length: 14
+Strict-Transport-Security: max-age=63072000
+X-Matched-Path: /api/401
+Server: Vercel
+Retry-Count: 0
+X-Xss-Protection: 0
+Cache-Control: public, max-age=0, must-revalidate
+Date: Tue, 05 Mar 2024 11:36:06 GMT
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Vercel-Id: sfo1::iad1::t9rll-1709638566301-bbac0cc154aa

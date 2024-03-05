@@ -1,0 +1,13 @@
+200 OK
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+X-Frame-Options: DENY
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=UTF-8
+Expires: Mon, 01-Jan-1990 00:00:00 GMT
+Retry-Count: 0
+Date: Tue, 05 Mar 2024 11:39:44 GMT
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: script-src 'report-sample' 'nonce-G8RSGM8CDe3ethNQ4tfE2A' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /cspreport
+Cache-Control: no-cache, no-store

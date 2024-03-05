@@ -1,0 +1,19 @@
+200 OK
+Referrer-Policy: origin
+Cache-Control: max-age=60
+Accept-Ranges: bytes
+X-Amz-Cf-Id: nYlEDlMjtVxbiY0_Ay1yx0P9vaZmDSKAIKQZ70VXJb1r8ZOGtKreIg==
+Retry-Count: 0
+Date: Tue, 05 Mar 2024 11:24:48 GMT
+Last-Modified: Wed, 17 Jan 2024 22:20:06 GMT
+X-Frame-Options: SAMEORIGIN
+X-Amz-Cf-Pop: SFO53-P6
+Server: nginx
+X-Content-Type-Options: nosniff
+Etag: "65a85296-295"
+X-Cache: Hit from cloudfront
+Via: 1.1 fa3dd959f64ce329a09a140766d39bb4.cloudfront.net (CloudFront)
+Age: 388
+Content-Type: text/html
+Content-Length: 661
+Content-Security-Policy: allow 'self'; frame-ancestors 'self'

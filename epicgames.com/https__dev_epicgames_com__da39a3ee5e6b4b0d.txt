@@ -1,0 +1,14 @@
+200 OK
+X-Epic-Correlation-Id: b203d110-dae3-11ee-abd6-dd24829dd1fd
+Content-Type: text/html; charset=utf-8
+Retry-Count: 0
+Strict-Transport-Security: max-age=15552000
+X-Content-Type-Options: nosniff
+Date: Tue, 05 Mar 2024 11:29:57 GMT
+X-Dns-Prefetch-Control: off
+Server: nginx
+X-Xss-Protection: 1; mode=block
+Etag: W/"2072c-STExrnbuyqlOU4h0mZz7WGA6Bzc"
+Vary: Accept-Encoding
+X-Frame-Options: SAMEORIGIN
+X-Download-Options: noopen

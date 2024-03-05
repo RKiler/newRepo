@@ -1,0 +1,13 @@
+403 Forbidden
+X-Default-Vhost: 1
+Date: Tue, 05 Mar 2024 11:36:47 GMT
+Retry-Count: 0
+Sg-Captcha: challenge
+X-Robots-Tag: noindex
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/html
+Cache-Control: no-store,no-cache,max-age=0
+Server: nginx
+Vary: Accept-Encoding
+Set-Cookie: nevercache-b39818=Y;Max-Age=-1
+Remote-Addr: 64.23.218.211

@@ -1,0 +1,12 @@
+200 OK
+Server: frontify
+Vary: Accept-Encoding
+X-Frame-Options: DENY
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Set-Cookie: AWSALB=Bu8KchuMPu9Mqu9tMs1zFi62L7oI0lnYJOrPFMLFTn0zU5MZ0i7R7RGjeX4keb2i3nCLI46+xNckNr/6AQon/DIebCq0aUyFHJwYJDGDuOdNxBYkJPcQuNzCWf1d; Expires=Tue, 12 Mar 2024 11:36:53 GMT; Path=/ AWSALBCORS=Bu8KchuMPu9Mqu9tMs1zFi62L7oI0lnYJOrPFMLFTn0zU5MZ0i7R7RGjeX4keb2i3nCLI46+xNckNr/6AQon/DIebCq0aUyFHJwYJDGDuOdNxBYkJPcQuNzCWf1d; Expires=Tue, 12 Mar 2024 11:36:53 GMT; Path=/; SameSite=None; Secure
+Pragma: no-cache
+Strict-Transport-Security: max-age=31536000;
+Date: Tue, 05 Mar 2024 11:36:53 GMT
+Content-Type: text/html; charset=UTF-8
+Retry-Count: 0

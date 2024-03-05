@@ -1,0 +1,12 @@
+200 OK
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Origin: *
+X-Amz-Id-2: P6mh7AJG1JrD6se2o0weGtzv8+RXgs2+hBoB4CeKsWGk0yO6WDhyVSvsScmOBup/4TNlEV2wCCM=
+Retry-Count: 0
+Content-Type: text/html
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Vary: Accept-Encoding Access-Control-Request-Headers,Access-Control-Request-Method,Origin
+Access-Control-Allow-Headers: *
+X-Amz-Request-Id: 7CAGZWBJZP2F22JQ
+Date: Tue, 05 Mar 2024 11:40:46 GMT
+Access-Control-Allow-Credentials: false

@@ -1,0 +1,13 @@
+200 OK
+Referrer-Policy: origin
+Content-Security-Policy: allow 'self'; frame-ancestors 'self'
+X-Content-Type-Options: nosniff
+Content-Type: text/html
+Last-Modified: Thu, 29 Feb 2024 14:04:37 GMT
+Cache-Control: no-cache
+X-Frame-Options: SAMEORIGIN
+Server: nginx
+Vary: Accept-Encoding
+Date: Tue, 05 Mar 2024 11:31:08 GMT
+Retry-Count: 0
+Etag: W/"65e08ef5-6e0"

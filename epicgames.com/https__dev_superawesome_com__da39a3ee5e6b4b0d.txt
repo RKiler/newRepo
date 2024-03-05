@@ -1,0 +1,15 @@
+403 Forbidden
+Server: CloudFront
+Date: Tue, 05 Mar 2024 11:36:08 GMT
+Content-Type: text/html
+Content-Length: 919
+X-Cache: Error from cloudfront
+X-Amz-Cf-Pop: SFO53-P1
+X-Amz-Cf-Id: PpUAt_Q_icX1DEAvX7EQwtvlaHNM_P7lnAt4pF68K9o7Fz7CrhB3RQ==
+X-Content-Type-Options: nosniff
+Retry-Count: 0
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Via: 1.1 9112f917b5d446937bb37b520eab286c.cloudfront.net (CloudFront)
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self'; report-uri https://o10593.ingest.sentry.io/api/5618425/security/?sentry_key=54d0c29782ec4d72b8056774cde6647a; style-src 'self' 'report-sample' 'unsafe-inline' fonts.googleapis.com; img-src 'self' *.hsforms.com *.hubspot.com fonts.gstatic.com *.kidswebservices.com *.superawesome.com data: cdn.cookielaw.org; font-src 'self' fonts.gstatic.com fonts.googleapis.com; script-src 'self' 'report-sample' 'unsafe-inline' *.hs-banner.com *.hs-scripts.com *.hscollectedforms.net *.hs-analytics.net *.hsforms.net browser.sentry-cdn.com js.sentry-cdn.com *.sentry.io cdn.amplitude.com *.fontawesome.com cdn.cookielaw.org cdnjs.cloudflare.com js.hsforms.net; connect-src 'self' *.hscollectedforms.net hubspot-forms-static-embed-eu1.s3.amazonaws.com *.hsforms.com sentry.io *.sentry.io api.amplitude.com fonts.googleapis.com fonts.gstatic.com *.fontawesome.com cdn.cookielaw.org geolocation.onetrust.com epicgames-privacy.my.onetrust.com forms.hsforms.com; frame-src 'self' *.hsforms.com www.youtube-nocookie.com; child-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self' *.hsforms.com; manifest-src 'none'; media-src 'none'; prefetch-src 'none'; worker-src 'none'; upgrade-insecure-requests;

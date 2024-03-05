@@ -1,0 +1,13 @@
+200 OK
+Strict-Transport-Security: max-age=31536000
+X-Nf-Request-Id: 01HR76A0M7SZ7FH7D5SG4ZEBAK
+Accept-Ranges: bytes
+Cache-Control: public,max-age=0,must-revalidate
+Content-Length: 508
+Server: Netlify
+Etag: "af435b37082adc2bf7fb1fad966b5078-ssl"
+Retry-Count: 0
+Age: 50884
+Cache-Status: "Netlify Edge"; hit
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Mar 2024 11:34:44 GMT

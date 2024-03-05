@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+	<head>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<!-- OneTrust Cookies Consent Notice start for kidswebservices.com -->
+
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="027a6437-a361-4115-a334-0eb964668d35" ></script>
+
+<script type="text/javascript">
+
+function OptanonWrapper() { }
+
+</script>
+
+<!-- OneTrust Cookies Consent Notice end for kidswebservices.com -->
+	<!-- This site is optimized with the Yoast SEO plugin v21.8 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>KWS Developer Guide - Helping you build compliant apps for kids</title>
+	<meta name="description" content="An end to end guide on how to build COPPA and GDRP compliant apps for kids using Kids Web Services (KWS)." />
+	<link rel="canonical" href="https://guides.kidswebservices.com/" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="KWS Developer Guide - Helping you build compliant apps for kids" />
+	<meta name="twitter:description" content="An end to end guide on how to build COPPA and GDRP compliant apps for kids using Kids Web Services (KWS)." />
+	<meta name="twitter:site" content="@GoSuperAwesome" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://guides.kidswebservices.com/","url":"https://guides.kidswebservices.com/","name":"KWS Developer Guide - Helping you build compliant apps for kids","isPartOf":{"@id":"https://guides.kidswebservices.com/#website"},"about":{"@id":"https://guides.kidswebservices.com/#organization"},"description":"An end to end guide on how to build COPPA and GDRP compliant apps for kids using Kids Web Services (KWS).","breadcrumb":{"@id":"https://guides.kidswebservices.com/#breadcrumb"},"inLanguage":"en-GB"},{"@type":"BreadcrumbList","@id":"https://guides.kidswebservices.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://guides.kidswebservices.com/#website","url":"https://guides.kidswebservices.com/","name":"KWS Developer Guide","description":"Helping you build compliant apps for kids","publisher":{"@id":"https://guides.kidswebservices.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://guides.kidswebservices.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-GB"},{"@type":"Organization","@id":"https://guides.kidswebservices.com/#organization","name":"SuperAwesome","url":"https://guides.kidswebservices.com/","logo":{"@type":"ImageObject","inLanguage":"en-GB","@id":"https://guides.kidswebservices.com/#/schema/logo/image/","url":"https://guides.kidswebservices.com/wp-content/uploads/2019/08/59VsSRdz.png","contentUrl":"https://guides.kidswebservices.com/wp-content/uploads/2019/08/59VsSRdz.png","width":100,"height":43,"caption":"SuperAwesome"},"image":{"@id":"https://guides.kidswebservices.com/#/schema/logo/image/"},"sameAs":["https://twitter.com/GoSuperAwesome","https://www.instagram.com/gosuperawesome/","https://www.linkedin.com/company/superawesome/","https://www.youtube.com/channel/UCNQzDxzTv6jrfN5VwNQaTNQ"]}]}</script>
+	<meta name="google-site-verification" content="z42zXlO9uwwuAEPA5cr0wFYJygCNY42NMpchOo8Oyb4" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="KWS Developer Guide &raquo; Feed" href="https://guides.kidswebservices.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="KWS Developer Guide &raquo; Comments Feed" href="https://guides.kidswebservices.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/guides.kidswebservices.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://guides.kidswebservices.com/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<link rel='stylesheet' id='wp-components-css' href='https://guides.kidswebservices.com/wp-includes/css/dist/components/style.min.css?ver=6.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='https://guides.kidswebservices.com/wp-includes/css/dist/block-editor/style.min.css?ver=6.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-reusable-blocks-css' href='https://guides.kidswebservices.com/wp-includes/css/dist/reusable-blocks/style.min.css?ver=6.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-patterns-css' href='https://guides.kidswebservices.com/wp-includes/css/dist/patterns/style.min.css?ver=6.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-editor-css' href='https://guides.kidswebservices.com/wp-includes/css/dist/editor/style.min.css?ver=6.4.3' type='text/css' media='all' />
+<link rel='stylesheet' id='ht-blocks-modules-styles-css' href='https://guides.kidswebservices.com/wp-content/plugins/heroic-blocks/dist/css/ht-blocks-modules-styles.css?ver=1704467787' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='ht-theme-style-css' href='https://guides.kidswebservices.com/wp-content/themes/knowall/css/style.css?ver=1.5.5' type='text/css' media='all' />
+<!--n2css--><script type="text/javascript" src="https://guides.kidswebservices.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://guides.kidswebservices.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://guides.kidswebservices.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://guides.kidswebservices.com/xmlrpc.php?rsd" />
+<!-- HKB CSS Variables --><style>:root {--hkb-main-container-width: 1200px;--hkb-link-color: #2358a1;--hkb-link-color-hover: #2861b0;--hkb-header-style-bg: #2358a1;--hkb-header-style-graddir: 90deg;--hkb-header-style-grad1: #2358a1;--hkb-header-style-grad2: #2358a1;--hkb-header-text-color: #ffffff;}</style><meta name="generator" content="Heroic Knowledge Base v3.2.0" />
+<meta name="generator" content="KnowAll v1.5.5" />
+<link rel="icon" href="https://guides.kidswebservices.com/wp-content/uploads/2024/01/cropped-KWS-Icon-512x512-rounded-corners-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://guides.kidswebservices.com/wp-content/uploads/2024/01/cropped-KWS-Icon-512x512-rounded-corners-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://guides.kidswebservices.com/wp-content/uploads/2024/01/cropped-KWS-Icon-512x512-rounded-corners-180x180.png" />
+<meta name="msapplication-TileImage" content="https://guides.kidswebservices.com/wp-content/uploads/2024/01/cropped-KWS-Icon-512x512-rounded-corners-270x270.png" />
+<style id="kirki-inline-styles">.site-header{background-image:url("https://guides.kidswebservices.com/wp-content/uploads/2019/08/Screenshot-2019-08-29-at-19.16.40.png");background-color:#ffffff;background-repeat:no-repeat;background-position:left top;background-attachment:fixed;-webkit-background-size:cover;-moz-background-size:cover;-ms-background-size:cover;-o-background-size:cover;background-size:cover;}.site-header .site-header__title, .nav-header ul li a{color:#000000;}.nav-header .nav-header__mtoggle span, .nav-header .nav-header__mtoggle span::before, .nav-header .nav-header__mtoggle span::after{background:#000000;}a{color:#eb2131;}button, input[type="reset"], input[type="submit"], input[type="button"], .hkb-article__content ol li:before, .hkb-article__content ul li:before, .hkb_widget_exit__btn{background:#eb2131;}.hkb-breadcrumbs__icon{fill:#eb2131;}.hkb-article__title a:hover, .hkb-article__link:hover h2, .ht-post__title a:hover, .hkb-category .hkb-category__articlelist a{color:#eb2131;}.hkb-article-attachment__icon{fill:#eb2131;}a:hover, .hkb-category .hkb-category__articlelist a:hover{color:#eb2131;}button:hover, input[type="reset"]:hover, input[type="submit"]:hover, input[type="button"]:hover, .ht-transferbox__btn:hover{background:#eb2131;}.ht-container{max-width:1000px;}.ht-sitecontainer--boxed{max-width:1000px;}h1, h2, h3, h4, h5, h6{font-family:Lato;font-weight:700;letter-spacing:0px;text-transform:none;color:#333333;}body{font-family:Lato;font-size:17px;font-weight:400;letter-spacing:0px;line-height:1.55;color:#595959;}.hkb-category .hkb-category__iconwrap, .ht-categoryheader .hkb-category__iconwrap{flex-basis:35px;min-width:35px;}.hkb-category .hkb-category__iconwrap img, .ht-categoryheader .hkb-category__iconwrap img{max-width:35px;}.hkb-category .hkb-category__iconwrap img, .ht-categoryheader .hkb-category__iconwrap img, .hkb-category .hkb-category__iconwrap, .ht-categoryheader .hkb-category__iconwrap, .ht-categoryheader .hkb-category__iconwrap svg{max-height:35px;}.nav-header > ul > li.menu-item-has-children > a::after {background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 34.1 19' fill='%23000000'%3E%3Cpath d='M17 19c-0.5 0-1-0.2-1.4-0.6L0.6 3.4c-0.8-0.8-0.8-2 0-2.8 0.8-0.8 2-0.8 2.8 0L17 14.2 30.7 0.6c0.8-0.8 2-0.8 2.8 0 0.8 0.8 0.8 2 0 2.8L18.4 18.4C18 18.8 17.5 19 17 19z'/%3E%3C/svg%3E");}.ht-container, .ht-sitecontainer--boxed { max-width: 1000px }.hkb-category .hkb-category__link { border-bottom: 1px solid #e6e6e6; } .hkb-category.hkb-category--witharticles { border-bottom: 1px solid #e6e6e6; }.hkb_widget_toc ol li.active > a { background: rgba( 235 ,33, 49, 0.8); }.hkb-site-search .hkb-site-search__field {
+    border: 1px solid;
+    border-color: #ddd;
+}
+
+
+
+.site-footer {
+background-color: #462379;
+}
+
+.site-footer a {
+color: #fff;
+}
+
+.site-footer .nav-footer a {
+color: #fff;
+}
+
+.site-header {
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 350px;
+    background-position-y: 85px;
+		background-attachment: inherit;
+		    background-position-x: 92%;
+
+}
+
+@media only screen and (max-width: 1023px) {
+	.site-header {
+			    background: none !important;
+		}
+}
+
+		@media only screen and (min-width: 1500px) {
+	.site-header {
+		    background-position-x: 80% !important;
+		}
+		}
+
+						@media only screen and (min-width: 1920px) {
+	.site-header {
+		    background-position-x: 75% !important;
+		}
+}
+
+@media only screen and (min-width: 2100px) {
+	.site-header {
+		background: none !important;
+		}
+	}
+
+.widget_rss li a {
+    font-size: 14px;
+    line-height: 18px;
+}@font-face{font-display:swap;font-family:'Lato';font-style:normal;font-weight:400;src:url(//guides.kidswebservices.com/wp-content/uploads/2023/05/S6uyw4BMUTPHjxAwWA-2.woff) format('woff');}@font-face{font-display:swap;font-family:'Lato';font-style:normal;font-weight:700;src:url(//guides.kidswebservices.com/wp-content/uploads/2023/05/S6u9w4BMUTPHh6UVSwaPHw-2.woff) format('woff');}</style>		
+
+
+	</head>
+<body class="home blog wp-embed-responsive" itemscope itemtype="https://schema.org/WebPage" data-spy="scroll" data-offset="40" data-target="#navtoc">
+<div class="ht-sitecontainer ht-sitecontainer--wide">
+
+<!-- .site-header -->
+<div class="site-header">
+
+	<header class="site-header__banner" itemscope itemtype="http://schema.org/WPHeader">
+	<div class="ht-container">
+
+		<!-- .site-logo -->
+		<div class="site-logo">
+			<a href="https://guides.kidswebservices.com" data-ht-sitetitle="KWS Developer Guide">
+													<img alt="KWS Developer Guide" src="https://guides.kidswebservices.com/wp-content/uploads/2024/01/logo-small.png" />
+													<h1 class="site-logo__title" itemprop="headline">KWS Developer Guide</h1>
+							</a>
+		</div>
+		<!-- /.site-logo -->
+
+					<!-- .nav-header -->
+			<nav class="nav-header" itemscope itemtype="https://schema.org/SiteNavigationElement">
+				<button id="ht-navtoggle" class="nav-header__mtoggle"><span>Menu</span></button>
+				<ul id="menu-knowall-navigation-menu" class="nav-header__menuwrapper"><li id="menu-item-188" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-188"><a href="https://kwsapi.docs.apiary.io">API Specification</a></li>
+</ul>			</nav>
+			<!-- /.nav-header -->
+		
+	</div>
+	</header>
+	<!-- /.site-header -->
+
+			<!-- .site-header__search-->
+		<div class="site-header__search">
+		<div class="ht-container">
+
+							<h2 class="site-header__title">KWS Developer Guide</h2>
+			
+							
+<form class="hkb-site-search" method="get" action="https://guides.kidswebservices.com/">
+		<label class="hkb-screen-reader-text" for="hkb-search">Search For</label>
+		<input id="hkb-search" class="hkb-site-search__field" type="text" value="" placeholder="Search the guide..." name="s" autocomplete="off">
+		<img class="hkb-site-search__loader" src="https://guides.kidswebservices.com/wp-content/themes/knowall/img/loading.svg" alt="Searching..." />
+		<input type="hidden" name="ht-kb-search" value="1" />
+    	<input type="hidden" name="lang" value=""/>
+		<button class="hkb-site-search__button" type="submit"><span>Search</span></button>
+</form>
+					</div>
+		</div>
+		<!-- /.site-header__search -->
+	
+	
+
+</div>
+<!-- /.site-header -->
+
+<!-- .ht-page -->
+<div class="ht-page ht-page--sidebarright">
+<div class="ht-container">
+
+	
+	<div class="ht-page__content">
+
+	
+				
+		<!-- .hkb-archive -->
+		
+			<ul class="hkb-archive  hkb-archive--2cols">
+													<li>
+
+					<div class="hkb-category  hkb-category--withdesc hkb-category--witharticles hkb-category--style7 hkb-category--withicon hkb-category--106">
+
+					
+													<div class="hkb-category__iconwrap"><svg id="hkbicon-forums" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 230"><g fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path class="hkbiconsvg-stroke" d="M104.42 177a19.92 19.92 0 0 0 14.14 5.86h13.82l17.35 16.66 17.34-16.66h13.82a20 20 0 0 0 20-20v-56.4a20 20 0 0 0-10.84-17.78 19.35 19.35 0 0 0-2.85-1.21" style="stroke: rgb(0, 0, 0);"></path><path class="hkbiconsvg-stroke" d="M42.18 91.54a20 20 0 0 0-11.32 18V146a20 20 0 0 0 20 20h13.83L82 182.61 99.38 166h13.82a20 20 0 0 0 20-20v-10.91" style="stroke: rgb(0, 0, 0);"></path><path class="hkbiconsvg-stroke" d="M157 30.15H74.62a20 20 0 0 0-20 20v51.39a20 20 0 0 0 20 20h23.82l17.34 16.66 17.35-16.66H157a20 20 0 0 0 20-20V50.15a20 20 0 0 0-20-20zM83.99 56.61h63.59M83.99 74.07h63.59M83.99 91.54h63.59" style="stroke: rgb(0, 0, 0);"></path></g></svg></div>
+						
+						<div class="hkb-category__content">
+															<a class="hkb-category__headerlink" href="https://guides.kidswebservices.com/article-categories/intro-to-kws/">
+							
+							<h2 class="hkb-category__title">
+								Introduction to Kids Web Services							</h2>
+
+															<div class="hkb-category__description">A comprehensive guide to KWS and how it enables you to navigate successfully the world of data privacy compliance.</div>
+							
+															</a>
+							
+															
+									<ul class="hkb-category__articlelist">
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/legal/">Legal landscape</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/about-kws/">About KWS</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/parental-portal/">Parental consent and verification</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/parent-portal/">About the Parent Portal</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/control-panel/">About the Control Panel</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/api/">About the KWS API</a>
+											</li>
+																			</ul>
+								   
+															
+						</div>
+
+										</div>                 
+
+				</li>
+													<li>
+
+					<div class="hkb-category  hkb-category--withdesc hkb-category--witharticles hkb-category--style7 hkb-category--withicon hkb-category--107">
+
+					
+													<div class="hkb-category__iconwrap"><svg id="hkbicon-getting-started" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 230"><g fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path class="hkbiconsvg-stroke" d="M198.93 50.39a20 20 0 0 0-20.06-20.07c-17.6.07-43.64 3.44-60.57 20.36-27.6 27.61-62.45 70.05-62.45 70.05l52.66 52.66s42.44-34.85 70-62.45C195.48 94 198.86 68 198.93 50.39zM110.64 118.63l5.17-5.18" style="stroke: rgb(0, 0, 0);"></path><circle class="hkbiconsvg-stroke" cx="148.82" cy="80.45" r="21.79" style="stroke: rgb(0, 0, 0);"></circle><path class="hkbiconsvg-stroke" d="M82.19 147.07l21.66-21.66M97.81 72.27s-24-3.26-35.88 2.44c-9.47 4.52-24.66 30.82-30.49 41.4a3 3 0 0 0 2.61 4.44l21.8.18M158.22 132.69s3.26 24-2.43 35.88c-4.53 9.47-30.84 24.67-41.41 30.49a3 3 0 0 1-4.43-2.61l-.18-21.8M77.93 171.07l-19.46-19.46 10.28-17.99 27.17 27.17-17.99 10.28zM50.68 167.69l-10 4.58a10.08 10.08 0 0 0-5.88 9.29L35 195l13.44.16a10.08 10.08 0 0 0 9.28-5.88l4.58-10" style="stroke: rgb(0, 0, 0);"></path></g></svg></div>
+						
+						<div class="hkb-category__content">
+															<a class="hkb-category__headerlink" href="https://guides.kidswebservices.com/article-categories/initial-kws-setup/">
+							
+							<h2 class="hkb-category__title">
+								Initial KWS Set-up							</h2>
+
+															<div class="hkb-category__description">How to set up accounts for you and your colleagues on the KWS platform.</div>
+							
+															</a>
+							
+															
+									<ul class="hkb-category__articlelist">
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/min-reqs/">Requirements</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/reg-acc/">Register for a KWS account</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/invite-colleagues/">Invite colleagues to your Control Panel</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/roles/">Manage Control Panel users &#038; roles</a>
+											</li>
+																			</ul>
+								   
+															
+						</div>
+
+										</div>                 
+
+				</li>
+													<li>
+
+					<div class="hkb-category  hkb-category--withdesc hkb-category--witharticles hkb-category--style7 hkb-category--withicon hkb-category--108">
+
+					
+													<div class="hkb-category__iconwrap"><svg id="hkbicon-mobile-app" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 230"><g fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path class="hkbiconsvg-stroke" d="M145.33 163v17.83a20 20 0 0 1-20 20H71a20 20 0 0 1-20-20V50.69a20 20 0 0 1 20-20h54.35a20 20 0 0 1 20 20v17.83M52.16 55.35h92M52.09 174.35h92.13M91.31 43.1h14" style="stroke: rgb(0, 0, 0);"></path><circle class="hkbiconsvg-fill" cx="98.39" cy="187.43" r="5.5" style="fill: rgb(0, 0, 0);"></circle><rect class="hkbiconsvg-stroke" x="68.98" y="77.99" width="131.39" height="75.59" rx="7.58" ry="7.58" style="stroke: rgb(0, 0, 0);"></rect><path class="hkbiconsvg-stroke" d="M115.31 77.99v75.59M82.24 94.46h21.02M82.24 108.79h21.02M82.24 123.13h21.02M82.24 137.46h21.02M138.78 96.32h38.13v38.13h-38.13z" style="stroke: rgb(0, 0, 0);"></path></g></svg></div>
+						
+						<div class="hkb-category__content">
+															<a class="hkb-category__headerlink" href="https://guides.kidswebservices.com/article-categories/build-kws-env/">
+							
+							<h2 class="hkb-category__title">
+								Build your KWS Environment							</h2>
+
+															<div class="hkb-category__description">How to configure your KWS app and your authentication flow.</div>
+							
+															</a>
+							
+															
+									<ul class="hkb-category__articlelist">
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/build-start/">Getting started</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/create-app/">Create your KWS app</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/app-permissions/">Set up app permissions</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/webhooks/">Set up webhooks</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/build-custom-sso/">Build your authentication flow</a>
+											</li>
+																			</ul>
+								   
+															
+						</div>
+
+										</div>                 
+
+				</li>
+													<li>
+
+					<div class="hkb-category  hkb-category--withdesc hkb-category--witharticles hkb-category--style7 hkb-category--withicon hkb-category--109">
+
+					
+													<div class="hkb-category__iconwrap"><svg id="hkbicon-dns-settings" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 230"><g fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><circle class="hkbiconsvg-stroke" cx="115.92" cy="115.16" r="85" style="stroke: rgb(0, 0, 0);"></circle><path class="hkbiconsvg-stroke" d="M146.16 130.91c-2.38 40.31-15 69.26-30.26 69.26s-27.72-29.52-30.2-69.46M85.74 100.22c2.48-39.94 15-69.72 30.16-69.72s27.8 29.44 30.26 69.5" style="stroke: rgb(0, 0, 0);"></path><path class="hkbiconsvg-stroke" d="M185.11 65.78C166.93 77.65 142.66 84.9 116 84.9a147 147 0 0 1-15.4-.81C80 81.87 61.41 75.29 46.79 65.7M46.79 162.77c18.17-11.87 42.44-19.13 69.1-19.13s51 7.28 69.22 19.2M30.92 115.16h21.97M180.28 115.16h20.64M112.82 130.45H61.76a8.87 8.87 0 0 1-8.87-8.86v-12.51a8.87 8.87 0 0 1 8.87-8.86H170a8.87 8.87 0 0 1 8.87 8.86v12.51a8.87 8.87 0 0 1-8.87 8.86h-42.51" style="stroke: rgb(0, 0, 0);"></path></g></svg></div>
+						
+						<div class="hkb-category__content">
+															<a class="hkb-category__headerlink" href="https://guides.kidswebservices.com/article-categories/extend-kws-env/">
+							
+							<h2 class="hkb-category__title">
+								Extend your KWS Environment							</h2>
+
+															<div class="hkb-category__description">How to enhance your KWS app with custom branding and localisation.</div>
+							
+															</a>
+							
+															
+									<ul class="hkb-category__articlelist">
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/branding/">Branding</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/localisation/">Localisation</a>
+											</li>
+																			</ul>
+								   
+															
+						</div>
+
+										</div>                 
+
+				</li>
+													<li>
+
+					<div class="hkb-category  hkb-category--withdesc hkb-category--witharticles hkb-category--style7 hkb-category--withicon hkb-category--110">
+
+					
+													<div class="hkb-category__iconwrap"><svg id="hkbicon-premium-support" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 230"><g fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path class="hkbiconsvg-stroke" d="M180.5 189.1c-.1-15.6-9.2-29.7-23.4-36.2h-7.9c0 13.4-15.1 24.3-33.8 24.3s-33.8-10.9-33.8-24.3h-5.7C60.2 159.6 50.1 175 50.2 192c0 4.6 3.8 8.4 8.4 8.4l113.6-.5c4.6 0 8.4-3.8 8.4-8.4l-.1-2.4zM115.2 75.8c-12.4.1-24.8-2-36.4-6.4v31.8c0 20.1 16.3 36.4 36.4 36.4 20.1 0 36.4-16.3 36.4-36.4V69.4c-11.7 4.4-24 6.5-36.4 6.4z" style="stroke: rgb(0, 0, 0);"></path><path class="hkbiconsvg-stroke" d="M162.1 105.8v47.1h-31.8M68.5 76.7c0-25.8 20.9-46.8 46.8-46.8 25.8 0 46.8 20.9 46.8 46.8M99.8 152.9H68.5v-47.1M99.8 135.5v17.4M130.3 135.5v17.4" style="stroke: rgb(0, 0, 0);"></path><path class="hkbiconsvg-stroke" d="M115.2 75.8c-12.4.1-24.8-2-36.4-6.4v31.8c0 20.1 16.3 36.4 36.4 36.4 20.1 0 36.4-16.3 36.4-36.4V69.4c-11.7 4.4-24 6.5-36.4 6.4zM82.7 199.7v-10.5M148.1 199.7v-10.5M71.7 77h7.1v28.8h-7.1c-3.5 0-6.4-2.9-6.4-6.4v-16c0-3.5 2.8-6.4 6.4-6.4-.1 0-.1 0 0 0z" style="stroke: rgb(0, 0, 0);"></path><path class="hkbiconsvg-stroke" d="M158.6 105.9h-7.1V77.1h7.1c3.5 0 6.4 2.9 6.4 6.4v16c.1 3.4-2.7 6.3-6.4 6.4.1 0 .1 0 0 0zM155.4 106.9v7c0 4.8-3.9 8.6-8.6 8.6h-31.5" style="stroke: rgb(0, 0, 0);"></path></g></svg></div>
+						
+						<div class="hkb-category__content">
+															<a class="hkb-category__headerlink" href="https://guides.kidswebservices.com/article-categories/support-admin/">
+							
+							<h2 class="hkb-category__title">
+								Support and Administration							</h2>
+
+															<div class="hkb-category__description">How to support your app users, get KWS support, and generate reports about your KWS environment.</div>
+							
+															</a>
+							
+															
+									<ul class="hkb-category__articlelist">
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/end-user-support/">Support your end users</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/reports/">KWS reports</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/kws-support/">KWS support &#038; issue reporting</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/faqs/">FAQs</a>
+											</li>
+																			</ul>
+								   
+															
+						</div>
+
+										</div>                 
+
+				</li>
+													<li>
+
+					<div class="hkb-category  hkb-category--withdesc hkb-category--witharticles hkb-category--style7 hkb-category--withicon hkb-category--117">
+
+					
+													<div class="hkb-category__iconwrap"><svg id="hkbicon-documents" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 230"><g fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path class="hkbiconsvg-stroke" d="M184 50.53a20 20 0 0 1 16 19.6v110.32a20 20 0 0 1-20 20H77.12a19.91 19.91 0 0 1-15.42-7.28" style="stroke: rgb(0, 0, 0);"></path><path class="hkbiconsvg-stroke" d="M174.11 55.75v104.74a20 20 0 0 1-20 20H49.88a20 20 0 0 1-20-20V50.23a20 20 0 0 1 20-20l98.76.05" style="stroke: rgb(0, 0, 0);"></path><path class="hkbiconsvg-stroke" d="M174.11 55.75h-25.47V30.29l25.47 25.46zM59.8 77.16h73M59.8 96.42h73M59.8 115.68h73M59.8 134.93h42.19" style="stroke: rgb(0, 0, 0);"></path></g></svg></div>
+						
+						<div class="hkb-category__content">
+															<a class="hkb-category__headerlink" href="https://guides.kidswebservices.com/article-categories/use-cases/">
+							
+							<h2 class="hkb-category__title">
+								Use Cases							</h2>
+
+															<div class="hkb-category__description">These use cases describe how KWS can help you deliver kidsafe location-based apps and push notifications.</div>
+							
+															</a>
+							
+															
+									<ul class="hkb-category__articlelist">
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/ar-location-games/">Set up AR location-based games</a>
+											</li>
+										                            
+											<li>
+												<a href="https://guides.kidswebservices.com/knowledge-base/push-notifications/">Set up push notifications</a>
+											</li>
+																			</ul>
+								   
+															
+						</div>
+
+										</div>                 
+
+				</li>
+							</ul> 
+
+				<!-- /.hkb-archive -->
+
+		
+	</div>
+
+		<!-- .sidebar -->
+	<aside class="sidebar" itemscope itemtype="https://schema.org/WPSideBar">   
+		<section id="ht-kb-articles-widget-2" class="widget hkb_widget_articles"><h3 class="widget__title">Popular Articles</h3>
+				<ul>
+
+											<li> 
+							<a class="hkb-widget__entry-title " href="https://guides.kidswebservices.com/knowledge-base/api/">About the KWS API</a>
+						</li>
+											<li> 
+							<a class="hkb-widget__entry-title " href="https://guides.kidswebservices.com/knowledge-base/end-user-support/">Support your end users</a>
+						</li>
+											<li> 
+							<a class="hkb-widget__entry-title " href="https://guides.kidswebservices.com/knowledge-base/parent-portal/">About the Parent Portal</a>
+						</li>
+											<li> 
+							<a class="hkb-widget__entry-title " href="https://guides.kidswebservices.com/knowledge-base/legal/">Legal landscape</a>
+						</li>
+											<li> 
+							<a class="hkb-widget__entry-title " href="https://guides.kidswebservices.com/knowledge-base/app-permissions/">Set up app permissions</a>
+						</li>
+					
+				</ul>
+
+				</section>	</aside>
+	<!-- /.sidebar -->
+
+</div>
+</div>
+<!-- /.ht-page -->
+
+<!-- .site-footer -->
+<footer class="site-footer" itemscope itemtype="https://schema.org/WPFooter">
+<div class="ht-container">
+
+				<div class="site-footer__copyright" role="contentinfo"><a href="https://www.kidswebservices.co m">Kids Web Services</a> | <a href="https://www.kidswebservices.com/privacy-hub/">Privacy Hub</a>
+<br> <br>
+<a href="https://www.kidsafeseal.com/certifiedproducts/kidswebservices.html" target="_blank"><img border="0" width="100" alt="Kids Web Services (KWS) is certified by the kidSAFE Seal Program." src="https://www.kidsafeseal.com/sealimage/6064081951032204307/kidswebservices_extralarge_whitetm.png"></a>
+
+
+<a href="https://www.esrb.org/EPCConfirm/KWS/" target="_blank">
+          <img class="image-2" src="https://guides.kidswebservices.com/wp-content/uploads/2019/09/privacy.png" alt="Coloured ESRB logo" style="max-height:52px"></a></div>
+				<nav class="nav-footer">
+			<div class="menu-knowall-navigation-menu-container"><ul id="menu-knowall-navigation-menu-1" class=""><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-188"><a href="https://kwsapi.docs.apiary.io">API Specification</a></li>
+</ul></div>		</nav>
+	
+</div>
+</footer> 
+<!-- /.site-footer -->
+
+<script type="text/javascript" id="ht-kb-frontend-scripts-js-extra">
+/* <![CDATA[ */
+var voting = {"ajaxurl":"https:\/\/guides.kidswebservices.com\/wp-admin\/admin-ajax.php","ajaxnonce":"02331af60d"};
+var hkbJSSettings = {"liveSearchUrl":"https:\/\/guides.kidswebservices.com?ajax=1&ht-kb-search=1&s=","focusSearchBox":"","keepTypingPrompt":"<ul id=\"hkb\" class=\"hkb-searchresults\" role=\"listbox\"><li class=\"hkb-searchresults__noresults\" role=\"option\"><span>Keep typing for live search results<\/span> <\/li><\/ul>","triggerLength":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://guides.kidswebservices.com/wp-content/plugins/ht-knowledge-base/dist/ht-kb-frontend.min.js?ver=3.2.0" id="ht-kb-frontend-scripts-js"></script>
+<script type="text/javascript" src="https://guides.kidswebservices.com/wp-content/plugins/heroic-blocks/dist/js/ht-blocks-frontend.js?ver=1704467789" id="ht-blocks-frontend-js"></script>
+<script type="text/javascript" src="https://guides.kidswebservices.com/wp-content/plugins/social-polls-by-opinionstage/public/js/shortcodes.js?ver=19.8.18" id="opinionstage-shortcodes-js"></script>
+<script type="text/javascript" src="https://guides.kidswebservices.com/wp-content/themes/knowall/js/js.min.js?ver=6.4.3" id="ht_theme_js-js"></script>
+<script type="text/javascript" src="https://guides.kidswebservices.com/wp-content/themes/knowall/js/scrollspy.js?ver=6.4.3" id="scrollspy-js"></script>
+
+</div>
+<!-- /.ht-site-container -->
+</body>
+</html>

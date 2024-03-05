@@ -1,0 +1,13 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+Retry-Count: 0
+Server: sfdcedge
+X-Sfdc-Request-Id: 12904dd7fcdaec7d10fa3b4c7abe545d
+Referrer-Policy: origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Cache-Control: must-revalidate,no-cache,no-store
+Vary: Accept-Encoding
+Date: Tue, 05 Mar 2024 11:40:21 GMT
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: upgrade-insecure-requests

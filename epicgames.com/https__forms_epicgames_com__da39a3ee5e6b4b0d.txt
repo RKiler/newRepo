@@ -1,0 +1,13 @@
+200 OK
+Date: Tue, 05 Mar 2024 11:42:11 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy: upgrade-insecure-requests
+Retry-Count: 0
+Cache-Control: must-revalidate,no-cache,no-store
+X-Sfdc-Request-Id: f095ab9cae90ba8ad313c2f7485cbf6c
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Xss-Protection: 1; mode=block
+Server: sfdcedge
+X-Content-Type-Options: nosniff
+Referrer-Policy: origin-when-cross-origin
+Vary: Accept-Encoding

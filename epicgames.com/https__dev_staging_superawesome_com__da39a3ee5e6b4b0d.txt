@@ -1,0 +1,15 @@
+403 Forbidden
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Date: Tue, 05 Mar 2024 11:42:53 GMT
+X-Cache: Error from cloudfront
+X-Amz-Cf-Id: 1l8hdeyOo6Hnwue8g70bJdVnfwN4xh8PxnOrNGBT36FlH5TmiZgTnw==
+X-Content-Type-Options: nosniff
+Content-Length: 919
+Via: 1.1 8f3a8cd3f1f097d25b328e5c295bdd34.cloudfront.net (CloudFront)
+Content-Type: text/html
+X-Amz-Cf-Pop: SFO53-P6
+X-Frame-Options: DENY
+Server: CloudFront
+Content-Security-Policy: default-src 'self'; report-uri https://o10593.ingest.sentry.io/api/5618406/security/?sentry_key=a006278661794c55a2164832ab9a532e; style-src 'self' 'report-sample' 'unsafe-inline' fonts.googleapis.com; img-src 'self' fonts.gstatic.com *.kidswebservices.com *.superawesome.com data: cdn.cookielaw.org; font-src 'self' fonts.gstatic.com fonts.googleapis.com; script-src 'self' 'report-sample' 'unsafe-inline' browser.sentry-cdn.com js.sentry-cdn.com *.sentry.io cdn.amplitude.com *.fontawesome.com cdn.cookielaw.org cdnjs.cloudflare.com js.hsforms.net; connect-src 'self' sentry.io *.sentry.io api.amplitude.com fonts.googleapis.com fonts.gstatic.com *.fontawesome.com cdn.cookielaw.org geolocation.onetrust.com epicgames-privacy.my.onetrust.com forms.hsforms.com; frame-src 'self'; child-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'; manifest-src 'none'; media-src 'none'; prefetch-src 'none'; worker-src 'none'; upgrade-insecure-requests;
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload

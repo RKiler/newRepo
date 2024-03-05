@@ -1,0 +1,21 @@
+200 OK
+X-Frame-Options: DENY
+Pragma: no-cache
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport script-src 'report-sample' 'nonce-FJlsir0fNarebXM5cC1jwA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self' script-src 'unsafe-inline' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /v3/signin/_/AccountsSignInUi/cspreport/allowlist
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+X-Ua-Compatible: IE=edge
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+Accept-Ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="AccountsSignInUi"
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Date: Tue, 05 Mar 2024 11:31:24 GMT
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Retry-Count: 0
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Report-To: {"group":"AccountsSignInUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi"}]}
+Reporting-Endpoints: default="/v3/signin/_/AccountsSignInUi/web-reports?context=eJzjWsGoxSXF4K0hxbBXaReTY-wTJlcgntv9lGkhEC9__5RpNRDHrHrGlADEB-OeMx0F4rcJL5g-AnFX6wumPiDe3POCaTsQT-N5yTQLiI9sf8l0Aog_33vJ9B2I3315ycTz9SWTBBBrAPEOHw8WvnXTWVWAWHf9dNZQIJ50cjrrNCCW_zWdVRmIndJnsAYBsU_9DNYYIBbi5uhpnbOeTWDF85YKAGBzU1c"
+Server: ESF
+X-Xss-Protection: 0

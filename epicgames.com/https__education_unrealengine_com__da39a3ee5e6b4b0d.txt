@@ -1,0 +1,13 @@
+200 OK
+Strict-Transport-Security: max-age=15552000
+Vary: Accept-Encoding
+Date: Tue, 05 Mar 2024 11:34:48 GMT
+Retry-Count: 0
+X-Download-Options: noopen
+X-Epic-Correlation-Id: 5f816be0-dae4-11ee-a683-8d42c56aca77
+X-Xss-Protection: 1; mode=block
+Content-Type: text/html; charset=utf-8
+Etag: W/"505d3-MAI21f7U1uUe3y0MHY0s0oTruLw"
+X-Dns-Prefetch-Control: off
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN SAMEORIGIN

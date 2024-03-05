@@ -1,0 +1,8 @@
+403 Forbidden
+Retry-Count: 0
+X-Amzn-Requestid: 4322d1fc-9d40-4361-919b-6e9aed4e1655
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amz-Apigw-Id: UJ2dQH67IAMEuwQ=
+Date: Tue, 05 Mar 2024 11:39:00 GMT
+Content-Type: application/json
+Content-Length: 42

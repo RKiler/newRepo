@@ -1,0 +1,22 @@
+403 Forbidden
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Cf-Chl-Out: 7YZIupQncku7jZta9AK/EJ/tHHtYr/6oGdU2AAnc6FFtyfsr+7Lh+AL7fTiRdR5dKf2zhxd2QUSF1NDfDVr67s4G7DxXOHR+0IRb0t4nw6z+Viih6M1qyL9ycmFhaRjACdT5n1hXwojGNb+uG4vvrw==$Y8RbpExGFPAMNybugBkHpA==
+Set-Cookie: __cf_bm=FhCZ2gWycRIXZMA88zjoeISzmtBFiexh5rsIrCHHuJ4-1709638599-1.0.1.1-mRzUkJd9eQ5Tyi8p7Jfk7Xw3qo0LWEw5KuA5HmTfhHASnRI7RFkPponuspP6SBUCkrPN2V3uK7mJxMxhdG5c79y5gX1p4nmSB0Mza9bwmdI; path=/; expires=Tue, 05-Mar-24 12:06:39 GMT; domain=.artstation.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=0
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Server: cloudflare
+Cf-Ray: 85f9cf415cc57ab5-SJC
+Retry-Count: 0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: require-corp
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Date: Tue, 05 Mar 2024 11:36:39 GMT
+Cf-Mitigated: challenge
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN

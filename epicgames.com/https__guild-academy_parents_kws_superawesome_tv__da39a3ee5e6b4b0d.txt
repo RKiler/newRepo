@@ -1,0 +1,14 @@
+200 OK
+Last-Modified: Thu, 29 Feb 2024 14:21:17 GMT
+Vary: Accept-Encoding
+Etag: W/"65e092dd-7a5"
+Referrer-Policy: origin
+Cache-Control: no-cache
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Date: Tue, 05 Mar 2024 11:40:20 GMT
+Content-Type: text/html
+Retry-Count: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Server: nginx
+Content-Security-Policy: default-src 'self'; frame-ancestors 'self'; style-src 'self' 'unsafe-inline' maxcdn.bootstrapcdn.com; script-src 'self' 'unsafe-inline' static.zdassets.com; font-src 'self' maxcdn.bootstrapcdn.com; connect-src 'self' *; img-src 'self' *;

@@ -1,0 +1,21 @@
+403 Forbidden
+Cross-Origin-Resource-Policy: same-origin
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Cf-Mitigated: challenge
+Cf-Chl-Out: vOja0f/QCGd3dZjZQ35GqAlXwI94Y1WwgHbbCW6xiHhq8aOI9JaVNxma5IxF8PkGXNz5zO0a3/KoPFp2zBMIehPWClJVewENr2htHCYm2v/fmzCpdj1G5NW1Z4VCZjYHKG0+/g0WUYrxn/HSVe378A==$eZ59BPjXUpdX+xnUFZhFTQ==
+Cross-Origin-Opener-Policy: same-origin
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cross-Origin-Embedder-Policy: require-corp
+X-Frame-Options: SAMEORIGIN
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Set-Cookie: __cf_bm=fPtTcS6NFDqGTkjqZhGU5YyRUf3M5h_32zUiUANPvhs-1709638929-1.0.1.1-mPdo0g8y1reEXVDCo1mJuxCNfqm25AhUXBm3oH7jAKjxErrmYMhxN3vItpfst.SXJIAiU1AL6DNZOlsorBttJA; path=/; expires=Tue, 05-Mar-24 12:12:09 GMT; domain=.fortnite.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+Cf-Ray: 85f9d74dac6467ef-SJC
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Date: Tue, 05 Mar 2024 11:42:09 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: same-origin
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Retry-Count: 0

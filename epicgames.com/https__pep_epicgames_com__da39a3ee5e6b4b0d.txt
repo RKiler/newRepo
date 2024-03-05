@@ -1,0 +1,17 @@
+200 OK
+Date: Tue, 05 Mar 2024 11:43:11 GMT
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000
+Retry-Count: 0
+Set-Cookie: AWSALB=1/FIv7CCVxNuWWZh2q7TzKroJC06k0vtU1fUgI/8rE87PKqjYrPPs3BC9ODmNe/xsFMn3NKlVNy6lCCj7YwAFwtJowu+fvhUm+PfwIincmT8J4OWQT6sUJvySJdZ; Expires=Tue, 12 Mar 2024 11:43:10 GMT; Path=/ AWSALBCORS=1/FIv7CCVxNuWWZh2q7TzKroJC06k0vtU1fUgI/8rE87PKqjYrPPs3BC9ODmNe/xsFMn3NKlVNy6lCCj7YwAFwtJowu+fvhUm+PfwIincmT8J4OWQT6sUJvySJdZ; Expires=Tue, 12 Mar 2024 11:43:10 GMT; Path=/; SameSite=None; Secure XSRF-TOKEN=8af4851fc0a04434b1e89da556eabb52; Domain=.fortnite.com; Path=/ EPIC_CLIENT_SESSION=sweJ_x6Wntb4Me8xOjlKwg.kZdxyA8Ffn3dkEe9MLvujvKeUuAZXP3DjMfAoH_1KUQ_fW4zNMUgZiFtkzyKLMyP.1709638990995.86400000.xNWxGDmTICr6JYz1fk7h60fknUf-EaMqVUC5r1psTwo; path=/island-creator; httponly
+X-Download-Options: noopen
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Access-Control-Allow-Credentials: true
+Content-Type: text/html; charset=utf-8
+X-Content-Type-Options: nosniff
+X-Epic-Host: pep-website-prod-6fd7454f95-b89cg
+X-Epic-Correlation-Id: 8ae232f0-dae5-11ee-a8b7-5707e4569096
+Etag: W/"2628d-vQFiVJfgf57WHg0ww/MqGyLylt0"
+Vary: Accept-Encoding Origin
+X-Dns-Prefetch-Control: off
+X-Xss-Protection: 1; mode=block

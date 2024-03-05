@@ -1,0 +1,20 @@
+200 OK
+Last-Modified: Fri, 12 Jan 2024 00:06:41 GMT
+Access-Control-Allow-Methods: *
+Content-Security-Policy-Report-Only: default-src * data: ; script-src * 'unsafe-inline' 'unsafe-eval'  ; style-src * 'unsafe-inline' data: ; frame-ancestors 'none'; report-uri /csp-violation-report-endpoint/
+Retry-Count: 0
+Cf-Cache-Status: DYNAMIC
+Cache-Control: private
+Access-Control-Allow-Headers: *
+Amp-Access-Control-Allow-Source-Origin: *
+X-Xss-Protection: 1;mode=block
+Date: Tue, 05 Mar 2024 11:30:04 GMT
+Content-Type: text/html
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 85f9c5976c4cfaec-SJC
+Strict-Transport-Security: max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload
+Cf-Apo-Via: origin,host
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Origin: *
+Set-Cookie: QPSTATIC=static|ZecCO; path=/; HttpOnly; Secure

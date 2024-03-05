@@ -1,0 +1,15 @@
+200 OK
+Etag: "65ce300d-331"
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Date: Tue, 05 Mar 2024 11:31:49 GMT
+Content-Length: 817
+Last-Modified: Thu, 15 Feb 2024 15:38:53 GMT
+Referrer-Policy: origin
+Server: nginx
+X-Content-Type-Options: nosniff
+Cache-Control: max-age=60
+Accept-Ranges: bytes
+Retry-Count: 0
+Content-Type: text/html
+Content-Security-Policy: allow 'self'; frame-ancestors 'self'

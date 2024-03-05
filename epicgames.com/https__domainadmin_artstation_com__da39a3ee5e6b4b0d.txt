@@ -1,0 +1,22 @@
+403 Forbidden
+Content-Type: text/html; charset=UTF-8
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Cf-Mitigated: challenge
+Cf-Chl-Out: 7uSWbjnn8Og1irGQR2TwohgFCqmaMyd2qog361uKAJE9z7Q0nyocpW4iFz2lQk3Fy+SdqIHpJ4WTs7rS5CZ7B6XcR+A7HbroO2v5DwI7f2YP0aY236hTXzyDc2i9nTJClXv3UzfAeFfovh+oQiclOA==$bcrGrQ5gGncHjJ6pUQb9DQ==
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Cf-Ray: 85f9d87bbd9e15fd-SJC
+Retry-Count: 0
+Date: Tue, 05 Mar 2024 11:42:57 GMT
+Cross-Origin-Opener-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: __cf_bm=dpLwOf4KOrdJz6b8_AjSktUYe_qSizwn8rKBPHH8Vgw-1709638977-1.0.1.1-h.m4Zu3ntAjoRrk4WhT0LiklFFUQxSDi5bqf.B805XPSPJtL1nGd1YdAY.nkRQ6_35aPF.1j3ZfoEEgboYwzTOxtx7w_NNaFk5qWWkm_K4U; path=/; expires=Tue, 05-Mar-24 12:12:57 GMT; domain=.artstation.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=0
+Cross-Origin-Resource-Policy: same-origin
+Vary: Accept-Encoding
+Server: cloudflare
+Cross-Origin-Embedder-Policy: require-corp
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Origin-Agent-Cluster: ?1
+Referrer-Policy: same-origin
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+X-Content-Type-Options: nosniff

@@ -1,0 +1,15 @@
+200 OK
+X-Frame-Options: SAMEORIGIN; ALLOW-FROM https://www.google.com
+Referrer-Policy: no-referrer
+Set-Cookie: AUTH_SESSION_ID=a884a51f-a3b1-4d63-bade-5beacf362d34.sa-keycloak-11-0; Version=1; Path=/auth/realms/cloud/; SameSite=None; Secure; HttpOnly AUTH_SESSION_ID_LEGACY=a884a51f-a3b1-4d63-bade-5beacf362d34.sa-keycloak-11-0; Version=1; Path=/auth/realms/cloud/; HttpOnly KC_RESTART=eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5ZWM3MTIxMS1iZjc4LTQ0ODAtYTc1MS0wMDA5ZjY1MDBmMzIifQ.eyJjaWQiOiJhY2NvdW50c3BheWFibGUiLCJwdHkiOiJvcGVuaWQtY29ubmVjdCIsInJ1cmkiOiJodHRwOi8vYWNjb3VudHNwYXlhYmxlLnN1cGVyYXdlc29tZS5jb20vP2F1dGhfY2FsbGJhY2s9MSIsImFjdCI6IkFVVEhFTlRJQ0FURSIsIm5vdGVzIjp7InNjb3BlIjoib3BlbmlkIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLnN1cGVyYXdlc29tZS50di9hdXRoL3JlYWxtcy9jbG91ZCIsInJlc3BvbnNlX3R5cGUiOiJjb2RlIiwicmVkaXJlY3RfdXJpIjoiaHR0cDovL2FjY291bnRzcGF5YWJsZS5zdXBlcmF3ZXNvbWUuY29tLz9hdXRoX2NhbGxiYWNrPTEiLCJzdGF0ZSI6ImE5ZDk3NzYxLWVkODMtNGU2Yi04YzE5LTE0MmZlMjhjNzY1ZSJ9fQ.KINpu66iO9JtCDM7xAb2VWV7gVphDknmZmGc_RgKbr4; Version=1; Path=/auth/realms/cloud/; HttpOnly
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Retry-Count: 0
+Content-Type: text/html;charset=utf-8
+Content-Security-Policy: frame-src 'self' https://www.google.com; object-src 'none';
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Robots-Tag: none
+Date: Tue, 05 Mar 2024 11:38:12 GMT
+Content-Length: 6085
+Cache-Control: no-store, must-revalidate, max-age=0
+Content-Language: en

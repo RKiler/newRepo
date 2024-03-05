@@ -1,0 +1,16 @@
+200 OK
+Vary: Accept-Encoding Accept-Encoding Accept-Encoding Accept-Encoding,Cookie
+Link: <https://aaguides.superawesome.com/wp-json/>; rel="https://api.w.org/"
+X-Cacheable: SHORT
+X-Cache-Group: normal
+Set-Cookie: __cf_bm=BHX59hAazOWIkUUh3hfQaqcZWFiv6GSrEzVTPlRQ7X8-1709638955-1.0.1.1-Z_7TMWs3MMRJo7ZKBghaT5PMYI08ehiaB0.I5xPgfJydNrZcRtLk95lpLzYEYw7ePKWrgscvv0w2ptuXqjf27w; path=/; expires=Tue, 05-Mar-24 12:12:35 GMT; domain=.aaguides.superawesome.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+Cf-Ray: 85f9d7f0d958943e-SJC
+Cache-Control: max-age=600, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/html; charset=UTF-8
+Retry-Count: 0
+Date: Tue, 05 Mar 2024 11:42:35 GMT
+X-Cache: HIT: 2
+X-Powered-By: WP Engine

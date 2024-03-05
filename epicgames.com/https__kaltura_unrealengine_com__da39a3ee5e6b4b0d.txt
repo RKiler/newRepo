@@ -1,0 +1,15 @@
+503 Service Unavailable
+Server: AkamaiGHost
+Content-Length: 176
+Akamai-Mon-Iucid-Del: 908090
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: origin,range,hdntl,hdnts
+Access-Control-Max-Age: 86400
+Mime-Version: 1.0
+Expires: Tue, 05 Mar 2024 11:30:00 GMT
+Date: Tue, 05 Mar 2024 11:30:00 GMT
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Content-Type: text/html
+Access-Control-Expose-Headers: Server,range,hdntl,hdnts,Akamai-Mon-Iucid-Ing,Akamai-Mon-Iucid-Del
+Retry-Count: 0

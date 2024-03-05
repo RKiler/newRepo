@@ -1,0 +1,16 @@
+200 OK
+X-Cache-Group: normal
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 85f9c6d0893b968f-SJC
+Content-Type: text/html; charset=UTF-8
+X-Powered-By: WP Engine
+X-Cache: HIT: 5
+Server: cloudflare
+Retry-Count: 0
+Vary: Accept-Encoding Accept-Encoding Accept-Encoding Accept-Encoding,Cookie
+X-Cacheable: SHORT
+Alt-Svc: h3=":443"; ma=86400
+Date: Tue, 05 Mar 2024 11:30:54 GMT
+Link: <https://www.superawesome.com/wp-json/>; rel="https://api.w.org/" <https://www.superawesome.com/wp-json/wp/v2/pages/4655>; rel="alternate"; type="application/json" <https://www.superawesome.com/?p=4655>; rel=shortlink
+Cache-Control: max-age=600, must-revalidate
+Set-Cookie: __cf_bm=ToGpKjHfRkk0r2wiYIsvO5iKVOecAJgbTT6KVXSy5sU-1709638254-1.0.1.1-VVo2tSWXXraRRi1nwU1DrNIR672gj2Urogrw1XJtrx2OCZAIFW0JxXKHybM9gO.cnvNPO6ZApZ_6s2nh.dYVJQ; path=/; expires=Tue, 05-Mar-24 12:00:54 GMT; domain=.www.superawesome.com; HttpOnly; Secure; SameSite=None

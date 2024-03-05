@@ -1,0 +1,6 @@
+403 Forbidden
+Content-Type: text/html
+Content-Length: 179
+Retry-Count: 0
+Server: Microsoft-Azure-Application-Gateway/v2
+Date: Tue, 05 Mar 2024 11:36:08 GMT

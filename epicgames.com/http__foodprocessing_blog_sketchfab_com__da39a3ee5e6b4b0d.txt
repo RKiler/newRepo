@@ -1,0 +1,13 @@
+403 Forbidden
+Content-Type: text/html
+X-Robots-Tag: noindex
+Date: Tue, 05 Mar 2024 11:37:23 GMT
+Set-Cookie: nevercache-b39818=Y;Max-Age=-1
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Cache-Control: no-store,no-cache,max-age=0
+Sg-Captcha: challenge
+Retry-Count: 0
+Vary: Accept-Encoding
+Remote-Addr: 64.23.218.211
+X-Default-Vhost: 1
+Server: nginx

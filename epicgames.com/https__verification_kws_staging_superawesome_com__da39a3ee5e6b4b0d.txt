@@ -1,0 +1,15 @@
+403 Forbidden
+Date: Tue, 05 Mar 2024 11:42:03 GMT
+Retry-Count: 0
+Content-Length: 919
+X-Cache: Error from cloudfront
+Via: 1.1 f20c2924343ce57c71ac85e5ceb39250.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 47Hr6RxjyACCDgWRFr497itmo87O97QxMs50ODqfoxSxvwzHVvoD1w==
+X-Content-Type-Options: nosniff
+Server: CloudFront
+Content-Type: text/html
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self'; report-uri https://o10593.ingest.sentry.io/api/5618417/security/?sentry_key=f13483d68b2e42ce812f5925f1db4db0; style-src 'self' 'report-sample' 'unsafe-inline' fonts.googleapis.com translate.googleapis.com rsms.me dcams.app; img-src 'self' data: fonts.gstatic.com *.kidswebservices.com *.superawesome.com translate.google.com translate.googleapis.com www.gstatic.com; font-src 'self' fonts.gstatic.com fonts.googleapis.com rsms.me; script-src 'self' 'report-sample' 'unsafe-hashes' 'sha256-MhtPZXr7+LpJUY5qtMutB+qWfQtMaPccfe7QXtCcEYc=' js.stripe.com browser.sentry-cdn.com js.sentry-cdn.com *.sentry.io cdn.amplitude.com code.jquery.com dcams.app *.fontawesome.com translate.googleapis.com translate.google.com; connect-src 'self' verification.kws.staging.superawesome.com verification.staging.kidswebservices.com api.stripe.com sentry.io *.sentry.io api.amplitude.com api2.amplitude.com fonts.googleapis.com fonts.gstatic.com *.fontawesome.com translate.googleapis.com translate.google.com www.gstatic.com; frame-src js.stripe.com hooks.stripe.com *.veriff.me; child-src js.stripe.com hooks.stripe.com; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'none'; manifest-src 'none'; media-src 'none'; prefetch-src 'none'; worker-src 'none'; upgrade-insecure-requests;
+X-Amz-Cf-Pop: SFO53-P1
+X-Xss-Protection: 1; mode=block

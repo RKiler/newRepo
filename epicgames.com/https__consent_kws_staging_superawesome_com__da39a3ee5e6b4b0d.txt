@@ -1,0 +1,15 @@
+403 Forbidden
+Server: CloudFront
+X-Cache: Error from cloudfront
+X-Frame-Options: DENY
+Date: Tue, 05 Mar 2024 11:34:25 GMT
+Content-Type: text/html
+Content-Length: 919
+Via: 1.1 01dbe7e23991a177a7cdfba5803db41c.cloudfront.net (CloudFront)
+X-Xss-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self'; report-uri https://o10593.ingest.sentry.io/api/6208482/security/?sentry_key=d4b68e983d33463dba52187a1ff45030; style-src 'self' 'report-sample' 'unsafe-inline' fonts.googleapis.com translate.googleapis.com; img-src 'self' data: fonts.gstatic.com www.gstatic.com translate.google.com translate.googleapis.com *.kidswebservices.com *.superawesome.com; font-src 'self' fonts.gstatic.com fonts.googleapis.com; script-src 'self' 'report-sample' 'unsafe-inline' 'unsafe-hashes' 'sha256-MhtPZXr7+LpJUY5qtMutB+qWfQtMaPccfe7QXtCcEYc=' browser.sentry-cdn.com js.sentry-cdn.com *.sentry.io cdn.amplitude.com *.fontawesome.com translate.googleapis.com translate.google.com; connect-src 'self' consent.kws.staging.superawesome.com consent.staging.kidswebservices.com api.kws.staging.superawesome.com api.staging.kidswebservices.com sentry.io *.sentry.io api.amplitude.com api2.amplitude.com fonts.googleapis.com fonts.gstatic.com *.fontawesome.com translate.googleapis.com translate.google.com www.gstatic.com; frame-src 'none'; child-src 'none'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'none'; manifest-src 'none'; media-src 'none'; prefetch-src 'none'; worker-src 'none'; upgrade-insecure-requests;
+X-Amz-Cf-Pop: SFO53-C1
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Retry-Count: 0
+X-Amz-Cf-Id: uBRM0OD8jVv0A_x6YFrkXLG53zL5cZnUmL3aPndwZ31jc0c2-djnDg==

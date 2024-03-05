@@ -1,0 +1,17 @@
+404 Not Found
+Access-Control-Allow-Credentials: true
+Set-Cookie: EPIC_SESSION_GRAPHQL=_-LAsPwCP5Cr3Siiu3asQg.aitghQkYHRKWg-rDowOSj7DDtcHdEIu9QwikaxyXX9OgQVwHS_RAsBgevmU42ZxN.1709638318452.86400000.MhKGMDaNTiNILgk3o-EVdAXXA5AksbR5U41nArJf0H4; path=/ue; httponly
+X-Dns-Prefetch-Control: off
+Vary: Accept-Encoding Origin
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Epic-Correlation-Id: fa293520-dae3-11ee-923a-6fd8f3c6ac44
+X-Epic-Host: epicgames-graphql-ue-prod-i-0cb69371e35f0f297
+Etag: W/"65-1jLyQcTbteJ26DvqE+KZ4iet4jA"
+Content-Type: text/html; charset=utf-8
+Strict-Transport-Security: max-age=15552000
+X-Xss-Protection: 1; mode=block
+Date: Tue, 05 Mar 2024 11:31:58 GMT
+X-Download-Options: noopen
+X-Robots-Tag: noindex
+Retry-Count: 0

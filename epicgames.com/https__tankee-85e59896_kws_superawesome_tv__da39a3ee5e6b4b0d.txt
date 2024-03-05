@@ -1,0 +1,10 @@
+200 OK
+Cache-Control: max-age=60
+Accept-Ranges: bytes
+Date: Tue, 05 Mar 2024 11:43:05 GMT
+Content-Length: 1110
+Server: nginx/1.13.12
+Etag: "6543836e-456"
+Content-Type: text/html
+Last-Modified: Thu, 02 Nov 2023 11:09:34 GMT
+Retry-Count: 0

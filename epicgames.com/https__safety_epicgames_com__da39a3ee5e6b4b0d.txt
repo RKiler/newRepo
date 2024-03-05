@@ -1,0 +1,22 @@
+403 Forbidden
+Date: Tue, 05 Mar 2024 11:41:18 GMT
+Cross-Origin-Resource-Policy: same-origin
+Set-Cookie: __cf_bm=bwPLIIsshE8c.ds60wjnOxMFsgT1xYln0dqRImKc7w8-1709638878-1.0.1.1-mzx4b_xjfMLuY2GUAcWw1fYOfO0_utbHuV4mnmJedgwtAta5VdiuXMbebv9gVwjS.nEkhGSaib40ARqJidg.Yg; path=/; expires=Tue, 05-Mar-24 12:11:18 GMT; domain=.safety.epicgames.com; HttpOnly; Secure; SameSite=None
+Alt-Svc: h3=":443"; ma=86400
+Cross-Origin-Opener-Policy: same-origin
+Origin-Agent-Cluster: ?1
+Cf-Chl-Out: BjpTJs0/rJ8rWwhui9jSL2OCAI55IMFBfZYBQbbtsuHCYXYhVY69JmMywidr0Cz8NZgcN/jtRtEH96YxGz0iJI3z9+r+GvC3KJufdl4CkKq1JFawQhoYb6lMTA3kKkEpEsXOxYx+fTnuQzHjf3Hn2Q==$WDW9LFVXYlsaA82nnQHr5Q==
+Vary: Accept-Encoding
+Retry-Count: 0
+Content-Type: text/html; charset=UTF-8
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Referrer-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; preload
+Server: cloudflare
+Cf-Ray: 85f9d610189724de-SJC
+Cross-Origin-Embedder-Policy: require-corp
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Cf-Mitigated: challenge
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT

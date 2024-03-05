@@ -1,0 +1,15 @@
+403 Forbidden
+Server: AmazonS3
+X-Amz-Request-Id: Z1FKDY8WD2S4DB52
+Content-Type: application/xml
+Access-Control-Allow-Origin: *
+X-Amz-Bucket-Region: us-east-1
+Date: Tue, 05 Mar 2024 11:41:21 GMT
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Retry-Count: 0
+Content-Length: 243
+Access-Control-Allow-Credentials: false
+Access-Control-Max-Age: 86400
+Vary: Access-Control-Request-Headers,Access-Control-Request-Method,Origin
+X-Amz-Id-2: 5qJ1N25NPNjs7/gEa2nuP7D3PYdSIf7SQA39LJHgDPlxWuX5zr93BYtRnnSuveEbDaCleLDi5bg=

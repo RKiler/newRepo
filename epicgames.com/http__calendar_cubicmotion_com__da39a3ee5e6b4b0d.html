@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html lang="en" class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="en" class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html lang="en" class="lt-ie10"><![endif]-->
+<!--[if gt IE 9]><html lang="en"><![endif]-->
+<!--[if !IE]><!--><html lang="en"><!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+
+    <script type="text/javascript" nonce="FxD8R5L9tMnMIFtnMkHnCA">if (typeof module === 'object') {window.module = module; module = undefined;}</script><style type="text/css" nonce="FxD8R5L9tMnMIFtnMkHnCA">
+        .bgStyle {
+          background-image: url('https://epicgames.okta.com/fs/bco/7/fs0124wy1x2SGljsY0x8')
+        }
+        .bgStyleIE8 {
+          filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://epicgames.okta.com/fs/bco/7/fs0124wy1x2SGljsY0x8', sizingMethod='scale')
+        }
+        .copyright a:focus-visible, 
+        .privacy-policy a:focus-visible {
+          border-radius: 6px;
+          outline: rgb(84, 107, 231) solid 1px;
+          outline-offset: 2px;
+          text-decoration: none !important;
+        }
+    </style><title>Epic Games - Sign In</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
+
+    <script type="text/javascript" nonce="FxD8R5L9tMnMIFtnMkHnCA">window.cspNonce = 'FxD8R5L9tMnMIFtnMkHnCA';</script><script src="https://epicgames.okta.com/assets/js/sdk/okta-signin-widget/7.15.1/js/okta-sign-in.min.js" type="text/javascript" integrity="sha384-1qd8asn758eaIa9NEHdVHKOfuh0+K7/6oDj+FIjJLszuBLlF6+6QcRS31U50II7o" crossorigin="anonymous"></script>
+    <link href="https://epicgames.okta.com/assets/js/sdk/okta-signin-widget/7.15.1/css/okta-sign-in.min.css" type="text/css" rel="stylesheet" integrity="sha384-YtU89lM0fecOULmzvCevpy8Mwpfa2V1C9JG+K57ceTle0dj6yZKAQ/t6ZEmGlK7c" crossorigin="anonymous"/>
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+<link href="https://epicgames.okta.com/assets/loginpage/css/loginpage-theme.7266b8318cd7a71710311515ab15c462.css" rel="stylesheet" type="text/css"/><link href="/api/internal/brand/theme/style-sheet?touch-point=SIGN_IN_PAGE&v=abc4780733b2999dc5536ea4bf18a7237d32beafe91e2f7611b8af3ecb8ae0d0dfb208992a3b1ecefd0c0f9333f4b59d" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" nonce="FxD8R5L9tMnMIFtnMkHnCA">
+        var okta = {
+            locale: 'en',
+            deployEnv: 'PROD'
+        };
+    </script><script nonce="FxD8R5L9tMnMIFtnMkHnCA">window.okta || (window.okta = {}); okta.cdnUrlHostname = ""; okta.cdnPerformCheck = true; okta.cdnPerformCheckHostname = "//ok2static.oktacdn.com";</script><script type="text/javascript" nonce="FxD8R5L9tMnMIFtnMkHnCA">if (window.module) module = window.module;</script></head>
+<body class="auth okta-container">
+
+<!--[if gte IE 8]>
+  <![if lte IE 10]>
+
+     <style type="text/css" nonce="FxD8R5L9tMnMIFtnMkHnCA">
+    .unsupported-browser-banner-wrap {
+      padding: 20px;
+      border: 1px solid #ddd;
+      background-color: #f3fbff;
+    }
+    .unsupported-browser-banner-inner {
+      position: relative;
+      width: 735px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    .unsupported-browser-banner-inner .icon {
+      vertical-align: top;
+      margin-right: 20px;
+      display: inline-block;
+      position: static !important;
+    }
+    .unsupported-browser-banner-inner a {
+      text-decoration: underline;
+    }
+     </style><div class="unsupported-browser-banner-wrap">
+      <div class="unsupported-browser-banner-inner">
+        <span class="icon icon-16 icon-only warning-16-yellow"></span>You are using an unsupported browser. For the best experience, update to <a href="https://support.okta.com/help/s/article/Okta-Browser-and-OS-Support-Policy">a supported browser</a>.</div>
+    </div>
+
+  <![endif]>
+<![endif]-->
+<!--[if IE 8]> <div id="login-bg-image-ie8" class="login-bg-image tb--background bgStyleIE8" data-se="login-bg-image"></div> <![endif]-->
+<!--[if (gt IE 8)|!(IE)]><!--> <div id="login-bg-image" class="login-bg-image tb--background bgStyle" data-se="login-bg-image"></div> <!--<![endif]-->
+
+<!-- hidden form for reposting fromURI for X509 auth -->
+<form action="/login/cert" method="post" id="x509_login" name="x509_login" class="hide">
+    <input type="hidden" id="fromURI" name="fromURI" class="hidden" value="&#x2f;app&#x2f;google&#x2f;exklqlbdoqiSD0CUu0x7&#x2f;sso&#x2f;saml"/>
+</form>
+
+<div class="content">
+  <div class="applogin-banner">
+          <div class="applogin-background"></div>
+          <div class="applogin-container">
+              <h1>
+                  <span class="applogin-app-title">
+                    Connecting to</span>
+                  <div class="applogin-app-logo">
+                      <img src="https://epicgames.okta.com/fs/bcg/4/gfsqptaa3vLpk67H00x7" alt="Google&#x20;Workspace" class="logo google"/></div>
+              </h1>
+              <p>Sign in with your account to access Google Workspace</p>
+              </div>
+      </div>
+  <style type="text/css" nonce="FxD8R5L9tMnMIFtnMkHnCA">
+    .noscript-msg {
+        background-color: #fff;
+        border-color: #ddd #ddd #d8d8d8;
+        box-shadow:0 2px 0 rgba(175, 175, 175, 0.12);
+        text-align: center;
+        width: 398px;
+        min-width: 300px;
+        margin: 200px auto;
+        border-radius: 3px;
+        border-width: 1px;
+        border-style: solid;
+    }
+
+    .noscript-content {
+        padding: 42px;
+    }
+
+    .noscript-content h2 {
+        padding-bottom: 20px;
+    }
+
+    .noscript-content h1 {
+        padding-bottom: 25px;
+    }
+
+    .noscript-content a {
+        background: transparent;
+        box-shadow: none;
+        display: table-cell;
+        vertical-align: middle;
+        width: 314px;
+        height: 50px;
+        line-height: 36px;
+        color: #fff;
+        background: linear-gradient(#007dc1, #0073b2), #007dc1;
+        border: 1px solid;
+        border-color: #004b75;
+        border-bottom-color: #00456a;
+        box-shadow: rgba(0, 0, 0, 0.15) 0 1px 0, rgba(255, 255, 255, 0.1) 0 1px 0 0 inset;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+    .noscript-content a:hover {
+        background: #007dc1;
+        cursor: hand;
+        text-decoration: none;
+    }
+ </style><noscript>
+    <div id="noscript-msg" class="noscript-msg">
+        <div class="noscript-content">
+            <h2>Javascript is required</h2>
+            <h1>Javascript is disabled on your browser.&nbspPlease enable Javascript and refresh this page.</h1>
+            <a href="." class="tb--button">Refresh</a>
+        </div>
+    </div>
+</noscript>
+<div id="signin-container"></div>
+  <div id="okta-sign-in" class="auth-container main-container hide">
+      <div id="unsupported-onedrive" class="unsupported-message hide">
+        <h2 class="o-form-head">Your OneDrive version is not supported</h2>
+        <p>Upgrade now by installing the OneDrive for Business Next Generation Sync Client to login to Okta</p>
+        <a class="button button-primary tb--button" target="_blank" href="https://support.okta.com/help/articles/Knowledge_Article/Upgrading-to-OneDrive-for-Business-Next-Generation-Sync-Client">
+          Learn how to upgrade</a>
+      </div>
+      <div id="unsupported-cookie" class="unsupported-message hide">
+          <h2 class="o-form-head">Cookies are required</h2>
+          <p>Cookies are disabled on your browser. Please enable Cookies and refresh this page.</p>
+          <a class="button button-primary tb--button" target="_blank" href=".">
+              Refresh</a>
+      </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer-container clearfix">
+    <p class="copyright">Powered by <a href="https://www.okta.com/?internal_link=wic_login" class="inline-block notranslate">Okta</a></p>
+        <p class="privacy-policy"><a href="/privacy" target="_blank" class="inline-block margin-l-10">Privacy Policy</a></p>
+    </div>
+</div>
+
+<script nonce="FxD8R5L9tMnMIFtnMkHnCA" type="text/javascript">function runLoginPage (fn) {var mainScript = document.createElement('script');mainScript.src = 'https://epicgames.okta.com/assets/js/mvc/loginpage/initLoginPage.pack.58de3be0c9b511a0fdfd7ea4f69b56fc.js';mainScript.crossOrigin = 'anonymous';mainScript.integrity = 'sha384-cJ4LGViZBmIttMPH+ao2RyPuN5BztKWYWIa4smbm56r1cUhkU/Dr6vTS3UoPbKTI';document.getElementsByTagName('head')[0].appendChild(mainScript);fn && mainScript.addEventListener('load', function () { setTimeout(fn, 1) });}</script><div id="inactive-tab-main-div" class="hide">
+    <div class="inactive-tab-container">
+    <div class="inactive-tab-header">
+        <img src="https://epicgames.okta.com/fs/bco/1/fs0lp2gjjvCzmJglO0x7" alt="Epic&#x20;Games" class="report-org-logo"/><div class="divider"></div>
+    </div>
+    <div class="inactive-tab-content">
+        <h2 class="inactive-tab-content-title">The page has timed out</h2>
+        <p class="inactive-tab-details">If this page does not reload automatically, please refresh your browser.</p>
+    </div>
+</div>
+</div>
+<script type="text/javascript" nonce="FxD8R5L9tMnMIFtnMkHnCA">
+(function(){
+  var baseUrl = 'https\x3A\x2F\x2Fepicgames.okta.com';
+  var suppliedRedirectUri = '';
+  var repost = false;
+  var stateToken = 'eyJ6aXAiOiJERUYiLCJhbGlhcyI6ImVuY3J5cHRpb25rZXkiLCJ2ZXIiOiIxIiwib2lkIjoiMDBvMWxzanVFSEpKWktJR0RYVkkiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiZGlyIn0..6kIrs3W7jNFWg\x2DEX.F9DmjvlIxsxfGENHQrdGIpHIlGZ3xAkdPm3B0MKn\x2DWMnpc0_FpOzZewu5c0KLdiEkOji301Vix4q0whsP7efsgHQeguZuAWUznuNmIBWofEnGlmc_bm7L6JaCbTdshJGywY5jQJbPe0_mETdvSvb_ppHgsJF2dN\x2Dqb6hwPSIJLNrA25zMwSUR7M854yOrI_K5FCKn_eBOI3t\x2DFg_iu2SWCgkktmR6Gl9jVurmSeRJYnV09xRTiNFLI1\x2Dx\x2DUO0n2uE1ZDgtJCA71MlqZQvumTr\x2DmDsNqM4s1UdbQlnhR7mIcodX2J_MMd9AEEdV28\x2DuoeU4Y2rKOZDPmPt\x2DDW5_IkkNi9gYIRlVg\x2DLjjd3_VHggO58d\x2DogARIB28uuhsEqxr4idCTyDRfqb9ek\x2Dolb6aRinSlchgBaX4Ru\x2DVitOLDhCQvEtZn7MkTDQPQh6BeCx9_U4uh6zj26\x2DARDtwFAg2A03X4VRdmq1BPtvSiXBz_\x2DNzNF0ZenAIXJQZHxBfVEZwTz5ZKnkx2N4YTH7TGSwim44dx5NkD0txVG0zeQQcL61sbUUU1wzkZ0FgnBLUUcGuwseRamKo\x2D\x2DBoSQWj8rIJZ2_K5Ut3UqU88516kfnOy1dsIyK6XXCgDOpHYUx\x2DJmTSzLDqbP_KBfzL7CCGY7kRB9sKmz6OymLmFvaAuf7z7JGVKh8Gf3q_D_6kdg\x2D3tR3wE2hde2Cj5Y1P_3id22XvypR4n5Lf0nQ4uch0t54imDMchdxh_E65xDA7BgowZz5ha0CjNWQzoF7hce7IbCHYABhZZRMqhd5BcKvOw9MlzHN36wDUq0BPRa_HhkTO9CI9DDxpGdrFuMojp7fk2OUfvEBTXqx1dDM75Wh0SZkFTPEZ_13hVFiH5Zl0wq8s9fD0DkYqjr8pzNIvEU9hP\x2D9tv82fjUxeZVbrg_Fd0kFUOTwqfLkAKqOsQKoQ4MlMalyd5Q9H6UFqjaD1QnrvY_TqrW2axodKYtVod0eRevsw307q18tNXvFWwPLRV41BIvIzpELBwcaZMPaVPSs6cabdnSuSvJeFS9UWlxmZmZrJpL2633HYFH2zFUmMU8Y7VNhBw0keTRpmBtOgyKMnyffQNOJ0\x2DWxfkPIHu35I7jOqxcETXnRb0Q1SJxoiPLxg0fOUZ_YU7nUqsi30DAYgo9oMB7V1EydWfF1j4lo7o4tAej\x2DAXXvyg2gvZUepBl\x2DfMJU8hM0EiRM1KBni1sLqdexZTbogtOrYcQAeBSt\x2DuS30FcsCoayVHeW\x2DooabB\x2D8VTSmWrrsgieVp8T38hZ5QutUQ99ty0JJcSs9m42BlKLHVgJCkmWa__m82YHjs_bnXDQO02VfwFOFW6njWy0TfbT6UX3t4yybKdDWVKM\x2DXHwXQ2Ltv5EEWQ_s7UDAdQJyD8sohNvgpje5c\x2DJM96nH3Emfu43ysJTSTLOueUKoGy_yDDJmaQhXCKBTPlv4hCs6h7jXGwJiFdSPmaTpcZmDEbkKiKW4XsQeW80YwrDP8HdCKni_S9VnCxRrLB8tqnBgKrHlFoKQqFXtA1MpqazN5mUJhdUJPfpxf7Z5KuJp5VshNJKHAu9Rf6jzyTt20GDYKIpsxWm5VeMTruk3HLJUUcLRY4MKunynyNaPuUMGj3\x2DJaQwlGaJoj2cCC663PIN5tJHV8fnnMT0lsY4bALHkPEMr_\x2DT\x2DOj8\x2DmBoW1cSgX8QkwhXrr5j1\x2D3x5nMROr7PTPJwQxzrUmpqJP8lWZviyeHLXk6GEQKEbkwy64DGFWUyYdY4FJ9V262l4o\x2DejiKv6FTPwqxIIT75s9VlYdY9zinXljRbNrDMNyGAyEMnIqbpNfYsyDai\x2D2NVWwHoHTJsFsAuhfM3RxMPpHH7o8mctnLo1dXbCtpWWj\x2DvB8iKSbxvW1LgrujBDsbZyweC4B7\x2DOsN7beL4TfLN79N18Njx5Y_68Ugvx\x2Db\x2DLM8aP3nNFDzfqc0EUpc\x2DZIItGBBjs6XoUhwoEEVGETpHC0OpXID8NkC1am1L0AIcOJe_E44EblXhlSGIibnN_rkSEFBbFC4fCCOnkPrFwrddnq1mqlNGnuiEZQN5Viey6AARssYQxc7Sqmzi0QJvVji80CwWXNwvo_K71pJoHkhD5r8_xzKm06ZAheJo_HLd6MT50yObzQJHh0SQauWYZkZT_FX6s9erv3\x2DR5Hz1xxh0Du5BdO\x2DnqWJu6JGPjauW2itUYVsW15ISJpVbb1WD6i0ScHfnj31mvBHp\x2D4hCgdbh_e6cL1wcgLKyMJRZaxWPTea_aIYsS5OqZpVG_cXjE44hfGDAwGtUCIy_NXGkgVgHo41CDIJ0xsPSFjB6dBctLSjLFtHyjJ7NXK8xv1Y6h3xhAe6iFuGfLKGgTM2bIppoWLkSYqbxSiIhgthIKco3WJbvSRTwU\x2Dam0GO9U3QTyK0FWjuDK8431yp7sXtoNPTSzKAkMP87QymOvg6bME0_ChHWAO_Vriver8_uIViu5mO\x2DpKk_FlnFwEVb6zMaWeTqklUq1nd1waqBYVSs0rgKfnLCzYtmHTeF5pG54hjq0\x2DkKVUPrPSB84wWUNnfRxnsiHLTWOMOlu2DzjMmCn8XcAAL6GAPwGB\x2DlcOlgbl0pZyrM1FrkfrSwajRiRulfVwhoDmaYuw3gQFtuO1UZP5V\x2DX0x4hgBEogApcxiwysTI_3I3n5U\x2D6TpoZQg29SWZT1Tow67uctFlNAkPPLYGF8PwXWRyLkdokgJv0WkYppce1MLpETY5Xzswy\x2D3v4_mk7MuvFt_2HPqIFjJT1pXwcj0Dn19ZgNl9ZDGVePwQGa1QtVWpU0HIyC36gpd2o0rlZphVfzXhvXTGbqMSdbF6p83v7FRtDZTf4DjulV5rfW2IU5vOgHLCAZHlnnw1dXCVglShObLkXhEy_dsRgRhbZoMmvWqS8pf\x2DcB9jzhyRzNV8veXmJtFvUw8esf16bfCm0IIGVXkDOPkjV2GSnzm6V6m8COLQ3RU9LGIFb7cXuL7BlqT8IC3a9r9ypKByfbiZCOGwQEjdcv7jfuYyS8qfLN_WfoSAiolgZDnzY7paD3N\x2D2XrewkD\x2DAbqu_2xAN5DwgsQUSsFxNhqrVJQGBOaBUV05MAzwaoN03cIaE6B6GhFnsx0rOOxZ\x2DONPfgRXsZit93aw0CrfOvX1TiVbZc2joFjImHu1oJKRNrPpWsEv7qLXaJLfYWhPR5D3ezNvDNYdeI5OKqO4Mt6oJPAT7U4BeCMPcw5gVLekXzDapkhl_K111YHSSBjwUi9z98DPKZUSjW15B_Kjg1QGZWnwtIEw8nSPs6nVKCbwvvmMwcw_SS6lYtQgJ7_UTf0ESLJFC8eiXQ83e5axSkytYemrTSawnBey3iAkuvrKnI0JCbQPYEfDHyQXqWAhqfQyggfbUDGQOxRigpOR4J8Gft4NAjiYrPJ2rSFZtouzmXiPyLgkqfg4HfhMXWpDWJz3aGLdNDvH6SSmiUuu1qcED7yJC2QGY9cF0YMyGOklcxfm9fG2UeqJu4nYCjrdlg8_SiOWlEfGRoUpCZZlhwHyDtPiGh6ETkq\x2DCUyIaiHNJya9gu34pT2knphZqtCQdQFAtCUVGdk6rJ0uRcgur8ltd2Hh\x2DiGLfLvANGsJbqiLU971cXk\x2D3bz4wrv1n2e8qm1U96YM_4P.R6BX98Z58xxhrdUbiaNRGQ';
+  var fromUri = '\x2Fapp\x2Fgoogle\x2FexklqlbdoqiSD0CUu0x7\x2Fsso\x2Fsaml';
+  var username = '';
+  var rememberMe = true;
+  var smsRecovery = true;
+  var callRecovery = true;
+  var emailRecovery = true;
+  var usernameLabel = 'Username';
+  var usernameInlineLabel = '';
+  var passwordLabel = 'Password';
+  var passwordInlineLabel = '';
+  var signinLabel = 'Sign\x20In';
+  var forgotpasswordLabel = 'Forgot\x20password\x3F';
+  var unlockaccountLabel = 'Unlock\x20account\x3F';
+  var helpLabel = 'Help';
+  var orgSupportPhoneNumber = '';
+  var hideSignOutForMFA = false;
+  var hideBackToSignInForReset = false;
+  var footerHelpTitle = 'Need\x20help\x20signing\x20in\x3F';
+  var recoveryFlowPlaceholder = 'Email\x20or\x20Username';
+  var signOutUrl = '';
+  var authScheme = 'OAUTH2';
+  var hasPasswordlessPolicy = 'true';
+  var INVALID_TOKEN_ERROR_CODE = 'errors.E0000011';
+
+  var securityImage = true;
+  
+    securityImage = false;
+  
+
+
+  var selfServiceUnlock = false;
+  
+
+  var redirectByFormSubmit = false;
+  
+
+  var showPasswordRequirementsAsHtmlList = true;
+
+  var autoPush = false;
+  
+    autoPush = true;
+  
+
+  var accountChooserDiscoveryUrl = 'https://login.okta.com/discovery/iframe.html';
+
+  // In case of custom app login, the uri is already absolute, so we must not attach baseUrl
+  var redirectUri;
+  if (isAbsoluteUri(fromUri)) {
+      redirectUri = fromUri;
+  } else {
+      redirectUri = baseUrl + fromUri;
+  }
+  
+
+  var backToSignInLink = '';
+  
+      backToSignInLink = '';
+  
+
+  var customButtons;
+  var pivProperties = {};
+
+  
+
+  var customLinks = [];
+  
+  var factorPageCustomLink = {};
+  
+
+  var linkParams;
+  
+
+  var proxyIdxResponse;
+  
+
+  var stateTokenAllFlows;
+  
+    stateTokenAllFlows = true;
+  
+
+  var idpDiscovery;
+  var idpDiscoveryRequestContext;
+  
+
+  var showPasswordToggleOnSignInPage = false;
+  var showIdentifier = false;
+  
+    showPasswordToggleOnSignInPage = true;
+    showIdentifier = true;
+  
+
+  var hasSkipIdpFactorVerificationButton = false;
+  
+
+  var hasOAuth2ConsentFeature = false;
+  var consentFunc;
+  
+    hasOAuth2ConsentFeature = true;
+  
+    consentFunc = {
+      cancel: function() {
+        window.location.href='https://epicgames.okta.com/login/token/redirect?stateToken=eyJ6aXAiOiJERUYiLCJhbGlhcyI6ImVuY3J5cHRpb25rZXkiLCJ2ZXIiOiIxIiwib2lkIjoiMDBvMWxzanVFSEpKWktJR0RYVkkiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiZGlyIn0..6kIrs3W7jNFWg-EX.F9DmjvlIxsxfGENHQrdGIpHIlGZ3xAkdPm3B0MKn-WMnpc0_FpOzZewu5c0KLdiEkOji301Vix4q0whsP7efsgHQeguZuAWUznuNmIBWofEnGlmc_bm7L6JaCbTdshJGywY5jQJbPe0_mETdvSvb_ppHgsJF2dN-qb6hwPSIJLNrA25zMwSUR7M854yOrI_K5FCKn_eBOI3t-Fg_iu2SWCgkktmR6Gl9jVurmSeRJYnV09xRTiNFLI1-x-UO0n2uE1ZDgtJCA71MlqZQvumTr-mDsNqM4s1UdbQlnhR7mIcodX2J_MMd9AEEdV28-uoeU4Y2rKOZDPmPt-DW5_IkkNi9gYIRlVg-Ljjd3_VHggO58d-ogARIB28uuhsEqxr4idCTyDRfqb9ek-olb6aRinSlchgBaX4Ru-VitOLDhCQvEtZn7MkTDQPQh6BeCx9_U4uh6zj26-ARDtwFAg2A03X4VRdmq1BPtvSiXBz_-NzNF0ZenAIXJQZHxBfVEZwTz5ZKnkx2N4YTH7TGSwim44dx5NkD0txVG0zeQQcL61sbUUU1wzkZ0FgnBLUUcGuwseRamKo--BoSQWj8rIJZ2_K5Ut3UqU88516kfnOy1dsIyK6XXCgDOpHYUx-JmTSzLDqbP_KBfzL7CCGY7kRB9sKmz6OymLmFvaAuf7z7JGVKh8Gf3q_D_6kdg-3tR3wE2hde2Cj5Y1P_3id22XvypR4n5Lf0nQ4uch0t54imDMchdxh_E65xDA7BgowZz5ha0CjNWQzoF7hce7IbCHYABhZZRMqhd5BcKvOw9MlzHN36wDUq0BPRa_HhkTO9CI9DDxpGdrFuMojp7fk2OUfvEBTXqx1dDM75Wh0SZkFTPEZ_13hVFiH5Zl0wq8s9fD0DkYqjr8pzNIvEU9hP-9tv82fjUxeZVbrg_Fd0kFUOTwqfLkAKqOsQKoQ4MlMalyd5Q9H6UFqjaD1QnrvY_TqrW2axodKYtVod0eRevsw307q18tNXvFWwPLRV41BIvIzpELBwcaZMPaVPSs6cabdnSuSvJeFS9UWlxmZmZrJpL2633HYFH2zFUmMU8Y7VNhBw0keTRpmBtOgyKMnyffQNOJ0-WxfkPIHu35I7jOqxcETXnRb0Q1SJxoiPLxg0fOUZ_YU7nUqsi30DAYgo9oMB7V1EydWfF1j4lo7o4tAej-AXXvyg2gvZUepBl-fMJU8hM0EiRM1KBni1sLqdexZTbogtOrYcQAeBSt-uS30FcsCoayVHeW-ooabB-8VTSmWrrsgieVp8T38hZ5QutUQ99ty0JJcSs9m42BlKLHVgJCkmWa__m82YHjs_bnXDQO02VfwFOFW6njWy0TfbT6UX3t4yybKdDWVKM-XHwXQ2Ltv5EEWQ_s7UDAdQJyD8sohNvgpje5c-JM96nH3Emfu43ysJTSTLOueUKoGy_yDDJmaQhXCKBTPlv4hCs6h7jXGwJiFdSPmaTpcZmDEbkKiKW4XsQeW80YwrDP8HdCKni_S9VnCxRrLB8tqnBgKrHlFoKQqFXtA1MpqazN5mUJhdUJPfpxf7Z5KuJp5VshNJKHAu9Rf6jzyTt20GDYKIpsxWm5VeMTruk3HLJUUcLRY4MKunynyNaPuUMGj3-JaQwlGaJoj2cCC663PIN5tJHV8fnnMT0lsY4bALHkPEMr_-T-Oj8-mBoW1cSgX8QkwhXrr5j1-3x5nMROr7PTPJwQxzrUmpqJP8lWZviyeHLXk6GEQKEbkwy64DGFWUyYdY4FJ9V262l4o-ejiKv6FTPwqxIIT75s9VlYdY9zinXljRbNrDMNyGAyEMnIqbpNfYsyDai-2NVWwHoHTJsFsAuhfM3RxMPpHH7o8mctnLo1dXbCtpWWj-vB8iKSbxvW1LgrujBDsbZyweC4B7-OsN7beL4TfLN79N18Njx5Y_68Ugvx-b-LM8aP3nNFDzfqc0EUpc-ZIItGBBjs6XoUhwoEEVGETpHC0OpXID8NkC1am1L0AIcOJe_E44EblXhlSGIibnN_rkSEFBbFC4fCCOnkPrFwrddnq1mqlNGnuiEZQN5Viey6AARssYQxc7Sqmzi0QJvVji80CwWXNwvo_K71pJoHkhD5r8_xzKm06ZAheJo_HLd6MT50yObzQJHh0SQauWYZkZT_FX6s9erv3-R5Hz1xxh0Du5BdO-nqWJu6JGPjauW2itUYVsW15ISJpVbb1WD6i0ScHfnj31mvBHp-4hCgdbh_e6cL1wcgLKyMJRZaxWPTea_aIYsS5OqZpVG_cXjE44hfGDAwGtUCIy_NXGkgVgHo41CDIJ0xsPSFjB6dBctLSjLFtHyjJ7NXK8xv1Y6h3xhAe6iFuGfLKGgTM2bIppoWLkSYqbxSiIhgthIKco3WJbvSRTwU-am0GO9U3QTyK0FWjuDK8431yp7sXtoNPTSzKAkMP87QymOvg6bME0_ChHWAO_Vriver8_uIViu5mO-pKk_FlnFwEVb6zMaWeTqklUq1nd1waqBYVSs0rgKfnLCzYtmHTeF5pG54hjq0-kKVUPrPSB84wWUNnfRxnsiHLTWOMOlu2DzjMmCn8XcAAL6GAPwGB-lcOlgbl0pZyrM1FrkfrSwajRiRulfVwhoDmaYuw3gQFtuO1UZP5V-X0x4hgBEogApcxiwysTI_3I3n5U-6TpoZQg29SWZT1Tow67uctFlNAkPPLYGF8PwXWRyLkdokgJv0WkYppce1MLpETY5Xzswy-3v4_mk7MuvFt_2HPqIFjJT1pXwcj0Dn19ZgNl9ZDGVePwQGa1QtVWpU0HIyC36gpd2o0rlZphVfzXhvXTGbqMSdbF6p83v7FRtDZTf4DjulV5rfW2IU5vOgHLCAZHlnnw1dXCVglShObLkXhEy_dsRgRhbZoMmvWqS8pf-cB9jzhyRzNV8veXmJtFvUw8esf16bfCm0IIGVXkDOPkjV2GSnzm6V6m8COLQ3RU9LGIFb7cXuL7BlqT8IC3a9r9ypKByfbiZCOGwQEjdcv7jfuYyS8qfLN_WfoSAiolgZDnzY7paD3N-2XrewkD-Abqu_2xAN5DwgsQUSsFxNhqrVJQGBOaBUV05MAzwaoN03cIaE6B6GhFnsx0rOOxZ-ONPfgRXsZit93aw0CrfOvX1TiVbZc2joFjImHu1oJKRNrPpWsEv7qLXaJLfYWhPR5D3ezNvDNYdeI5OKqO4Mt6oJPAT7U4BeCMPcw5gVLekXzDapkhl_K111YHSSBjwUi9z98DPKZUSjW15B_Kjg1QGZWnwtIEw8nSPs6nVKCbwvvmMwcw_SS6lYtQgJ7_UTf0ESLJFC8eiXQ83e5axSkytYemrTSawnBey3iAkuvrKnI0JCbQPYEfDHyQXqWAhqfQyggfbUDGQOxRigpOR4J8Gft4NAjiYrPJ2rSFZtouzmXiPyLgkqfg4HfhMXWpDWJz3aGLdNDvH6SSmiUuu1qcED7yJC2QGY9cF0YMyGOklcxfm9fG2UeqJu4nYCjrdlg8_SiOWlEfGRoUpCZZlhwHyDtPiGh6ETkq-CUyIaiHNJya9gu34pT2knphZqtCQdQFAtCUVGdk6rJ0uRcgur8ltd2Hh-iGLfLvANGsJbqiLU971cXk-3bz4wrv1n2e8qm1U96YM_4P.R6BX98Z58xxhrdUbiaNRGQ'
+      }
+    };
+  
+
+  var hasMfaAttestationFeature = false;
+  
+    hasMfaAttestationFeature = true;
+  
+
+  var rememberMyUsernameOnOIE = false;
+  
+    rememberMyUsernameOnOIE = true;
+  
+
+  var engFastpassMultipleAccounts = true;
+
+  var registration = false;
+  
+
+  var webauthn = true;
+  
+
+    var overrideExistingStateToken = false;
+    
+
+  var isPersonalOktaOrg = false;
+  
+
+  var orgSyncToAccountChooserEnabled = true;
+  
+
+  var showSessionRevocation = false;
+  
+      showSessionRevocation = true;
+  
+
+  var loginPageConfig = {
+    fromUri: fromUri,
+    repost: repost,
+    redirectUri: redirectUri,
+    backToSignInLink: backToSignInLink,
+    isMobileClientLogin: false,
+    isMobileSSO: false,
+    disableiPadCheck: false,
+    enableiPadLoginReload: false,
+    linkParams: linkParams,
+    hasChromeOSFeature: false,
+    showLinkToAppStore: false,
+    accountChooserDiscoveryUrl: accountChooserDiscoveryUrl,
+    mfaAttestation: hasMfaAttestationFeature,
+    isPersonalOktaOrg: isPersonalOktaOrg,
+    enrollingFactor: '',
+    stateTokenExpiresAt: '2024\x2D03\x2D05T13\x3A35\x3A34.000Z',
+    stateTokenRefreshWindowMs: '7140000',
+    orgSyncToAccountChooserEnabled: orgSyncToAccountChooserEnabled,
+    inactiveTab: {
+      enabled: true,
+      elementId: 'inactive-tab-main-div',
+      avoidPageRefresh: true
+    },
+    signIn: {
+      el: '#signin-container',
+      baseUrl: baseUrl,
+      brandName: 'Okta',
+      logo: 'https://epicgames.okta.com/fs/bco/1/fs0lp2gjjvCzmJglO0x7',
+      logoText: 'Epic\x20Games logo',
+      helpSupportNumber: orgSupportPhoneNumber,
+      stateToken: stateToken,
+      username: username,
+      signOutLink: signOutUrl,
+      consent: consentFunc,
+      authScheme: authScheme,
+      relayState: fromUri,
+      proxyIdxResponse: proxyIdxResponse,
+      overrideExistingStateToken: overrideExistingStateToken,
+      interstitialBeforeLoginRedirect: 'DEFAULT',
+      idpDiscovery: {
+        requestContext: idpDiscoveryRequestContext
+      },
+      features: {
+        router: true,
+        securityImage: securityImage,
+        rememberMe: rememberMe,
+        autoPush: autoPush,
+        webauthn: webauthn,
+        smsRecovery: smsRecovery,
+        callRecovery: callRecovery,
+        emailRecovery: emailRecovery,
+        selfServiceUnlock: selfServiceUnlock,
+        multiOptionalFactorEnroll: true,
+        deviceFingerprinting: true,
+        useDeviceFingerprintForSecurityImage: true,
+        trackTypingPattern: false,
+        hideSignOutLinkInMFA: hideSignOutForMFA,
+        hideBackToSignInForReset: hideBackToSignInForReset,
+        rememberMyUsernameOnOIE: rememberMyUsernameOnOIE,
+        engFastpassMultipleAccounts: engFastpassMultipleAccounts,
+        customExpiredPassword: true,
+        idpDiscovery: idpDiscovery,
+        passwordlessAuth: hasPasswordlessPolicy,
+        consent: hasOAuth2ConsentFeature,
+        skipIdpFactorVerificationBtn: hasSkipIdpFactorVerificationButton,
+        showPasswordToggleOnSignInPage: showPasswordToggleOnSignInPage,
+        showIdentifier: showIdentifier,
+        registration: registration,
+        redirectByFormSubmit: redirectByFormSubmit,
+        showPasswordRequirementsAsHtmlList: showPasswordRequirementsAsHtmlList,
+        showSessionRevocation: showSessionRevocation
+      },
+
+      assets: {
+        baseUrl: "https\x3A\x2F\x2Fepicgames.okta.com\x2Fassets\x2Fjs\x2Fsdk\x2Fokta\x2Dsignin\x2Dwidget\x2F7.15.1"
+      },
+
+      language: okta.locale,
+      i18n: {},
+
+      customButtons: customButtons,
+
+      piv: pivProperties,
+
+      helpLinks: {
+        help: '',
+        forgotPassword: '',
+        unlock: '',
+        custom: customLinks,
+        factorPage: factorPageCustomLink
+      },
+
+      cspNonce: window.cspNonce,
+    }
+  };
+  
+
+  loginPageConfig.signIn.i18n[okta.locale] = {
+    
+    'primaryauth.username.placeholder': usernameLabel,
+    'primaryauth.username.tooltip': usernameInlineLabel,
+    'primaryauth.password.placeholder': passwordLabel,
+    'primaryauth.password.tooltip': passwordInlineLabel,
+    'mfa.challenge.password.placeholder': passwordLabel,
+    'primaryauth.title': signinLabel,
+    'forgotpassword': forgotpasswordLabel,
+    'unlockaccount': unlockaccountLabel,
+    'help': helpLabel,
+    'needhelp': footerHelpTitle,
+    'password.forgot.email.or.username.placeholder': recoveryFlowPlaceholder,
+    'password.forgot.email.or.username.tooltip': recoveryFlowPlaceholder,
+    'account.unlock.email.or.username.placeholder': recoveryFlowPlaceholder,
+    'account.unlock.email.or.username.tooltip': recoveryFlowPlaceholder
+  };
+
+    
+            loginPageConfig.signIn.logoText = 'Epic\x20Games logo';
+        
+
+  function isOldWebBrowserControl() {
+    // We no longer support IE7. If we see the MSIE 7.0 browser mode, it's a good signal
+    // that we're in a windows embedded browser.
+    if (navigator.userAgent.indexOf('MSIE 7.0') === -1) {
+      return false;
+    }
+
+    // Because the userAgent is the same across embedded browsers, we use feature
+    // detection to see if we're running on older versions that do not support updating
+    // the documentMode via x-ua-compatible.
+    return document.all && !window.atob;
+  }
+
+  function isAbsoluteUri(uri) {
+    var pat = /^https?:\/\//i;
+    return pat.test(uri);
+  }
+
+  var unsupportedContainer = document.getElementById('okta-sign-in');
+
+  var failIfCookiesDisabled = true;
+  
+
+  // Old versions of WebBrowser Controls (specifically, OneDrive) render in IE7 browser
+  // mode, with no way to override the documentMode. In this case, inform the user they need
+  // to upgrade.
+  if (isOldWebBrowserControl()) {
+    document.getElementById('unsupported-onedrive').removeAttribute('style');
+    unsupportedContainer.removeAttribute('style');
+  }
+  else if (failIfCookiesDisabled && !navigator.cookieEnabled) {
+    document.getElementById('unsupported-cookie').removeAttribute('style');
+    unsupportedContainer.removeAttribute('style');
+  }
+  else {
+    unsupportedContainer.parentNode.removeChild(unsupportedContainer);
+    runLoginPage(function () {
+      var res = OktaLogin.initLoginPage(loginPageConfig);
+      
+    });
+  }
+}());
+</script><script type="text/javascript" nonce="FxD8R5L9tMnMIFtnMkHnCA">
+  window.addEventListener('load', function(event) {
+    function applyStyle(id, styleDef) {
+      if (styleDef) {
+        var el = document.getElementById(id);
+        if (!el) {
+          return;
+        }
+        el.classList.add(styleDef);
+      }
+    }
+    applyStyle('login-bg-image', 'bgStyle');
+    applyStyle('login-bg-image-ie8', 'bgStyleIE8');
+  });
+</script></body>
+</html>

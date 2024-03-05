@@ -1,0 +1,7 @@
+403 Forbidden
+X-Amz-Request-Id: 10978ADNYYABQM7E
+X-Amz-Id-2: PBxJ9rC2v7l+jPq6NrhN49Qre3XH8B1VoOQtBiKPQr67L0IYdkKbuxnRdR9tzdhcHh8BPo3tbfw=
+Content-Type: application/xml
+Retry-Count: 0
+Date: Tue, 05 Mar 2024 11:38:03 GMT
+Server: AmazonS3

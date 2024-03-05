@@ -1,0 +1,16 @@
+200 OK
+Content-Type: text/html; charset=UTF-8
+X-Cache-Group: normal
+Server: cloudflare
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 1
+Cf-Ray: 85f9d178aaa467d9-SJC
+Retry-Count: 0
+Vary: Accept-Encoding Accept-Encoding Accept-Encoding Accept-Encoding,Cookie
+Set-Cookie: __cf_bm=sHsECThuhmJHpkLkUndwsGDOpoCtWLyj2XxRUbfxBTA-1709638690-1.0.1.1-3aTC5EApQRDFDleYunyWdx.kiEoQi4EinU8CL0XWYxIJ9gpZWROfM1uEBnPAaysVEd7nw5wfcfCjOZR4Eg9iYA; path=/; expires=Tue, 05-Mar-24 12:08:10 GMT; domain=.safead.superawesome.com; HttpOnly; Secure; SameSite=None
+Date: Tue, 05 Mar 2024 11:38:10 GMT
+X-Powered-By: WP Engine
+Link: <https://safead.superawesome.com/wp-json/>; rel="https://api.w.org/" <https://safead.superawesome.com/wp-json/wp/v2/pages/273>; rel="alternate"; type="application/json" <https://safead.superawesome.com/>; rel=shortlink
+X-Cacheable: SHORT
+Cf-Cache-Status: DYNAMIC
+Alt-Svc: h3=":443"; ma=86400

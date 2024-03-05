@@ -1,0 +1,24 @@
+200 OK
+Vary: Accept-Encoding
+X-Okta-Request-Id: 8c5929e69aeebe914cd2ebbd37b922e8
+Content-Security-Policy: default-src 'self' epicgames.okta.com *.oktacdn.com; connect-src 'self' epicgames.okta.com epicgames-admin.okta.com *.oktacdn.com *.mixpanel.com *.mapbox.com *.mtls.okta.com epicgames.kerberos.okta.com *.authenticatorlocalprod.com:8769 http://localhost:8769 http://127.0.0.1:8769 *.authenticatorlocalprod.com:65111 http://localhost:65111 http://127.0.0.1:65111 *.authenticatorlocalprod.com:65121 http://localhost:65121 http://127.0.0.1:65121 *.authenticatorlocalprod.com:65131 http://localhost:65131 http://127.0.0.1:65131 *.authenticatorlocalprod.com:65141 http://localhost:65141 http://127.0.0.1:65141 *.authenticatorlocalprod.com:65151 http://localhost:65151 http://127.0.0.1:65151 https://oinmanager.okta.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com; script-src 'unsafe-inline' 'unsafe-eval' 'self' epicgames.okta.com *.oktacdn.com; style-src 'unsafe-inline' 'self' epicgames.okta.com *.oktacdn.com; frame-src 'self' epicgames.okta.com epicgames-admin.okta.com login.okta.com com-okta-authenticator:; img-src 'self' epicgames.okta.com *.oktacdn.com *.tiles.mapbox.com *.mapbox.com data: data.pendo.io pendo-static-5634101834153984.storage.googleapis.com pendo-static-5391521872216064.storage.googleapis.com blob:; font-src 'self' epicgames.okta.com data: *.oktacdn.com fonts.gstatic.com; frame-ancestors 'self'
+X-Rate-Limit-Limit: 3750
+X-Rate-Limit-Remaining: 3632
+Cache-Control: no-cache, no-store
+Strict-Transport-Security: max-age=315360000; includeSubDomains
+Server: nginx
+Expires: 0
+Content-Language: en
+Content-Type: text/html;charset=utf-8
+Retry-Count: 0
+P3p: CP="HONK"
+Set-Cookie: sid="";Version=1;Path=/;Max-Age=0 autolaunch_triggered=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/ JSESSIONID=2EFA2947E9B820596B6CA357D7B6FE87; Path=/; Secure; HttpOnly t=slate; Path=/ DT=DI1e6wo0MmbSpqi01ZYwG3CzA;Version=1;Path=/;Max-Age=63072000;Secure;Expires=Thu, 05 Mar 2026 11:35:50 GMT;HttpOnly
+Pragma: no-cache
+X-Ua-Compatible: IE=edge
+X-Robots-Tag: noindex,nofollow
+Date: Tue, 05 Mar 2024 11:35:50 GMT
+X-Frame-Options: SAMEORIGIN
+X-Rate-Limit-Reset: 1709638552
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 0
+Accept-Ch: Sec-CH-UA-Platform-Version

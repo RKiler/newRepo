@@ -1,0 +1,7 @@
+401 Unauthorized
+Content-Length: 574
+Retry-Count: 0
+Server: nginx
+Www-Authenticate: Basic realm="Restricted"
+Date: Tue, 05 Mar 2024 11:41:31 GMT
+Content-Type: text/html

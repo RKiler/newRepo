@@ -1,0 +1,8 @@
+200 OK
+Server: nginx
+Retry-Count: 0
+Date: Tue, 05 Mar 2024 11:38:45 GMT
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+Link: <https://cubicmotion.com/wp-json/>; rel="https://api.w.org/" <https://cubicmotion.com/wp-json/wp/v2/pages/2>; rel="alternate"; type="application/json" <https://cubicmotion.com/>; rel=shortlink
+X-Fastcgi-Cache: HIT

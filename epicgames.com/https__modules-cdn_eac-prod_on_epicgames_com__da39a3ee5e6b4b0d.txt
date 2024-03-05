@@ -1,0 +1,17 @@
+200 OK
+Content-Type: binary/octet-stream
+Last-Modified: Thu, 12 May 2022 07:54:59 GMT
+X-Amz-Server-Side-Encryption: AES256
+Via: 1.1 0098a8f5f88413d26cee38867e3b04e4.cloudfront.net (CloudFront)
+Age: 5924
+Date: Tue, 05 Mar 2024 10:01:56 GMT
+Etag: "d41d8cd98f00b204e9800998ecf8427e"
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Id: BESC1ZhjTsgytd-O72ShEFsQjCgwOH5h6iABzl989vd3A3iRChD9Dw==
+Content-Length: 0
+X-Amz-Version-Id: r8x8YpVJFgfRBHd6u6.PfGSHUzL9cs6f
+Accept-Ranges: bytes
+X-Amz-Cf-Pop: SFO53-P1
+Retry-Count: 0
+X-Amz-Replication-Status: COMPLETED

@@ -1,0 +1,19 @@
+200 OK
+Date: Tue, 05 Mar 2024 11:41:41 GMT
+Vary: Accept-Encoding Accept-Encoding Accept-Encoding Accept-Encoding,Cookie
+X-Content-Security-Policy: default-src 'self'; script-src 'self';
+Link: <https://www.popjam.com/wp-json/>; rel="https://api.w.org/" <https://www.popjam.com/wp-json/wp/v2/pages/742>; rel="alternate"; type="application/json" <https://www.popjam.com/>; rel=shortlink
+Server: cloudflare
+X-Xss-Protection: 1; mode=block
+X-Cache-Group: normal
+Cf-Ray: 85f9d69fccabd039-SJC
+Retry-Count: 0
+Cache-Control: max-age=600, must-revalidate
+Set-Cookie: __cf_bm=w_0vVRgOBOJ5TSlb3r69nsgWSdayIBTwUVJNYKN9tZ4-1709638901-1.0.1.1-rtAnbQlMWRDP0..gmng_sB7PEeQ8HjsEHg_.RAWmfUIvHB8i4nnmYAjpScxmJc_dAeBxBWHVJ8ggtIfHJVYUwQ; path=/; expires=Tue, 05-Mar-24 12:11:41 GMT; domain=.www.popjam.com; HttpOnly; Secure; SameSite=None
+Content-Type: text/html; charset=UTF-8
+X-Powered-By: WP Engine
+X-Content-Type-Options: nosniff
+X-Cacheable: SHORT
+X-Cache: HIT: 30
+Cf-Cache-Status: DYNAMIC
+Alt-Svc: h3=":443"; ma=86400

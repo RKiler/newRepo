@@ -1,0 +1,13 @@
+200 OK
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; img-src * data:; style-src 'self' 'unsafe-inline';
+Date: Tue, 05 Mar 2024 11:40:47 GMT
+Content-Length: 170
+Expires: 0
+Retry-Count: 0
+Content-Type: text/html
+Pragma: private
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Strict-Transport-Security: max-age=31536000;

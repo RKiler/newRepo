@@ -1,0 +1,15 @@
+200 OK
+Content-Type: text/html
+Last-Modified: Wed, 04 Jan 2023 09:41:08 GMT
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Hit from cloudfront
+Date: Tue, 05 Mar 2024 11:34:34 GMT
+X-Amz-Cf-Pop: SFO53-P3
+Accept-Ranges: bytes
+Server: AmazonS3
+Via: 1.1 81a496fdef0fdb965948725f69ee8f48.cloudfront.net (CloudFront)
+Content-Length: 2123
+Retry-Count: 0
+Etag: "e8afc943e299fa2c3438c1824f089b09"
+X-Amz-Cf-Id: 0zMEFZ_uO7E_kV74e40hBViI0WTrJQSwDmC61jYkChetWBGQOYiAgw==
+Age: 31

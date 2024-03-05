@@ -1,0 +1,22 @@
+200 OK
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Retry-Count: 0
+X-Frame-Options: DENY
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Cross-Origin-Resource-Policy: same-site
+Server: ESF
+X-Content-Type-Options: nosniff
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport script-src 'unsafe-inline' https: http:;object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+Reporting-Endpoints: default="/v3/signin/_/AccountsSignInUi/web-reports?context=eJzjWsOoxSXFEKAhxaAYtpNpn9IuJsfYJ0yuQDy3-ynTQiBe_v4p02ogjln1jCkBiA_GPWc6CsRvE14wfQTi1tYXTJ1AvLnnBdN2IJ7G85JpFhAf2f6S6QQQf773kuk7EL_78pKJ5-tLJgkg1gDiHT4eLHzrprOqALHu-umsoUA86eR01mlALP9rOqsyEDulz2ANAmKf-hmsMUAsxMPxp2POejaBGU3f3zICAJTiVXE"
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+X-Ua-Compatible: IE=edge
+Date: Tue, 05 Mar 2024 11:39:40 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-Ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+X-Xss-Protection: 0
+Content-Type: text/html; charset=utf-8
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Report-To: {"group":"AccountsSignInUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi"}]}
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="AccountsSignInUi"

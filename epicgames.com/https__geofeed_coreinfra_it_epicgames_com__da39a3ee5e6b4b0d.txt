@@ -1,0 +1,14 @@
+200 OK
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 62c71b579b931f194fbc7abcc843d132.cloudfront.net (CloudFront)
+Last-Modified: Fri, 01 Mar 2024 15:29:13 GMT
+X-Amz-Server-Side-Encryption: AES256
+Accept-Ranges: bytes
+Etag: "a4be98ce5a23dc4678a49c8ec6e569ec"
+X-Amz-Cf-Pop: SFO53-C1
+X-Amz-Cf-Id: fqvS28IyB1_l3Gl8QVYqbDVwUBIZJLaDuPg8CC5691dQeaMGqM1W9A==
+Retry-Count: 0
+Content-Type: text/html
+Content-Length: 815
+Server: AmazonS3
+Date: Tue, 05 Mar 2024 11:37:00 GMT

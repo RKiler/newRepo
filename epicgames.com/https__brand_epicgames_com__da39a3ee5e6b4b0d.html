@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="mod modLayout skinLayoutAuth">
+<head>
+    <title>Login - Epicgames</title>
+        <!-- This product is built using third-party software, as described here: https://app.frontify.com/licenses.md -->
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="x-csrf-token" content="f7bcfd7dd7eef79e03cfa8c701e2223bc94107badda95e0413d5b0990e6218c7" /><meta name="v1-api-token" content="" />
+<link rel="stylesheet" type="text/css" href="https://cdn.frontify.com/css/frontify-vendors.5cb806aa35e0d71187cf.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.frontify.com/css/frontify-common.40b190ca1d1b8eb43f2f.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.frontify.com/css/frontify-workspace.a4c128eb3ed707711844.css" />
+
+<style type="text/css" id="js-o-auth__style">
+    .o-auth__note {  border-radius: 4px;}.o-auth__submit {  border-radius: 4px;  background-color: rgb(87, 91, 91);  color: rgb(255, 255, 255);}.o-auth__submit:hover {  background-color: rgb(45, 50, 50);}.o-auth__submit:active {  background-color: rgb(45, 50, 50);}.o-auth__submit--oauth-and-saml {  border-radius: ;  background-color: rgb(87, 91, 91);  color: rgb(255, 255, 255);}.o-auth__error-message {  color: rgb(255, 55, 90);}.o-auth__submit--oauth-and-saml:hover {  background-color: rgb(45, 50, 50);}.o-auth__note {  color: rgb(108, 112, 112);  background-color: rgb(234, 235, 235);}@media (min-width: 480px) {  .o-auth, .skinLayoutRequestAccess {    background-image: url("https://cdn-assets-us.frontify.com/s3/frontify-enterprise-files-us/eyJwYXRoIjoiZXBpY2dhbWVzXC9maWxlXC8xMXlMUmlXQ21qVjVSVUE4VlZIZS5wbmcifQ:epicgames:58QsC00zTbNmW07tMLQGCMZPvGbiLntG9DvrZ9TIOhA?width={width}");  }}.o-auth, .skinLayoutRequestAccess {  background-size: cover;}.o-auth, .skinLayoutRequestAccess {  background-color: rgb(45, 50, 50);}</style>
+
+
+    <link rel="icon" href="https://cdn-assets-us.frontify.com/s3/frontify-enterprise-files-us/eyJwYXRoIjoiZXBpY2dhbWVzXC9maWxlXC9wSzZCcVZMRXR5OXNzTThMNmtvZS5wbmcifQ:epicgames:644871avS-1n9XBqhrk9k9ZYG46Wul75-MM_iuUBSfw?width={width}&rect=27.948504983389,25.768272425249,145.76931063123,145.76931063123&reference_width=200" type="image/x-icon" />
+    </head>
+<body>
+    <main class="clearfix">
+        <div class="mod mod-o-auth o-auth">
+    <div class="o-auth__box js-o-auth__box state-loading">
+        <div class="o-auth__box-content">
+            <div class="o-auth__vertical-filler"></div>
+            <div class="o-auth__claim-and-logo-wrapper js-o-auth__claim-and-logo-wrapper state-hidden">
+                <div class="o-auth__claim js-o-auth__claim state-hidden"></div>
+                <img class="o-auth__logo js-o-auth__logo state-hidden" src="" alt="Logo"/>
+            </div>
+            <h1 class="o-auth__greeting js-o-auth__greeting state-hidden"></h1>
+            <div class="js-o-auth_error-messages"></div>
+            <div class="o-auth__form js-o-auth__form"></div>
+            <div class="o-auth__disclaimer js-o-auth__disclaimer state-hidden" data-previewable-link></div>
+            <div class="o-auth__vertical-filler"></div>
+        </div>
+    </div>
+</div>
+    </main>
+    <div class="mod modModal">
+	<div class="modal"></div>
+	<a href="javascript:;" class="btn-close"><i class="icon-times"></i></a>
+</div>
+<div class="mod modModalBackdrop"></div>
+<div class="mod mod-search o-search">
+    <div class="o-search__container js-o-search__container">
+        <header class="o-search__header">
+            <a href="javascript:;" class="o-search__close js-o-search__close"><i class="ca-icon--reject ca-icon--md"></i></a>
+            <label class="o-search__search">
+                <i class="ca-icon--search ca-icon--lg o-search__search-icon"></i>
+                <input class="o-search__query js-o-search__query" type="text" placeholder="Search" />
+            </label>
+        </header>
+        <div class="o-search__results js-o-search__results"></div>
+    </div>
+</div>
+<div class="mod mod-uploader o-uploader" data-test-id="uploader">
+    <input class="o-uploader__fileupload js-o-uploader__fileupload" type="file" aria-hidden="true" name="files[]" multiple>
+    <div class="o-uploader__preview js-o-uploader__preview" data-test-id="uploader-preview"></div>
+    <div class="o-uploader__details js-o-uploader__details"></div>
+</div>
+
+<div class="mod mod-c-downloader co-downloader js-co-downloader"></div>
+
+<div class="cm-modal__overlay js-cm-modal__overlay"></div>
+<div class="mod mod-c-modal cm-modal js-cm-modal" data-modal-id="modal">
+    <a
+        href="javascript:;"
+        class="cm-modal__close js-cm-modal__close"
+        title="Close"
+        aria-label="Close">
+        <i class="ca-icon--reject ca-icon--md"></i>
+    </a>
+    <div class="cm-modal__content js-cm-modal__content"></div>
+</div>
+
+<div class="mod mod-c-swal"></div><div class="mod mod-c-payment co-payment clearfix"></div>
+
+<div class="mod mod-email-change-request"></div>
+
+<script type="text/javascript">
+    window.currentLanguage = "" || window.currentLanguage;
+
+    window.APPLICATION_CONFIG = {
+        version: "web-app-2024-03-05T09-37-30Z-bef5dbb7",
+        locales: {"de.json":"https:\/\/cdn.frontify.com\/locales\/de.9b660320cd7d005e75ea.json","en.json":"https:\/\/cdn.frontify.com\/locales\/en.445bca1566b02ec185ba.json","zh.json":"https:\/\/cdn.frontify.com\/locales\/zh.b9cc0c6bb6c1ee89898e.json"},
+        sentryClientDsn: "https://825f4a4f45314aa2a51d3002e6b2ec1e@sentry.appsupport.frontify.dev/3",
+        thirdParty: {
+            amplitude: {
+                enabled: true,
+                amplitudeId: "899c7e29a940bf78489ac5edb778449e",
+                accountId: 4000512,
+                enterpriseEnabled: true,
+                enterpriseId: 4000512,
+                plan: "ENTERPRISE",
+                isPaid: true,
+                isTrial: false,
+                user: {
+                    id: null,
+                    creator: null,
+                    signUpDate: null,
+                    referer: null,
+                    landing: null,
+                },
+            },
+            intercom: {
+                enabled: false,
+                settings: null,
+            },
+            pusher: {
+                enabled: false,
+                key: "60b1f46082a8f0ae68d5",
+                cluster: "us",
+                projectIds: [],
+            },
+            segment: {
+                enabled: false, // Only enabled on Guidelines
+            },
+            sentry: {
+                enabled: true,
+                dsn: "https://825f4a4f45314aa2a51d3002e6b2ec1e@sentry.appsupport.frontify.dev/3",
+            },
+        },
+    };
+</script>
+<script type="text/javascript" src="https://cdn.frontify.com/js/frontify-react-vendors-production.db39217e29017d8417ba.js"></script>
+<script type="text/javascript" src="https://cdn.frontify.com/js/frontify-runtime.75e90232d89078f1c683.js"></script>
+<script type="text/javascript" src="https://cdn.frontify.com/js/frontify-vendors.48ddfcda80a5a482c8af.js"></script>
+<script type="text/javascript" src="https://cdn.frontify.com/js/frontify-common.1a0143a4a40b4e62f658.js"></script>
+<script type="text/javascript" src="https://cdn.frontify.com/js/frontify-workspace.f6822ec94f187072df45.js"></script>
+
+<script type="text/javascript">var pusher = null;
+</script>
+
+<script type="text/javascript">
+(function($) {
+    $(async function() {
+        try {
+            await window.languageBundleLoaded;
+        } catch (error) {
+            console.log(`Loading language bundles failed: ${e?.message}`, error)
+        }
+
+        application = new Tc.Application($('body'));
+
+        try {
+            var tpl = new Tc.Utils.Template();
+        } catch (e) {
+            throw new TypeError('Tc.Utils.Template is not a constructor (foot).');
+        }
+
+        application.sandbox.config = {
+            tpl: tpl,
+            data: new Tc.Utils.Data(),
+            store: new Tc.Utils.Store(),
+            money: new Tc.Utils.Money(),
+                        context: {"route_initial":true,"view":"auth","user":[],"marketplace_app_cdn_url":"https:\/\/frontify-artifacts.com","auth":{"dashboard_id":1,"appearance":{"logo_image":"https:\/\/cdn-assets-us.frontify.com\/s3\/frontify-enterprise-files-us\/eyJwYXRoIjoiZXBpY2dhbWVzXC9maWxlXC93RldWcGNjNEFhRkM4bXZlaENKMS5wbmcifQ:epicgames:9zE8zKHVZgwvzGzh74aX_MEQThY0byx-u3A5Gna3lLM?width={width}","logo_height":"100px","display_links":true,"form_position":"left","logo_position":"center","background_image":"https:\/\/cdn-assets-us.frontify.com\/s3\/frontify-enterprise-files-us\/eyJwYXRoIjoiZXBpY2dhbWVzXC9maWxlXC8xMXlMUmlXQ21qVjVSVUE4VlZIZS5wbmcifQ:epicgames:58QsC00zTbNmW07tMLQGCMZPvGbiLntG9DvrZ9TIOhA?width={width}","display_greeting":true,"sso_button_label":"Sign in via Okta","logo_image_version":1562913850,"background_position":"cover","collapse_external_login":"","display_background_image":"1","terms_and_conditions_enabled":false},"access_request":{"hide_link_on_loginpage":false,"url":"\/request-access\/?referer=http%3A%2F%2F"},"two_factor_authentication":null,"invitation":null,"password_reset":null,"password_policy":[],"oauth":null,"saml":{"url":"\/api\/auth\/saml\/"},"openid_connect":null,"secondary_sso_button":{"enabled":false,"href":"","button_label":"Sign in via SSO"},"claim":"","note":null,"referer":"\/","form_position":"left","display_greeting":true,"custom_greeting":"","display_links":true,"terms_and_conditions_enabled":false,"logo_image_file_id":"K8STwpiN8CB1F8eCvGj7","logo_image":"https:\/\/cdn-assets-us.frontify.com\/s3\/frontify-enterprise-files-us\/eyJwYXRoIjoiZXBpY2dhbWVzXC9maWxlXC93RldWcGNjNEFhRkM4bXZlaENKMS5wbmcifQ:epicgames:9zE8zKHVZgwvzGzh74aX_MEQThY0byx-u3A5Gna3lLM?width={width}","logo_height":"100px","logo_width":"auto","logo_position":"center","login_box_background_color":"rgb(255, 255, 255)","login_box_border_radius":"0px","border_radius":"4px","login_button_color":"rgb(87, 91, 91)","login_button_hover_color":"rgb(45, 50, 50)","login_button_label_color":"rgb(255, 255, 255)","login_button_label":"Sign in","login_button_border_radius":"4px","display_background_image":true,"background_image_file_id":"DBDmhxiNRW8Li2UzXgys","background_image":"https:\/\/cdn-assets-us.frontify.com\/s3\/frontify-enterprise-files-us\/eyJwYXRoIjoiZXBpY2dhbWVzXC9maWxlXC8xMXlMUmlXQ21qVjVSVUE4VlZIZS5wbmcifQ:epicgames:58QsC00zTbNmW07tMLQGCMZPvGbiLntG9DvrZ9TIOhA?width={width}","background_color":"rgb(45, 50, 50)","background_position":"cover","collapse_external_login":false,"error_message_color":"rgb(255, 55, 90)","sso_button_color":"rgb(87, 91, 91)","sso_button_hover_color":"rgb(45, 50, 50)","sso_button_label":"Sign in via Okta","sso_button_label_color":"rgb(255, 255, 255)","sso_external_expand_label":"Show external login","sso_external_collapse_label":"Hide external login","login_internal_title":null,"login_internal_notice":null,"login_internal_notice_text_color":"rgb(108, 112, 112)","login_internal_notice_background_color":"rgb(234, 235, 235)","login_external_title":null,"show_sign_up_link":false,"login_methods_separator":"or","login_email_label":"Email","login_email_placeholder":"you@example.com","login_email_missing_error":"Please enter your email address.","login_email_invalid_error":"This email address is invalid.","login_password_label":"Password","login_password_placeholder":"Enter your password","login_password_missing_error":"Please enter a password.","login_invalid_credentials_error":"Wrong credentials.","login_force_sso_error":"Logging in with email\/password is disabled for this user\/domain. Please login via SSO.","login_user_locked_error":"Too many failed login attempts. Please wait a few minutes and try again.","login_unexpected_error":"Something went wrong. Reload the page and try again.","font":null,"go_to_login":"Go to Sign-In","request_access":"Request access","create_account":"Create a Frontify account","lost_password":"Lost your password?","terms_and_conditions_message":"","terms_and_conditions_mandatory":false,"disclaimer":"","disclaimer_create_account":"","css":".o-auth__note {  border-radius: 4px;}.o-auth__submit {  border-radius: 4px;  background-color: rgb(87, 91, 91);  color: rgb(255, 255, 255);}.o-auth__submit:hover {  background-color: rgb(45, 50, 50);}.o-auth__submit:active {  background-color: rgb(45, 50, 50);}.o-auth__submit--oauth-and-saml {  border-radius: ;  background-color: rgb(87, 91, 91);  color: rgb(255, 255, 255);}.o-auth__error-message {  color: rgb(255, 55, 90);}.o-auth__submit--oauth-and-saml:hover {  background-color: rgb(45, 50, 50);}.o-auth__note {  color: rgb(108, 112, 112);  background-color: rgb(234, 235, 235);}@media (min-width: 480px) {  .o-auth, .skinLayoutRequestAccess {    background-image: url(\"https:\/\/cdn-assets-us.frontify.com\/s3\/frontify-enterprise-files-us\/eyJwYXRoIjoiZXBpY2dhbWVzXC9maWxlXC8xMXlMUmlXQ21qVjVSVUE4VlZIZS5wbmcifQ:epicgames:58QsC00zTbNmW07tMLQGCMZPvGbiLntG9DvrZ9TIOhA?width={width}\");  }}.o-auth, .skinLayoutRequestAccess {  background-size: cover;}.o-auth, .skinLayoutRequestAccess {  background-color: rgb(45, 50, 50);}"},"success":true,"features":["CORE_BRANDED_LOGIN_PAGE","CORE_CUSTOM_SUBDOMAIN","CORE_DASHBOARD","CORE_MULTIPLE_STYLEGUIDE","STYLEGUIDE_BRAND_PORTAL","STYLEGUIDE_CHANGELOG","STYLEGUIDE_PUBLIC_SHARING","STYLEGUIDE_SEARCH","STYLEGUIDE_STATS","WORKSPACE_WORKFLOW_CUSTOM","ASSET_LIFECYCLE","AUTO_TAGGING","WORKSPACE_APPROVAL_REQUESTS","CUSTOM_CROPPING","FOCAL_POINT","WORKSPACE_WORKFLOW","CORE_USER_GROUPS","COLLECTIONS","CONDITIONAL_FACETS","DAM_METADATA","DOWNLOAD_REQUEST","TARGETS","CORE_SSO","STYLEGUIDE_I18N","ANALYTICS","WORKSPACE_EXTERNAL_ASSET_PASSWORD_PROTECTION","WORKSPACE_INSPECT","WORKSPACE_PROTOTYPING","PROJECT_METADATA","PROJECT_BRIEFING","WORKSPACE_EXTERNAL_ASSET","WORKSPACE_DESIGN_SPECS","CORE_CUSTOM_EMAIL_TEMPLATE","BRAND_UPDATE","CORE_ACCESS_REQUEST","ASSET_EXPIRY_NOTIFICATIONS","ASSET_AUDIT_TRAIL","MARKETPLACE","PUBLISHING_SAVE_TO","WORKSPACE_PUBLISHING"],"products":["STYLEGUIDE","WORKSPACE","DAM","ICON_LIBRARY","LOGO_LIBRARY","CAMPAIGN_MANAGEMENT","DOCUMENT_LIBRARY","TEXT_LIBRARY"],"account":{"development_flags":["STYLEGUIDE_NEW_CODE_SNIPPET_BLOCK","PUBLISHER_SLATE_TEXT_EDITOR","PUBLISHER_SAVE_TO","STYLEGUIDE_NEW_DO_AND_DONT_BLOCK","NAVIGATION_MANAGER","GUIDELINE_SEARCH","PUBLIC_API_ASSET_SUBMISSION","STYLEGUIDE_NEW_TEMPLATE_BLOCK","STYLEGUIDE_NEW_AUDIO_BLOCK"]},"global_message":{"enabled":false,"text":"On Sunday, December 25th from 9am to 1pm UTC we will perform database scaling maintenance that will cause service interruption on Frontify."},"authenticated":false}        };
+
+        // extend config
+        application.sandbox.config.account = new Tc.Utils.Account();
+        application.sandbox.config.asset = new Tc.Utils.Asset();
+        application.sandbox.config.assetDownload = new Tc.Utils.AssetDownload(application);
+        application.sandbox.config.statusmgr = new Tc.Utils.StatusMgr(application);
+        application.sandbox.config.iso = new Tc.Utils.Iso({"languages":{"ab":"Abkhazian","aa":"Afar","af":"Afrikaans","ak":"Akan","sq":"Albanian","am":"Amharic","ar":"Arabic","an":"Aragonese","hy":"Armenian","as":"Assamese","av":"Avaric","ae":"Avestan","ay":"Aymara","az":"Azerbaijani","bm":"Bambara","ba":"Bashkir","eu":"Basque","be":"Belarusian","bn":"Bengali","bh":"Bihari languages","bi":"Bislama","bs":"Bosnian","br":"Breton","bg":"Bulgarian","my":"Burmese","ca":"Catalan, Valencian","km":"Central Khmer","ch":"Chamorro","ce":"Chechen","ny":"Chichewa, Chewa, Nyanja","zh":"Chinese","cu":"Church Slavonic, Old Bulgarian, Old Church Slavonic","cv":"Chuvash","kw":"Cornish","co":"Corsican","cr":"Cree","hr":"Croatian","cs":"Czech","da":"Danish","dv":"Divehi, Dhivehi, Maldivian","nl":"Dutch, Flemish","dz":"Dzongkha","en":"English","eo":"Esperanto","et":"Estonian","ee":"Ewe","fo":"Faroese","fj":"Fijian","fi":"Finnish","fr":"French","ff":"Fulah","gd":"Gaelic, Scottish Gaelic","gl":"Galician","lg":"Ganda","ka":"Georgian","de":"German","ki":"Gikuyu, Kikuyu","el":"Greek (Modern)","kl":"Greenlandic, Kalaallisut","gn":"Guarani","gu":"Gujarati","ht":"Haitian, Haitian Creole","ha":"Hausa","he":"Hebrew","hz":"Herero","hi":"Hindi","ho":"Hiri Motu","hu":"Hungarian","is":"Icelandic","io":"Ido","ig":"Igbo","id":"Indonesian","ia":"Interlingua (International Auxiliary Language Association)","ie":"Interlingue","iu":"Inuktitut","ik":"Inupiaq","ga":"Irish","it":"Italian","ja":"Japanese","jv":"Javanese","kn":"Kannada","kr":"Kanuri","ks":"Kashmiri","kk":"Kazakh","rw":"Kinyarwanda","kv":"Komi","kg":"Kongo","ko":"Korean","ku":"Kurdish","kj":"Kwanyama, Kuanyama","ky":"Kyrgyz","lo":"Lao","la":"Latin","lv":"Latvian","lb":"Letzeburgesch, Luxembourgish","li":"Limburgish, Limburgan, Limburger","ln":"Lingala","lt":"Lithuanian","lu":"Luba-Katanga","mk":"Macedonian","mg":"Malagasy","ms":"Malay","ml":"Malayalam","mt":"Maltese","gv":"Manx","mi":"Maori","mr":"Marathi","mh":"Marshallese","ro":"Moldovan, Moldavian, Romanian","mn":"Mongolian","na":"Nauru","nv":"Navajo, Navaho","ng":"Ndonga","ne":"Nepali","nd":"Northern Ndebele","se":"Northern Sami","no":"Norwegian","nb":"Norwegian Bokm\u00e5l","nn":"Norwegian Nynorsk","ii":"Nuosu, Sichuan Yi","oc":"Occitan (post 1500)","oj":"Ojibwa","or":"Oriya","om":"Oromo","os":"Ossetian, Ossetic","pi":"Pali","pa":"Panjabi, Punjabi","ps":"Pashto, Pushto","fa":"Persian","pl":"Polish","pt":"Portuguese","qu":"Quechua","rm":"Romansh","rn":"Rundi","ru":"Russian","sm":"Samoan","sg":"Sango","sa":"Sanskrit","sc":"Sardinian","sr":"Serbian","sn":"Shona","sd":"Sindhi","si":"Sinhala, Sinhalese","sk":"Slovak","sl":"Slovenian","so":"Somali","st":"Sotho, Southern","nr":"South Ndebele","es":"Spanish, Castilian","su":"Sundanese","sw":"Swahili","ss":"Swati","sv":"Swedish","tl":"Tagalog","ty":"Tahitian","tg":"Tajik","ta":"Tamil","tt":"Tatar","te":"Telugu","th":"Thai","bo":"Tibetan","ti":"Tigrinya","to":"Tonga (Tonga Islands)","ts":"Tsonga","tn":"Tswana","tr":"Turkish","tk":"Turkmen","tw":"Twi","ug":"Uighur, Uyghur","uk":"Ukrainian","ur":"Urdu","uz":"Uzbek","ve":"Venda","vi":"Vietnamese","vo":"Volap_k","wa":"Walloon","cy":"Welsh","fy":"Western Frisian","wo":"Wolof","xh":"Xhosa","yi":"Yiddish","yo":"Yoruba","za":"Zhuang, Chuang","zu":"Zulu"},"countries":{"AF":"Afghanistan","AX":"Aland Islands","AL":"Albania","DZ":"Algeria","AS":"American Samoa","AD":"Andorra","AO":"Angola","AI":"Anguilla","AQ":"Antarctica","AG":"Antigua and Barbuda","AR":"Argentina","AM":"Armenia","AW":"Aruba","AU":"Australia","AT":"Austria","AZ":"Azerbaijan","BS":"Bahamas","BH":"Bahrain","BD":"Bangladesh","BB":"Barbados","BY":"Belarus","BE":"Belgium","BZ":"Belize","BJ":"Benin","BM":"Bermuda","BT":"Bhutan","BO":"Bolivia","BA":"Bosnia and Herzegovina","BW":"Botswana","BV":"Bouvet Island","BR":"Brazil","IO":"British Indian Ocean Territory","BN":"Brunei Darussalam","BG":"Bulgaria","BF":"Burkina Faso","BI":"Burundi","KH":"Cambodia","CM":"Cameroon","CA":"Canada","CV":"Cape Verde","KY":"Cayman Islands","CF":"Central African Republic","TD":"Chad","CL":"Chile","CN":"China","CX":"Christmas Island","CC":"Cocos (Keeling) Islands","CO":"Colombia","KM":"Comoros","CG":"Congo","CD":"Congo, Democratic Republic","CK":"Cook Islands","CR":"Costa Rica","HR":"Croatia","CU":"Cuba","CY":"Cyprus","CZ":"Czech Republic","CI":"C\u00f4te d'Ivoire","DK":"Denmark","DJ":"Djibouti","DM":"Dominica","DO":"Dominican Republic","EC":"Ecuador","EG":"Egypt","SV":"El Salvador","GQ":"Equatorial Guinea","ER":"Eritrea","EE":"Estonia","ET":"Ethiopia","FK":"Falkland Islands (Malvinas)","FO":"Faroe Islands","FJ":"Fiji","FI":"Finland","FR":"France","FX":"France Metropolitan","GF":"French Guiana","PF":"French Polynesia","TF":"French Southern Territories","GA":"Gabon","GM":"Gambia","GE":"Georgia","DE":"Germany","GH":"Ghana","GI":"Gibraltar","GR":"Greece","GL":"Greenland","GD":"Grenada","GP":"Guadeloupe","GU":"Guam","GT":"Guatemala","GG":"Guernsey","GN":"Guinea","GW":"Guinea-Bissau","GY":"Guyana","HT":"Haiti","HM":"Heard Island and McDonald Islands","VA":"Vatican City State (Holy See)","HN":"Honduras","HK":"Hong Kong","HU":"Hungary","IS":"Iceland","IN":"India","ID":"Indonesia","IR":"Iran","IQ":"Iraq","IE":"Ireland","IM":"Isle Of Man","IL":"Israel","IT":"Italy","JM":"Jamaica","JP":"Japan","JE":"Jersey","JO":"Jordan","KZ":"Kazakhstan","KE":"Kenya","KI":"Kiribati","KW":"Kuwait","KG":"Kyrgyzstan","LA":"Lao People's Democratic Republic","LV":"Latvia","LB":"Lebanon","LS":"Lesotho","LR":"Liberia","LY":"Libyan Arab Jamahiriya","LI":"Liechtenstein","LT":"Lithuania","LU":"Luxembourg","MO":"Macau","MK":"Macedonia","MG":"Madagascar","MW":"Malawi","MY":"Malaysia","MV":"Maldives","ML":"Mali","MT":"Malta","MH":"Marshall Islands","MQ":"Martinique","MR":"Mauritania","MU":"Mauritius","YT":"Mayotte","MX":"Mexico","FM":"Micronesia (Federated States of)","MD":"Moldova","MC":"Monaco","MN":"Mongolia","ME":"Montenegro","MS":"Montserrat","MA":"Morocco","MZ":"Mozambique","MM":"Myanmar","NA":"Namibia","NR":"Nauru","NP":"Nepal","NL":"Netherlands","AN":"Netherlands Antilles","NC":"New Caledonia","NZ":"New Zealand","NI":"Nicaragua","NE":"Niger","NG":"Nigeria","NU":"Niue","NF":"Norfolk Island","KP":"North Korea","MP":"Northern Mariana Islands","NO":"Norway","OM":"Oman","PK":"Pakistan","PW":"Palau","PA":"Panama","PG":"Papua New Guinea","PY":"Paraguay","PE":"Peru","PH":"Philippines","PN":"Pitcairn","PL":"Poland","PT":"Portugal","PR":"Puerto Rico","QA":"Qatar","RE":"Reunion","RO":"Romania","RU":"Russia","RW":"Rwanda","BL":"Saint Barthelemy","KN":"Saint Kitts and Nevis","LC":"Saint Lucia","MF":"Saint Martin","PM":"Saint Pierre And Miquelon","SH":"Saint Helena","VC":"Saint Vincent And Grenadines","WS":"Samoa","SM":"San Marino","ST":"Sao Tome And Principe","SA":"Saudi Arabia","SN":"Senegal","RS":"Serbia","SC":"Seychelles","SL":"Sierra Leone","SG":"Singapore","SK":"Slovakia","SI":"Slovenia","SB":"Solomon Islands","SO":"Somalia","GS":"South Georgia and the South Sandwich Islands","ZA":"South Africa","KR":"South Korea","SS":"South Sudan","ES":"Spain","LK":"Sri Lanka","SD":"Sudan","SR":"Suriname","SJ":"Svalbard And Jan Mayen","SZ":"Swaziland","SE":"Sweden","CH":"Switzerland","SY":"Syria","TW":"Taiwan","TJ":"Tajikistan","TZ":"Tanzania","TH":"Thailand","TL":"East Timor","TG":"Togo","TK":"Tokelau","TO":"Tonga","TT":"Trinidad And Tobago","TN":"Tunisia","TC":"Turks And Caicos Islands","TM":"Turkmenistan","TR":"Turkey","TV":"Tuvalu","UG":"Uganda","UA":"Ukraine","AE":"United Arab Emirates","GB":"United Kingdom","US":"United States","UM":"United States Minor Outlying Islands","UY":"Uruguay","UZ":"Uzbekistan","VU":"Vanuatu","VE":"Venezuela","VN":"Vietnam","VG":"Virgin Islands (British)","VI":"Virgin Islands (U.S.)","WF":"Wallis And Futuna","EH":"Western Sahara","YE":"Yemen","ZM":"Zambia","ZW":"Zimbabwe"}});
+        application.sandbox.config.segmentAnalytics = new Tc.Utils.SegmentAnalytics();
+
+        var router = application.sandbox.config.router = new Tc.Router(application);
+
+        // set locale
+        var context = application.sandbox.getConfigParam('context');
+        if (context.user && context.user.language) {
+            moment.locale(context.user.language);
+            window.changeLanguage(context.user.language);
+        } else if (document.documentElement.lang) {
+            moment.locale(document.documentElement.lang);
+            window.changeLanguage(document.documentElement.lang);
+        } else {
+            moment.locale('en');
+            window.changeLanguage('en');
+        }
+
+        application.registerModule($('body'), 'CPersoncard');
+        application.registerModule($('body'), 'CBtnDropdown');
+        application.registerModule($('body'), 'CTabs');
+
+        application.registerModules();
+        application.start();
+
+        // this has to happen later to not register modules twice
+        router.start();
+    });
+})(window.$);
+</script>
+
+    <script>
+        if (!window.Intercom) {
+            window.Intercom = function(type, event, data) {}
+        }
+    </script>
+
+
+    <!-- load amplitude -->
+    <script>
+    if (window.ExternalTrackingLoader && typeof window.ExternalTrackingLoader === 'function') {
+        const externalTrackingLoader = new window.ExternalTrackingLoader({"amplitudeId":"899c7e29a940bf78489ac5edb778449e","accountId":4000512,"enterpriseEnabled":true,"enterpriseId":4000512,"plan":"ENTERPRISE","isPaid":true,"isTrial":false,"user":{"id":null,"creator":null,"signUpDate":null,"referer":null,"landing":null}});
+        externalTrackingLoader.init();
+    }
+    </script>
+</body>
+</html>

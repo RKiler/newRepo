@@ -1,0 +1,14 @@
+200 OK
+Content-Type: text/html
+Server: nginx
+Cache-Control: no-cache
+Referrer-Policy: origin
+X-Frame-Options: SAMEORIGIN
+Retry-Count: 0
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self'; frame-ancestors 'self'; style-src 'self' 'unsafe-inline' maxcdn.bootstrapcdn.com; script-src 'self' 'unsafe-inline' static.zdassets.com; font-src 'self' maxcdn.bootstrapcdn.com; connect-src 'self' *; img-src 'self' *;
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Date: Tue, 05 Mar 2024 11:31:28 GMT
+Last-Modified: Tue, 05 Mar 2024 02:25:53 GMT
+Etag: W/"65e682b1-7a5"

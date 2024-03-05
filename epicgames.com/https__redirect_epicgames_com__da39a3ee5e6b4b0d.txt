@@ -1,0 +1,13 @@
+200 OK
+Last-Modified: Tue, 03 Oct 2023 14:51:43 GMT
+Etag: "533633e338df1dd5b77493d1fc447a1c"
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: SFO5-C3
+Age: 60
+X-Amz-Cf-Id: -2xyHDjWGLApyhIhOPF6bMfb5oShLw9tBlKFlEoNAFeCOOZqbQPjrg==
+Content-Type: text/html
+Content-Length: 2691
+Retry-Count: 0
+Server: AmazonS3
+Date: Tue, 05 Mar 2024 11:39:11 GMT
+Via: 1.1 dbf749b5462dc5b2c9b4f9b080fa86cc.cloudfront.net (CloudFront)

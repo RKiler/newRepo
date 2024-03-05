@@ -1,0 +1,27 @@
+200 OK
+X-Goog-Stored-Content-Encoding: identity
+Etag: "137dd6615576086084b1f7de3e2985ce"
+Retry-Count: 0
+Content-Length: 44621
+X-Goog-Metageneration: 1
+X-Goog-Stored-Content-Length: 44621
+Expires: Tue, 05 Mar 2024 11:41:05 GMT
+X-Cache: HIT, MISS
+X-Goog-Generation: 1709622126305336
+X-Goog-Storage-Class: STANDARD
+Server: UploadServer
+Cache-Control: public, max-age=0
+Date: Tue, 05 Mar 2024 11:41:30 GMT
+Strict-Transport-Security: max-age=31557600; includeSubDomains; preload
+X-Goog-Hash: crc32c=Krvq0A== md5=E33WYVV2CGCEsffePimFzg==
+Access-Control-Allow-Origin: *
+X-Timer: S1709638890.061989,VS0,VE105
+X-Cache-Hits: 0, 0
+Last-Modified: Tue, 05 Mar 2024 07:02:06 GMT
+Content-Type: text/html
+Age: 0
+X-Served-By: cache-chi-kigq8000151-CHI, cache-sjc1000104-SJC
+X-Guploader-Uploadid: ABPtcPqsU12PxuPtXDlmSdRhZMOLvAQe4p5WRZ18HqM-xfPnx1yTMnP3is0QWnZZ-X7tHypN6g
+Access-Control-Expose-Headers: *
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes

@@ -1,0 +1,14 @@
+530 
+X-Frame-Options: SAMEORIGIN
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Alt-Svc: h3=":443"; ma=86400
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 16
+Retry-Count: 0
+Referrer-Policy: same-origin
+Server: cloudflare
+Cf-Ray: 85f9d7c7799c9661-SJC
+Date: Tue, 05 Mar 2024 11:42:29 GMT
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RuBuKN3wpu%2FNFN5OgzCnsD%2BxBsDCEDd%2FySv0sbhJ6mqkiLseXgivrlRG0xRKbXtSYZL4PKmjLEQWu%2F2yuPYszT%2BcJZpiAvVW2xIBfpWKaJOJpB2ZC02VR0p4UXe%2FaQta906mRIGu"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}

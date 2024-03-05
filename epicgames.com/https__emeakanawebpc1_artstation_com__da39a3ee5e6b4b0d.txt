@@ -1,0 +1,22 @@
+403 Forbidden
+Referrer-Policy: same-origin
+Cf-Mitigated: challenge
+Server: cloudflare
+Retry-Count: 0
+Date: Tue, 05 Mar 2024 11:35:07 GMT
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Set-Cookie: __cf_bm=clYR4pCskAwTldGXLLEWuk_bJ1DRnfi_XblNUI7C37E-1709638507-1.0.1.1-rwCUwxOxhQWbhEa9L6qCvKEKjjqPp5kjX7uC2k9OW2D9mDBlAe9VfzU.seyZPs4i4kgTkYkfm_aAFaFg725QhRy.Ob059OmGvI_aIuxdqM8; path=/; expires=Tue, 05-Mar-24 12:05:07 GMT; domain=.artstation.com; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=0
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+X-Frame-Options: SAMEORIGIN
+Cf-Chl-Out: u6l9vMZO92qD0iLODWbx21W7wIcJhXvZ8HM9lM7IN9LMVZ1jYZ7YhxfP8wVDmhPTbzu9SBr2qTGwfLAoeFUskgH1bgdMvBtOqH030sGRBxR/vpZxTQhxsYWk/LMNHXNMpybdp8LGdvcW/BAuD/DF9A==$5f0Ae+qYOcAg09rNJ8JwJQ==
+Cf-Ray: 85f9ccffcf6e1588-SJC
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+X-Content-Type-Options: nosniff
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cross-Origin-Embedder-Policy: require-corp
+Origin-Agent-Cluster: ?1

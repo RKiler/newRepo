@@ -1,0 +1,14 @@
+403 Forbidden
+X-Frame-Options: DENY
+Content-Type: text/html
+X-Cache: Error from cloudfront
+X-Amz-Cf-Pop: SFO53-P5
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Retry-Count: 0
+Server: CloudFront
+Date: Tue, 05 Mar 2024 11:33:10 GMT
+Content-Length: 919
+Via: 1.1 7af4698bea7e964f89ad8d7ae22213a2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 8iMhvQHt-BlzF7ymDEC-yzjht1s6hQoAIw4_ncZR12JpQS7e6X193Q==

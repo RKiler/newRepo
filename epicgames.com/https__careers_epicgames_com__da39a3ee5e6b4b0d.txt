@@ -1,0 +1,21 @@
+403 Forbidden
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Resource-Policy: same-origin
+Cf-Chl-Out: w17/FWHaNzLUEo1v2i1lLtHsryToR9//VTexEXLU8x/yJ0OZWt1sbBuX00LTaMj3xap3TNvLFEx34RI0sXz/gj7WDqyR1WQdZWZTfx9Q7yHhMz2wAmQHlHIpX2FFNnKRu89Ic5Nm+FbglFOXrnDU+w==$FJ+hUJ3ejq6IV1op4ycyBg==
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Set-Cookie: __cf_bm=C.B7b6xaMKfUF593efMtwHE0S7XfKL.iDZ7bwb3VldM-1709638291-1.0.1.1-s.UHhKzbtUQ3hliQcnqBqn9Zw4PhngKsA71zgNowJ3sOOinusClv1TwR2hMiiKaUgkbA8ghQq1OISP6Q.vxGRg; path=/; expires=Tue, 05-Mar-24 12:01:31 GMT; domain=.www.epicgames.com; HttpOnly; Secure; SameSite=None
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+X-Frame-Options: SAMEORIGIN
+Date: Tue, 05 Mar 2024 11:31:31 GMT
+Retry-Count: 0
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Referrer-Policy: same-origin
+Cf-Mitigated: challenge
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Cf-Ray: 85f9c7bbcc2bfaba-SJC
+Origin-Agent-Cluster: ?1
+Vary: Accept-Encoding
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400

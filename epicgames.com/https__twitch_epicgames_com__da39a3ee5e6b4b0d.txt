@@ -1,0 +1,24 @@
+403 Forbidden
+Cross-Origin-Resource-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+Cf-Mitigated: challenge
+Set-Cookie: __cf_bm=wkCIpLe9gy0W90V8DRVwOVuFylficEaO9WzrBizI1DY-1709638751-1.0.1.1-VjOFGjomUKb5Rju_.r_vCzxllKMJ3MJa32UU9hC5QLUvhL4HkGgdxC.dkurDokLeUPlJko1nUO1SkYLCEF3pcw; path=/; expires=Tue, 05-Mar-24 12:09:11 GMT; domain=.www.epicgames.com; HttpOnly; Secure; SameSite=None
+Cf-Ray: 85f9d2f6f9e1275c-SEA
+Content-Type: text/html; charset=UTF-8
+Retry-Count: 0
+Cross-Origin-Opener-Policy: same-origin
+X-Amz-Cf-Id: 7TQDc-FGmuBpwyXJHqtvyE81La_UKkO-vOHbMy_wf05hnhx7SoQchg==
+Cf-Chl-Out: Df+NJi1xkvxK0n6ud8f7GcgbsMDC/Xykmg4DNgEVkrZ+EC/F2k5J9XuppTCDayQI7MmzvpAGSyQsJQ/7mjgY3vo/fV9H+j2jlMeINciO63sqBwObW/NJud8K2pEv84rjknwKQjmOu/uy0oBrst5Pow==$RBP6bit552IhGKUcxCbC1A==
+Server: cloudflare
+Vary: Accept-Encoding
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cross-Origin-Embedder-Policy: require-corp
+Via: 1.1 51ef2d5f52dad26e2bbdf93520deaaee.cloudfront.net (CloudFront)
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+X-Cache: Error from cloudfront
+X-Amz-Cf-Pop: SFO53-P3
+Date: Tue, 05 Mar 2024 11:39:11 GMT
+Origin-Agent-Cluster: ?1
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
